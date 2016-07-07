@@ -3,7 +3,7 @@
 [![Build Status](https://img.shields.io/travis/KunalKapadia/express-mongoose-es6-rest-api/master.svg?style=flat-square)](https://travis-ci.org/KunalKapadia/express-mongoose-es6-rest-api)
 
 # [![graphx](http://spark.apache.org/docs/latest/img/graphx_logo.png)](http://spark.apache.org/graphx/)
-# [![cloudera](http://imageshack.com/a/img923/589/xeOSKj.png)](https://www.cloudera.com/)
+# [![cloudera](http://imageshack.com/a/img923/5526/xS3REN.png)](https://www.cloudera.com/)
 ## Tabla de contenido
 
 * [Resumen](#resumen)
