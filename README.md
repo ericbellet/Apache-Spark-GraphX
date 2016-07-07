@@ -2,54 +2,72 @@
 
 [![Build Status](https://img.shields.io/travis/KunalKapadia/express-mongoose-es6-rest-api/master.svg?style=flat-square)](https://travis-ci.org/KunalKapadia/express-mongoose-es6-rest-api)
 
-# [![Express ES6 REST API Starter](https://cloud.githubusercontent.com/assets/4172932/12660610/90f5b856-c63a-11e5-878e-c9f0bbf33090.jpg)](https://github.com/KunalKapadia/express-es6-rest-api-starter)
-
-![smoosh](http://spark.apache.org/docs/latest/img/graphx_logo.png)
-
+# [![graphx](http://spark.apache.org/docs/latest/img/graphx_logo.png)](http://spark.apache.org/graphx/)
+# [![cloudera](http://g33ktalk.com/wp-content/uploads/2013/07/cloudera.jpg)](https://www.cloudera.com/)
+# [![scala](https://dnsta5v53r71w.cloudfront.net/images/why-scala/scala-logo.png)](http://www.scala-lang.org/)
 ## Table of contents
 
-* [Quick start](#quick-start)
-* [Bugs and feature requests](#bugs-and-feature-requests)
-* [Documentation](#documentation)
-* [Contributing](#contributing)
-* [Community](#community)
-* [Versioning](#versioning)
-* [Creators](#creators)
-* [Copyright and license](#copyright-and-license)
+* [Resumen](#resumen)
+* [Archivos que contiene el repositorio](#archivos-que-contiene-el-repositorio)
+* [Características](#características)
+* [Inicialización](#inicialización)
+* [Creador](#creador)
 
-## Overview
 
-This is a boilerplate application for building REST APIs in Node.js using ES6 and Express with Code Coverage. Helps you stay productive by following best practices. Follows [Airbnb's Javascript style guide](https://github.com/airbnb/javascript).
+### Resumen
 
-Heavily inspired from [Egghead.io - How to Write an Open Source JavaScript Library](https://egghead.io/series/how-to-write-an-open-source-javascript-library).
+El siguiente repositorio...
 
-### What's included
+### Archivos que contiene el repositorio
 
-Within the download you'll find the following directories and files, logically grouping common assets and providing both compiled and minified variations. You'll see something like this:
+El siguiente repositorio contiene las siguientes carpetas con los diversos archivos:
 
 ```
-bootstrap/
-??? css/
-?   ??? bootstrap.css
-?   ??? bootstrap.css.map
-?   ??? bootstrap.min.css
-?   ??? bootstrap.min.css.map
-?   ??? bootstrap-theme.css
-?   ??? bootstrap-theme.css.map
-?   ??? bootstrap-theme.min.css
-?   ??? bootstrap-theme.min.css.map
-??? js/
-?   ??? bootstrap.js
-?   ??? bootstrap.min.js
-??? fonts/
-    ??? glyphicons-halflings-regular.eot
-    ??? glyphicons-halflings-regular.svg
-    ??? glyphicons-halflings-regular.ttf
-    ??? glyphicons-halflings-regular.woff
-    ??? glyphicons-halflings-regular.woff2
+Apache-Spark-GraphX/
+├── data/
+│   ├── continent.csv
+│   ├── facebook_combined.txt
+│   ├── 
+│   ├── 
+│   ├── 
+│   ├── 
+│   ├── 
+│   └── 
+├── doc/
+│   ├── GraphX-Hands-On.pdf
+│   ├── 
+│   ├── 
+│   ├── 
+│   ├── 
+│   ├── 
+│   ├── 
+│   └── 
+├── lib/
+│   ├── breeze_2.10-0.12.jar 
+│   ├── breeze-viz_2.10-0.12.jar
+│   ├── gs-core-1.2.jar
+│   ├── gs-ui-1.2.jar
+│   ├── jcommon-1.0.16.jar
+│   ├── jfreechart-1.0.13.jar 
+│   └── pherd-1.0.jar
+├── src/
+│   ├── Facebook.scala
+│   ├── 
+│   ├── 
+│   ├── 
+│   ├── 
+│   ├── 
+│   ├── 
+│   └── 
+└── style/
+    ├── stylesheet
+    ├── stylesheet-simple
+    ├── 
+    ├── 
+    └── 
 ```
 
-### Features
+### Características
 
 | Feature                                | Summary                                                                                                                                                                                                                                                     |
 |----------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -64,7 +82,7 @@ bootstrap/
 - CORS support via [cors](https://github.com/troygoode/node-cors)
 - Uses [http-status](https://www.npmjs.com/package/http-status) to set http status code. It is recommended to use `httpStatus.INTERNAL_SERVER_ERROR` instead of directly using `500` when setting status code.
 
-## Getting Started
+### Inicialización
 
 Clonar el siguiente repositorio:
 ```sh
@@ -77,4 +95,6 @@ spark-shell --jars lib/gs-core-1.2.jar,lib/gs-ui-1.2.jar,lib/jcommon-1.0.16.jar,
 
 ```
 
+**Eric Bellet**
 
+* <https://ve.linkedin.com/in/belleteric>
