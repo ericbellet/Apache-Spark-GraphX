@@ -4,7 +4,7 @@
 
 # [![graphx](http://spark.apache.org/docs/latest/img/graphx_logo.png)](http://spark.apache.org/graphx/)
 # [![cloudera](http://imageshack.com/a/img923/589/xeOSKj.png)](https://www.cloudera.com/)
-## Table of contents
+## Tabla de contenido
 
 * [Resumen](#resumen)
 * [Archivos que contiene el repositorio](#archivos-que-contiene-el-repositorio)
@@ -25,22 +25,9 @@ El siguiente repositorio contiene las siguientes carpetas con los diversos archi
 Apache-Spark-GraphX/
 ├── data/
 │   ├── continent.csv
-│   ├── facebook_combined.txt
-│   ├── 
-│   ├── 
-│   ├── 
-│   ├── 
-│   ├── 
-│   └── 
+│   └── facebook_combined.txt
 ├── doc/
-│   ├── GraphX-Hands-On.pdf
-│   ├── 
-│   ├── 
-│   ├── 
-│   ├── 
-│   ├── 
-│   ├── 
-│   └── 
+│   └── GraphX-Hands-On.pdf
 ├── lib/
 │   ├── breeze_2.10-0.12.jar 
 │   ├── breeze-viz_2.10-0.12.jar
@@ -50,20 +37,10 @@ Apache-Spark-GraphX/
 │   ├── jfreechart-1.0.13.jar 
 │   └── pherd-1.0.jar
 ├── src/
-│   ├── Facebook.scala
-│   ├── 
-│   ├── 
-│   ├── 
-│   ├── 
-│   ├── 
-│   ├── 
-│   └── 
+│   └── Facebook.scala
 └── style/
     ├── stylesheet
-    ├── stylesheet-simple
-    ├── 
-    ├── 
-    └── 
+    └── stylesheet-simple
 ```
 
 ### Características
