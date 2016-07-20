@@ -9,7 +9,8 @@
 * [Resumen](#resumen)
 * [Archivos que contiene el repositorio](#archivos-que-contiene-el-repositorio)
 * [Características](#características)
-* [Implementaciones](#mplementaciones)
+* [Implementaciones](#implementaciones)
+* [Datasets](#datasets)
 * [Inicialización](#inicialización)
 	* [Dijkstra](#dijkstra)
 	* [TriangleCount](#triangleCount)
@@ -18,11 +19,11 @@
 * [Creador](#creador)
 
 
-### Resumen
+# Resumen
 
-El siguiente repositorio...
+El siguiente repositorio se encuentran una serie de implementaciones utilizando GraphX. Para el desarrollo de este proyecto se utilizo un sandbox de Cloudera, Apache Spark, GraphX, Scala y herramientas de visualización Gephi, Breeze-Viz, Apache Zeppelin y D3.js.
 
-### Archivos que contiene el repositorio
+# Archivos que contiene el repositorio
 
 El siguiente repositorio contiene las siguientes carpetas con los diversos archivos:
 
@@ -56,14 +57,16 @@ Apache-Spark-GraphX/
     └── stylesheet-simple
 ```
 
-### Características
+# Características
 
-| Características                        |                                                                                                                                                                                                                                                      |
 |----------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Sistema Operativo.                	 | CentOS 6.7.|
 | Distribución Apache Hadoop.            | [Cloudera Quickstarts VM](https://www.cloudera.com/downloads.html).  |
+| Gephi.                	 			 | [Gephi 0.9.1](https://gephi.org/users/download/)
+| Breeze-Viz.                	 		 | [Breeze-Viz 0.12](http://mvnrepository.com/artifact/org.scalanlp/breeze-viz_2.10/0.12). |
+| Apache Zeppelin.                	     | [Zeppelin 0.5.6](https://zeppelin.apache.org/download.html)
 
-### Implementaciones
+# Implementaciones
 
 | Implementación                        |            Resumen                                                                                                                                                                                                                                          |
 |----------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -72,57 +75,55 @@ Apache-Spark-GraphX/
 | PageRank.scala                	 | Mide la influencia de los vértices de un grafo. |
 | SocialMedia.scala                	 | Contiene diversas funciones que permiten realizar análisis de redes sociales. Contiene ShortestPaths, ConnectedComponents y LabelPropagation. |
 
-### Inicialización
+# Datasets
+Los conjuntos de datos utilizados fueron los siguientes:
 
-## Dijkstra
+
+| Dataset                        |            Resumen                                                                                                                                                                                                                                          |
+|----------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| facebook_combined.txt               	 | |
+| Slashdot.txt                			| |
+
+
+# Inicialización
 Clonar el siguiente repositorio:
 ```sh
 git clone https://github.com/ericbellet/Apache-Spark-GraphX
 cd Apache-Spark-GraphX
 ```
-Inicia la consola de Spark:
+### Dijkstra
+
+Iniciar la consola de Spark:
 ```sh
-spark-shell --jars lib/gs-core-1.2.jar,lib/gs-ui-1.2.jar,lib/jcommon-1.0.16.jar,lib/jfreechart-1.0.13.jar,lib/breeze_2.10-0.12.jar,lib/breeze-viz_2.10-0.12.jar,lib/pherd-1.0.jar -i Facebook.scala
+spark-shell -i Dijkstra.scala
 
 ```
 
-## TriangleCount
-Clonar el siguiente repositorio:
+### TriangleCount
+
+Iniciar la consola de Spark:
 ```sh
-git clone https://github.com/ericbellet/Apache-Spark-GraphX
-cd Apache-Spark-GraphX
-```
-Inicia la consola de Spark:
-```sh
-spark-shell --jars lib/gs-core-1.2.jar,lib/gs-ui-1.2.jar,lib/jcommon-1.0.16.jar,lib/jfreechart-1.0.13.jar,lib/breeze_2.10-0.12.jar,lib/breeze-viz_2.10-0.12.jar,lib/pherd-1.0.jar -i Facebook.scala
+spark-shell  -i TriangleCount.scala
 
 ```
 
-## PageRank
-Clonar el siguiente repositorio:
+### PageRank
+
+Iniciar la consola de Spark:
 ```sh
-git clone https://github.com/ericbellet/Apache-Spark-GraphX
-cd Apache-Spark-GraphX
-```
-Inicia la consola de Spark:
-```sh
-spark-shell --jars lib/gs-core-1.2.jar,lib/gs-ui-1.2.jar,lib/jcommon-1.0.16.jar,lib/jfreechart-1.0.13.jar,lib/breeze_2.10-0.12.jar,lib/breeze-viz_2.10-0.12.jar,lib/pherd-1.0.jar -i Facebook.scala
+spark-shell -i PageRank.scala
 
 ```
 
-## SocialMedia
-Clonar el siguiente repositorio:
+### SocialMedia
+
+Iniciar la consola de Spark:
 ```sh
-git clone https://github.com/ericbellet/Apache-Spark-GraphX
-cd Apache-Spark-GraphX
-```
-Inicia la consola de Spark:
-```sh
-spark-shell --jars lib/gs-core-1.2.jar,lib/gs-ui-1.2.jar,lib/jcommon-1.0.16.jar,lib/jfreechart-1.0.13.jar,lib/breeze_2.10-0.12.jar,lib/breeze-viz_2.10-0.12.jar,lib/pherd-1.0.jar -i Facebook.scala
+spark-shell --jars lib/gs-core-1.2.jar,lib/gs-ui-1.2.jar,lib/jcommon-1.0.16.jar,lib/jfreechart-1.0.13.jar,lib/breeze_2.10-0.12.jar,lib/breeze-viz_2.10-0.12.jar,lib/pherd-1.0.jar -i SocialMedia.scala
 
 ```
 
-### Creador
+# Creador
 
 **Eric Bellet**
 
