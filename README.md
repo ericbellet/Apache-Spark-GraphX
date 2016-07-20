@@ -21,7 +21,7 @@
 
 # Resumen
 
-En el siguiente repositorio se encuentran una serie de implementaciones utilizando GraphX que permiten el manejo y análisis de grafos de gran escala. Para el desarrollo de este proyecto se utilizo un sandbox de **Cloudera**, **Apache Spark**, **GraphX**, **Scala** y las herramientas de visualización **Gephi**, **Breeze-Viz**, **Apache Zeppelin** y **D3.js**.
+En el siguiente repositorio se encuentran una serie de implementaciones utilizando GraphX que permiten el manejo y análisis de grafos de gran escala. Estas implementaciones permiten realizar análisis de redes sociales, aplicar PageRank, Triangle Count y Dijkstra sobre distintos datasets. Para el desarrollo de este proyecto se utilizo un sandbox de **Cloudera**, **Apache Spark**, **GraphX**, **Scala** y las herramientas de visualización **Gephi**, **Breeze-Viz**, **Apache Zeppelin** y **D3.js**.
 Este proyecto contiene diversas operaciones y algoritmos que provee GraphX que se pueden aplicar en distintas redes. Tambien provee una serie de algoritmos implementados en el lenguaje **scala** y como se pueden usar distintas herramientas de visualización sobre grafos de gran escala.
 
 # Archivos que contiene el repositorio
@@ -86,7 +86,7 @@ En este proyecto se desarrollaron las siguientes implementaciones:
 Los conjuntos de datos utilizados fueron los siguientes:
 
 | Dataset                        		 |            Resumen                            									  | Nodos | Aristas  |
-|----------------------------------------|-------------------------------------------------------------------------------------------------------|
+|----------------------------------------|------------------------------------------------------------------------------------|-------|----------|
 | facebook_combined.txt               	 | Representa un grafo de la red social Facebook.									  | 88234 | 4039     |
 | Slashdot.txt                			 | Representa una red de enlaces de amigos y enemigos entre los usuarios de Slashdot. | 77360 | 905468   |
 
