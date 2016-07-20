@@ -8,7 +8,7 @@
 
 * [Resumen](#resumen)
 * [Archivos que contiene el repositorio](#archivos-que-contiene-el-repositorio)
-* [Características](#características)
+* [Herramientas](#herramientas)
 * [Implementaciones](#implementaciones)
 * [Datasets](#datasets)
 * [Inicialización](#inicialización)
@@ -21,7 +21,7 @@
 
 # Resumen
 
-El siguiente repositorio se encuentran una serie de implementaciones utilizando GraphX. Para el desarrollo de este proyecto se utilizo un sandbox de **Cloudera**, *Apache Spark*, GraphX, Scala y las herramientas de visualización Gephi, Breeze-Viz, Apache Zeppelin y D3.js.
+El siguiente repositorio se encuentran una serie de implementaciones utilizando GraphX. Para el desarrollo de este proyecto se utilizo un sandbox de **Cloudera**, **Apache Spark**, **GraphX**, **Scala** y las herramientas de visualización **Gephi**, **Breeze-Viz**, **Apache Zeppelin** y **D3.js**.
 
 # Archivos que contiene el repositorio
 
@@ -39,6 +39,8 @@ Apache-Spark-GraphX/
 │   	└── 27022.egonet
 ├── doc/
 │   └── Comandos.txt
+├── gephi/
+│   └── facebookGraph.gexf
 ├── lib/
 │   ├── breeze_2.10-0.12.jar 
 │   ├── breeze-viz_2.10-0.12.jar
@@ -57,8 +59,11 @@ Apache-Spark-GraphX/
     └── stylesheet-simple
 ```
 
-# Características
+# Herramientas
 
+En el presente proyecto se utilizó diferentes herramientas con respectivas versiones:
+
+| Herramienta                         |            Versión                                                                                                                                                                                                                                         |
 |----------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Sistema Operativo.                	 | CentOS 6.7.|
 | Distribución Apache Hadoop.            | [Cloudera Quickstarts VM](https://www.cloudera.com/downloads.html).  |
@@ -67,17 +72,17 @@ Apache-Spark-GraphX/
 | Apache Zeppelin.                	     | [Zeppelin 0.5.6](https://zeppelin.apache.org/download.html). |
 
 # Implementaciones
+En este proyecto se desarrollaron las siguientes implementaciones:
 
 | Implementación                        |            Resumen                                                                                                                                                                                                                                          |
 |----------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | *Dijkstra*.scala                	 | Este algoritmo busca el camino más corto desde un vértice a otro utilizando aristas que poseen peso o ponderación.|
 | *TriangleCount*.scala                | Mide la conectividad de un grafo o un subgrafo. |
 | *PageRank*.scala                	 | Mide la influencia de los vértices de un grafo. |
-| **SocialMedia**.scala                	 | Contiene diversas funciones que permiten realizar análisis de redes sociales. Contiene ShortestPaths, ConnectedComponents y LabelPropagation. |
+| *SocialMedia*.scala                	 | Contiene diversas funciones que permiten realizar análisis de redes sociales. Contiene ShortestPaths, ConnectedComponents y LabelPropagation. |
 
 # Datasets
 Los conjuntos de datos utilizados fueron los siguientes:
-
 
 | Dataset                        |            Resumen                                                                                                                                                                                                                                          |
 |----------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
