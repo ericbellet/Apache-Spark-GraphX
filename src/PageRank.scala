@@ -2,6 +2,7 @@
 // utilizando PageRank orientado a objetos,
 //spark-shell -i src/PageRank.scala
 // El underscore es un wildcard que indica que todo lo de esa biblioteca debe ser importado
+package src.ExportToGexf
 import org.apache.spark.graphx._
 
 // GraphLoader es un objeto de la biblioteca GraphX que contiene un metodo llamado
@@ -15,7 +16,7 @@ val PageRankGraph = GraphLoader.edgeListFile(sc, "Paper_citation_network.txt")
 // Val es data inmutable  HEP-TH graph loaded into memory
 
 //Analisis exploratorio
-PageRankGraph.vertices.take(15)
+//PageRankGraph.vertices.take(15)
 
 //Cuando se ejecuta la funcion pageRank se crea otro grafo donde los vertices
 //tienen como atributos los valores del PageRank.
@@ -40,4 +41,10 @@ PRGraph.reduce((a,b) => if (a._2 > b._2) a else b)
 //Observemos algunos vertices y su PageRank
 PRGraph.take(15)
 
+
+def toGexf[VD,ED](g:Graph[VD,ED]) = "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n" + "<gexf xmlns=\"http://www.gexf.net/1.2draft\" version=\"1.2\">\n" + "  <graph mode=\"static\" defaultedgetype=\"directed\">\n" + "    <nodes>\n" + g.vertices.map(v => "      <node id=\"" + v._1 + "\" label=\"" + v._2 + "\" />\n").collect.mkString + "    </nodes>\n" + "    <edges>\n" + g.edges.map(e => "      <edge source=\"" + e.srcId + "\" target=\"" + e.dstId + "\" label=\"" + e.attr + "\" />\n").collect.mkString + "    </edges>\n" + "  </graph>\n" + "</gexf>"
+
+val pw = new java.io.PrintWriter("PageRankGraph.gexf")
+pw.write(toGexf(PageRankGraph))
+pw.close
 

@@ -1,4 +1,4 @@
-//
+//spark-shell --jars lib/gs-core-1.2.jar,lib/gs-ui-1.2.jar,lib/jcommon-1.0.16.jar,lib/jfreechart-1.0.13.jar,lib/breeze_2.10-0.12.jar,lib/breeze-viz_2.10-0.12.jar,lib/pherd-1.0.jar -i src///Facebook.scala
 // Set log level to error, suppress info and warn messages
 //
 import org.apache.log4j.Logger
@@ -14,7 +14,7 @@ Logger.getLogger("akka").setLevel(Level.ERROR)
 import org.apache.spark.graphx._
 
 
-val facebookGraph = GraphLoader.edgeListFile(sc, "./data/facebook_combined.txt")
+val facebookGraph = GraphLoader.edgeListFile(sc, "facebook_combined.txt")
 
 
 //
@@ -56,7 +56,9 @@ if (a._2 <= b._2) a else b
 facebookGraph.outDegrees.reduce(max)
 facebookGraph.inDegrees.reduce(max)
 
+
+
 // Display the graph.
-//graph.display()
+graph.display()
 
 
