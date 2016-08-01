@@ -82,20 +82,24 @@ fb.take(15)
 
 
 println("----------------------connectedComponents---------------------- \n")
-//Invoking connectedComponents()
+//Vamos a predecir circulos sociales
+//Un circulo social es algún tipo de agrupación de amigos de un usuario que tienen sentido para el.
+//Los datos se recogieron a partir de un pequeño número de usuarios de Facebook que habían suministrado información sobre amigos en su red.
+//Egonet:  describe individual users as egos and users’ connections as alters. 
+//El archivo Egonet enumera cada uno de los amigos del usuario y, para cada uno de esos amigos, sus conexiones.
 
-val egonets = sc.wholeTextFiles("egonets")
 
 // returns the userId from a file path with the format
+// Retorna el userId de la ruta
 // <path>/<userId>.egonet
-def extract(s: String) = {
+def extraer(s: String) = {
  val Pattern = """^.*?(\d+).egonet""".r
  val Pattern(num) = s
  num
 }
-//Find and list social circles
-// Processes a line from an egonet file to return a
-// Array of edges in a tuple
+//Busca y genera una lista de circulos de amigos
+// Procesa cada linea y retorna un arreglo de aristas en tuplas
+
 def get_edges_from_line(line: String): Array[(Long, Long)] = {
  val ary = line.split(":")
  val srcId = ary(0).toInt
@@ -112,25 +116,27 @@ if (dstId != "")
 // created by Graph.fromEdgeTuples.
 if (edges.size > 0) edges else Array((srcId, srcId))
 }
+//-------------------------------------------
 // Constructs Edges tuples from an egonet file
 // contents
-def make_edges(contents: String) = {
+def crear_aristas(contents: String) = {
  val lines = contents.split("\n")
  val unflat = for {
 line <- lines
  } yield {
 get_edges_from_line(line)
  }
- // We want an Array of tuples to pass to Graph.fromEdgeTuples
- // but we have an Array of Arrays of tuples. Luckily we can
- // call flatten() to sort this out.
+ //Necesito un arreglo de tuplas para poderselo pasar a Graph.fromEdgeTuples
+ //pero tengo un arreglo de arreglos de tuplas.
+ //Utilizo la funcion flatten para solventar el problema
+ 
  val flat = unflat.flatten
  flat
 }
-// Constructs a graph from Edge tuples
-// and runs connectedComponents returning
-// the results as a string
-def get_circles(flat: Array[(Long, Long)]) = {
+//-------------------------------------------
+//Construyo un grafo utilizando las tuplas de aristas y ejecuto connectedComponents que me retorna un string
+
+def obtener_circulos(flat: Array[(Long, Long)]) = {
  val edges = sc.makeRDD(flat)
  val g = Graph.fromEdgeTuples(edges,1)
  val cc = g.connectedComponents()
@@ -138,12 +144,24 @@ cc.vertices.map(x => (x._2, Array(x._1))).
 reduceByKey( (a,b) => a ++ b).
 values.map(_.mkString(" ")).collect.mkString(";")
 }
+
+//-------------------------------------------
 val egonets = sc.wholeTextFiles("socialcircles/data/egonets")
-val egonet_numbers = egonets.map(x => extract(x._1)).collect
-val egonet_edges = egonets.map(x => make_edges(x._2)).collect
-val egonet_circles = egonet_edges.toList.map(x => get_circles(x))
+//wholeTextFiles retorna un PairRDD con un elemento de cada archivo donde la clave es el
+//ruta de la carpeta en el archivo, y el valor es el contenido del archivo
+
+val egonet_numbers = egonets.map(x => extraer(x._1)).collect
+//extract: utiliza una expresión regular para extraer el ID de usuario del nombre de archivo
+
+val egonet_edges = egonets.map(x => crear_aristas(x._2)).collect
+//crear_aristas: crea aristas entre cada amigo
+
+val egonet_circles = egonet_edges.toList.map(x => obtener_circulos(x))
+
 println("UserId,Prediction")
+//Invoking connectedComponents()
 val result = egonet_numbers.zip(egonet_circles).map(x => x._1 + "," + x._2)
+
 println(result.mkString("\n"))
 
 

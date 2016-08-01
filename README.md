@@ -97,27 +97,12 @@ Clonar el siguiente repositorio:
 git clone https://github.com/ericbellet/Apache-Spark-GraphX
 cd Apache-Spark-GraphX
 ```
-### Gephi
-Iniciar terminal:
+### Almacenar grafos en HDFS
 ```sh
-./bin/gephi.sh
-
-```
-
-### Apache Zeppelin con D3.js
-Iniciar terminal:
-```sh
-tar -xzvf zeppelin-0.5.6-incubating-bin-all.tgz./zeppelin-0.5.6-incubating-bin-all/bin/zeppelin-daemon.sh start
-xdg-open http://localhost:8080
-
-```
-
-### Dijkstra
-
-Iniciar la consola de Spark:
-```sh
-spark-shell -i Dijkstra.scala
-
+cd data
+hdfs dfs -put "data"
+hdfs dfs -ls
+cd ..
 ```
 
 ### TriangleCount
@@ -144,6 +129,28 @@ spark-shell --jars lib/gs-core-1.2.jar,lib/gs-ui-1.2.jar,lib/jcommon-1.0.16.jar,
 
 ```
 
+### Gephi
+Iniciar terminal:
+```sh
+./bin/gephi.sh
+
+```
+
+### Apache Zeppelin con D3.js
+Iniciar terminal:
+```sh
+tar -xzvf zeppelin-0.5.6-incubating-bin-all.tgz./zeppelin-0.5.6-incubating-bin-all/bin/zeppelin-daemon.sh start
+xdg-open http://localhost:8080
+
+```
+
+### Dijkstra
+
+Iniciar la consola de Spark:
+```sh
+spark-shell -i Dijkstra.scala
+
+```
 # Creador
 
 **Eric Bellet**
