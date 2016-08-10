@@ -1,6 +1,7 @@
-//spark-shell --jars lib/gs-core-1.2.jar,lib/gs-ui-1.2.jar,lib/jcommon-1.0.16.jar,lib/jfreechart-1.0.13.jar,lib/breeze_2.10-0.12.jar,lib/breeze-viz_2.10-0.12.jar,lib/pherd-1.0.jar -i src///Facebook.scala
+//spark-shell --jars lib/gs-core-1.2.jar,lib/gs-ui-1.2.jar,lib/jcommon-1.0.16.jar,lib/jfreechart-1.0.13.jar,lib/breeze_2.10-0.12.jar,lib/breeze-viz_2.10-0.12.jar,lib/pherd-1.0.jar -i src///SocialMedia-Facebook.scala
 // Set log level to error, suppress info and warn messages
 //
+
 import org.apache.log4j.Logger
 import org.apache.log4j.Level
 import org.graphstream.graph.implementations._
@@ -13,9 +14,14 @@ Logger.getLogger("akka").setLevel(Level.ERROR)
 // Hands On: Building A Graph
 //
 import org.apache.spark.graphx._
+import org.apache.spark.SparkContext
+import org.apache.spark.SparkConf
+
+val conf = new SparkConf().setAppName("cust data").setMaster("local[*]");
+val sc = new SparkContext(conf)
 
 
-val facebookGraph = GraphLoader.edgeListFile(sc, "facebook_combined.txt")
+val facebookGraph = GraphLoader.edgeListFile(sc, "data/facebook_combined.txt")
 
 
 
