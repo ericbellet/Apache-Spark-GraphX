@@ -97,12 +97,71 @@ Clonar el siguiente repositorio:
 git clone https://github.com/ericbellet/Apache-Spark-GraphX
 cd Apache-Spark-GraphX
 ```
+### Instalar sbt:
+```sh
+wget http://dl.bintray.com/sbt/rpm/sbt-0.13.5.rpm
+sudo yum localinstall sbt-0.13.5.rpm
+sbt -version
+sbt package
+```
+
+### Cargar datos en HDFS:
+```sh
+hadoop fs -mkdir input
+cd data
+hadoop fs -put facebook_combined.txt input
+cd ..
+
+hadoop fs -mkdir egonets
+cd data
+hadoop fs -put egonets/239.egonet egonets
+```
+### Ejecutar código en GraphX en Apache Spark, Yarn mode cluster (multi node) utilizando datos de HDFS y almacenando resultados en HDFS:
+```sh
+spark-submit --class com.cloudera.sparksocialmedia.SparkSocialMedia --master yarn --deploy-mode cluster target/scala-2.10/social-media-facebook_2.10-0.1.jar input egonets numAristas numVertices outDegrees inDegrees  ShortestPaths LabelPropagation PageRank connectedComponents
+```
+
+### En el caso de querer volver a ejecutar el comando anterior es necesario borrar los siguientes archivos distribuidos:
+```sh
+hdfs dfs -rmr inDegrees
+hdfs dfs -rmr outDegrees
+hdfs dfs -rmr numAristas
+hdfs dfs -rmr numVertices
+hdfs dfs -rmr ShortestPaths
+hdfs dfs -rmr LabelPropagation
+hdfs dfs -rmr PageRank
+hdfs dfs -rmr connectedComponents
+hdfs dfs -rmr gephi
+
+hdfs dfs -ls
+```
+
+### Para obtener los resultados:
+
+```sh
+hadoop fs -cat numVertices/*
+hadoop fs -cat numAristas/*
+hadoop fs -cat inDegrees/*
+hadoop fs -cat outDegrees/*
+hadoop fs -cat ShortestPaths/*
+hadoop fs -cat LabelPropagation/*
+hadoop fs -cat PageRank/*
+hadoop fs -cat connectedComponents/*
+
+```
+
+
 ### Almacenar grafos en HDFS
 ```sh
 cd data
 hdfs dfs -put "data"
 hdfs dfs -ls
 cd ..
+```
+
+###
+```sh
+spark-submit --class com.cloudera.sparksocialmedia.SparkSocialMedia --master local target/scala-2.10/social-media-facebook_2.10-0.1.jar
 ```
 
 ### TriangleCount
