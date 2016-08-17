@@ -21,8 +21,7 @@
 
 # Resumen
 
-En el siguiente repositorio se encuentran una serie de implementaciones utilizando GraphX que permiten el manejo y análisis de grafos de gran escala. Estas implementaciones permiten realizar análisis de redes mediante el algoritmo de PageRank,  Triangle Count y Dijkstra sobre distintos datasets. Para el desarrollo de este proyecto se utilizo un sandbox de **Cloudera**, **Apache Spark**, **GraphX**, **Scala** y las herramientas de visualización **Gephi** y **GraphStream**.
-Este proyecto contiene diversas operaciones y algoritmos que provee GraphX que se pueden aplicar en distintas redes. Tambien provee una serie de algoritmos implementados en el lenguaje **scala** y como se pueden usar distintas herramientas de visualización sobre grafos de gran escala.
+En el siguiente repositorio se encuentran una serie de implementaciones utilizando GraphX que permiten el manejo y análisis de grafos de gran escala. Estas implementaciones permiten realizar análisis de redes mediante el algoritmo de PageRank, Shortest Paths, Label Propagation y Connected Components. Para el desarrollo de este proyecto se utilizo un sandbox de **Cloudera**, la distribución Cloudera para un **clúster Hadoop** multi nodo, **Apache Spark**, **GraphX**, **Scala** y las herramientas de visualización **Gephi** y **GraphStream**.
 
 # Archivos que contiene el repositorio
 
@@ -31,15 +30,15 @@ El siguiente repositorio contiene las siguientes carpetas con los diversos archi
 ```
 Apache-Spark-GraphX/
 ├── data/
-│   ├── Slashdot.txt
-│   ├── continent.csv
-│   ├── facebook_combined.txt
+│   ├── Friendster.txt
+│   ├── Facebook.txt
 │   └── egonets/
 │   	├── 0.egonet 
 │   	├── ...
 │   	└── 27022.egonet
 ├── doc/
-│   └── Comandos.txt
+│   ├── Tesis.ppt
+│   └── Tesis.pdf
 ├── gephi/
 │   └── facebookGraph.gexf
 ├── lib/
