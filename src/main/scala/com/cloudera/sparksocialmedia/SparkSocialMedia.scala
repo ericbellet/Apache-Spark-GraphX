@@ -54,7 +54,7 @@ package com.cloudera.sparksocialmedia
 
 import org.apache.spark.{SparkConf, SparkContext}
 import org.apache.spark.graphx._
-
+import org.apache.spark.rdd._
 
 object SparkSocialMedia extends App {
 	 
@@ -67,7 +67,11 @@ object SparkSocialMedia extends App {
 val aristas = grafo.numEdges
 val vertices = grafo.numVertices
 
-sc.parallelize(List((aristas)),1).saveAsTextFile(args(2))
+val pw = new java.io.PrintWriter("socialmedia.txt")
+ pw.write("Número de vértices: " + vertices + ".\n" + "Número de aristas: " + aristas + ".\n")
+ pw.close
+
+sc.parallelize(pw,1).saveAsTextFile(args(2))
 sc.parallelize(List((vertices)),1).saveAsTextFile(args(3))
 
 def max(a: (VertexId, Int), b: (VertexId, Int)): (VertexId, Int) = {
@@ -85,7 +89,8 @@ println("----------------------inDegrees---------------------- \n")
 
 sc.parallelize(List((grafo.outDegrees.reduce(max))),1).saveAsTextFile(args(4))
 sc.parallelize(List((grafo.inDegrees.reduce(max))),1).saveAsTextFile(args(5))
-
+ sc.parallelize(List((grafo.outDegrees.reduce(min))),1).saveAsTextFile(args(4))
+ sc.parallelize(List((grafo.inDegrees.reduce(min))),1).saveAsTextFile(args(5))
 
 println("----------------------ShortestPaths---------------------- \n")
 //Invoking ShortestPaths
