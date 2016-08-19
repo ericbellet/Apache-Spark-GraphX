@@ -17,7 +17,10 @@
  */
 
 /*
-spark-submit --class com.cloudera.sparksocialmedia.SparkSocialMedia --master yarn --deploy-mode client target/scala-2.10/social-media-facebook_2.10-0.1.jar input egonets numAristas numVertices outDegrees inDegrees  ShortestPaths LabelPropagation PageRank connectedComponents
+spark-submit --class com.cloudera.sparksocialmedia.SparkSocialMedia --master yarn --deploy-mode cluster target/scala-2.10/social-media-facebook_2.10-0.1.jar input egonets Descripcion ShortestPaths LabelPropagation PageRank connectedComponents
+
+
+spark-submit --class com.cloudera.sparksocialmedia.SparkSocialMedia --master local target/scala-2.10/social-media-facebook_2.10-0.1.jar input egonets Descripcion ShortestPaths
 wget http://dl.bintray.com/sbt/rpm/sbt-0.13.5.rpm
 sudo yum localinstall sbt-0.13.5.rpm
 sbt -version
@@ -27,10 +30,7 @@ hadoop fs -put facebook_combined.txt input
 hadoop fs -mkdir egonets
 hadoop fs -put egonets/239.egonet egonets
 
-hdfs dfs -rmr inDegrees
-hdfs dfs -rmr outDegrees
-hdfs dfs -rmr numAristas
-hdfs dfs -rmr numVertices
+hdfs dfs -rmr Descripcion
 hdfs dfs -rmr ShortestPaths
 hdfs dfs -rmr LabelPropagation
 hdfs dfs -rmr PageRank
@@ -39,22 +39,23 @@ hdfs dfs -rmr gephi
 
 hdfs dfs -ls
 */
-//hadoop fs -cat numVertices/*
-//hadoop fs -cat numAristas/*
-//hadoop fs -cat inDegrees/*
-//hadoop fs -cat outDegrees/*
+
+//hadoop fs -cat Descripcion/*
+
 //hadoop fs -cat ShortestPaths/*
+//hadoop fs -get ShortestPaths ./Output
+
 //hadoop fs -cat LabelPropagation/*
 //hadoop fs -cat PageRank/*
 //hadoop fs -cat connectedComponents/*
-//hadoop fs -cat gephi/*
+
 
 
 package com.cloudera.sparksocialmedia
 
 import org.apache.spark.{SparkConf, SparkContext}
 import org.apache.spark.graphx._
-
+import org.apache.spark.rdd._
 
 object SparkSocialMedia extends App {
 	 
@@ -66,9 +67,6 @@ object SparkSocialMedia extends App {
 
 val aristas = grafo.numEdges
 val vertices = grafo.numVertices
-
-sc.parallelize(List((aristas)),1).saveAsTextFile(args(2))
-sc.parallelize(List((vertices)),1).saveAsTextFile(args(3))
 
 def max(a: (VertexId, Int), b: (VertexId, Int)): (VertexId, Int) = {
 if (a._2 > b._2) a else b
@@ -83,18 +81,32 @@ println("----------------------outDegrees---------------------- \n")
 println("----------------------inDegrees---------------------- \n")
 //grafo.inDegrees.reduce(max)
 
-sc.parallelize(List((grafo.outDegrees.reduce(max))),1).saveAsTextFile(args(4))
-sc.parallelize(List((grafo.inDegrees.reduce(max))),1).saveAsTextFile(args(5))
+val outMax = grafo.outDegrees.reduce(max)
+val inMax = grafo.inDegrees.reduce(max)
+val outMin = grafo.outDegrees.reduce(min)
+val inMin = grafo.inDegrees.reduce(min)
 
+ val descripcion = "Número de vértices: " + vertices + ".\n" + "Número de aristas: " + aristas + ".\n" + "Máximo outDegrees: " + "Nodo -> " + outMax._1 + ", Grados -> " + outMax._2 + ".\n" + "Máximo inDegrees: " + "Nodo -> " + inMax._1 + ", Grados -> " + inMax._2 + ".\n" + "Mínimo outDegrees: " + "Nodo -> " + outMin._1 + ", Grados -> " + outMin._2 + ".\n" + "Mínimo inDegrees: " + "Nodo -> " + inMin._1 + ", Grados -> " + inMin._2 + ".\n"
+
+sc.parallelize(List((descripcion)),1).saveAsTextFile(args(2))
 
 println("----------------------ShortestPaths---------------------- \n")
-//Invoking ShortestPaths
-sc.parallelize(lib.ShortestPaths.run(grafo,Array(3)).vertices.collect,1).saveAsTextFile(args(6))
+
+val x = grafo.vertices.collect()
+val nodos = x.map(_._1).toSeq
+
+
+sc.parallelize(lib.ShortestPaths.run(grafo,nodos.take(2)).vertices.collect,1).saveAsTextFile(args(3))
+
+/*
+
+hadoop fs -get ShortestPaths ./Output
+ 
 
 println("----------------------LabelPropagation---------------------- \n")
 //Invoking LabelPropagation
 
-sc.parallelize(lib.LabelPropagation.run(grafo,5).vertices.collect. sortWith(_._1<_._1),1).saveAsTextFile(args(7))
+sc.parallelize(lib.LabelPropagation.run(grafo,5).vertices.collect. sortWith(_._1<_._1),1).saveAsTextFile(args(4))
 
  
 println("----------------------PageRank---------------------- \n")
@@ -106,7 +118,7 @@ val fb = grafo.pageRank(0.001).vertices
 fb.reduce((a,b) => if (a._2 > b._2) a else b)
 
 //Observemos algunos vertices y su PageRank
-sc.parallelize(fb.take(15),1).saveAsTextFile(args(8))
+sc.parallelize(fb.take(15),1).saveAsTextFile(args(5))
 
 
 
@@ -192,7 +204,7 @@ println("UserId,Prediction")
 val result = egonet_numbers.zip(egonet_circles).map(x => x._1 + "," + x._2)
 
 
-sc.parallelize(result.mkString("\n"),1).saveAsTextFile(args(9))
+sc.parallelize(result.mkString("\n"),1).saveAsTextFile(args(6))
 
 
 println("----------------------Gephi---------------------- \n")
@@ -202,7 +214,7 @@ def toGexf[VD,ED](g:Graph[VD,ED]) = "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\
 val pw = new java.io.PrintWriter("gephi/grafo.gexf")
 pw.write(toGexf(grafo))
 pw.close
-
+*/
 
 
 }

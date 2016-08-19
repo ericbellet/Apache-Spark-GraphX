@@ -32,8 +32,12 @@
 [0m[[0mdebug[0m] [0m	  /home/cloudera/Desktop/Apache-Spark-GraphX/target/scala-2.10/classes/com/cloudera/sparksocialmedia[0m
 [0m[[0mdebug[0m] [0m	com/cloudera/sparksocialmedia/SparkSocialMedia$$anonfun$10.class[0m
 [0m[[0mdebug[0m] [0m	  /home/cloudera/Desktop/Apache-Spark-GraphX/target/scala-2.10/classes/com/cloudera/sparksocialmedia/SparkSocialMedia$$anonfun$10.class[0m
+[0m[[0mdebug[0m] [0m	com/cloudera/sparksocialmedia/SparkSocialMedia$$anonfun$15.class[0m
+[0m[[0mdebug[0m] [0m	  /home/cloudera/Desktop/Apache-Spark-GraphX/target/scala-2.10/classes/com/cloudera/sparksocialmedia/SparkSocialMedia$$anonfun$15.class[0m
 [0m[[0mdebug[0m] [0m	com/cloudera/sparksocialmedia/SparkSocialMedia$$anonfun$1.class[0m
 [0m[[0mdebug[0m] [0m	  /home/cloudera/Desktop/Apache-Spark-GraphX/target/scala-2.10/classes/com/cloudera/sparksocialmedia/SparkSocialMedia$$anonfun$1.class[0m
+[0m[[0mdebug[0m] [0m	com/cloudera/sparksocialmedia/SparkSocialMedia$$anonfun$14.class[0m
+[0m[[0mdebug[0m] [0m	  /home/cloudera/Desktop/Apache-Spark-GraphX/target/scala-2.10/classes/com/cloudera/sparksocialmedia/SparkSocialMedia$$anonfun$14.class[0m
 [0m[[0mdebug[0m] [0m	com/cloudera/sparksocialmedia/SparkSocialMedia$$anonfun$2.class[0m
 [0m[[0mdebug[0m] [0m	  /home/cloudera/Desktop/Apache-Spark-GraphX/target/scala-2.10/classes/com/cloudera/sparksocialmedia/SparkSocialMedia$$anonfun$2.class[0m
 [0m[[0mdebug[0m] [0m	com/cloudera/sparksocialmedia/SparkSocialMedia.class[0m
@@ -46,4 +50,6 @@
 [0m[[0mdebug[0m] [0m	  /home/cloudera/Desktop/Apache-Spark-GraphX/target/scala-2.10/classes/com/cloudera/sparksocialmedia/SparkSocialMedia$.class[0m
 [0m[[0mdebug[0m] [0m	com/cloudera/sparksocialmedia/SparkSocialMedia$$anonfun$obtener_circulos$3.class[0m
 [0m[[0mdebug[0m] [0m	  /home/cloudera/Desktop/Apache-Spark-GraphX/target/scala-2.10/classes/com/cloudera/sparksocialmedia/SparkSocialMedia$$anonfun$obtener_circulos$3.class[0m
+[0m[[0mdebug[0m] [0m	com/cloudera/sparksocialmedia/SparkSocialMedia$$anonfun$13.class[0m
+[0m[[0mdebug[0m] [0m	  /home/cloudera/Desktop/Apache-Spark-GraphX/target/scala-2.10/classes/com/cloudera/sparksocialmedia/SparkSocialMedia$$anonfun$13.class[0m
 [0m[[0minfo[0m] [0mDone packaging.[0m
