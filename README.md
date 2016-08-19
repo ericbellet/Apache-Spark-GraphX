@@ -9,13 +9,16 @@
 * [Resumen](#resumen)
 * [Archivos que contiene el repositorio](#archivos-que-contiene-el-repositorio)
 * [Herramientas](#herramientas)
+* [Clúster](#clúster)
 * [Implementaciones](#implementaciones)
 * [Datasets](#datasets)
 * [Inicialización](#inicialización)
-	* [Dijkstra](#dijkstra)
-	* [TriangleCount](#triangleCount)
-	* [PageRank](#pageRank)
-	* [SocialMedia](#socialMedia)
+	* [Instalar sbt](#instalar-sbt)
+	* [Servicios Cloudera Manager Server](#servicios-cloudera-manager-server)
+	* [Clonar repositorio](#clonar-repositorio)
+	* [Cargar datos en HDFS](#cargar-datos-en-hdfs)
+	* [Ejecutar código](#ejecutar-código)
+	* [Resultados](#resultados)
 * [Creador](#creador)
 
 
@@ -48,6 +51,8 @@ Apache-Spark-GraphX/
 │   ├── jcommon-1.0.16.jar
 │   ├── jfreechart-1.0.13.jar 
 │   └── pherd-1.0.jar
+├── output/
+│   └── ...
 ├── target/
 │   └── scala-2.10/
 │    	└── grafos-de-gran-escala_2.10-1.0.jar
@@ -99,8 +104,8 @@ Los conjuntos de datos utilizados fueron los siguientes:
 | Friendster.txt                			 | [Friendster](https://snap.stanford.edu/data/bigdata/communities/com-friendster.ungraph.txt.gz). | 65608366 | 1806067135   |
 | egonets                			 | [Egonets](https://snap.stanford.edu/data/facebook_combined.txt.gz). | - | -   |
 
-
-### Instalar sbt:
+# Inicialización
+### Instalar sbt
 ```sh
 wget http://dl.bintray.com/sbt/rpm/sbt-0.13.5.rpm
 sudo yum localinstall sbt-0.13.5.rpm
@@ -121,7 +126,7 @@ Reiniciar servicios del Cloudera Manager Server:
 ```sh
 sudo service cloudera-scm-server restart 
 ```
-# Inicialización
+### Clonar repositorio
 Clonar el siguiente repositorio:
 ```sh
 git clone https://github.com/ericbellet/Apache-Spark-GraphX
@@ -129,7 +134,7 @@ cd Apache-Spark-GraphX
 sbt package
 ```
 
-### Cargar datos en HDFS:
+### Cargar datos en HDFS
 ```sh
 hadoop fs -mkdir input
 cd data
@@ -140,7 +145,8 @@ hadoop fs -mkdir egonets
 cd data
 hadoop fs -put egonets/239.egonet egonets
 ```
-### Ejecutar código en GraphX en Apache Spark, Yarn mode cluster (multi node) utilizando datos de HDFS y almacenando resultados en HDFS:
+### Ejecutar código
+Ejecutar código en GraphX en Apache Spark, Yarn mode cluster (multi node) utilizando datos de HDFS y almacenando resultados en HDFS:
 ```sh
 spark-submit --class com.cloudera.sparksocialmedia.SparkSocialMedia --master yarn --deploy-mode cluster target/scala-2.10/grafos-de-gran-escala_2.10-1.0.jar input egonets Descripcion ShortestPaths LabelPropagation PageRank ConnectedComponents
 ```
@@ -156,7 +162,8 @@ hdfs dfs -rmr ConnectedComponents
 hdfs dfs -ls
 ```
 
-### Para obtener los resultados:
+### Resultados
+Para obtener los resultados:
 
 ```sh
 hadoop fs -cat Descripcion/*
@@ -176,9 +183,7 @@ hadoop fs -get ConnectedComponents ./output
 cd Apache-Spark-GraphX/gephi
 ```
 
-
-
-### Gephi
+### Ejecutar gephi
 Iniciar terminal:
 ```sh
 ./bin/gephi.sh
