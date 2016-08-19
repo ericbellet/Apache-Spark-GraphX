@@ -21,7 +21,7 @@
 
 # Resumen
 
-En el siguiente repositorio se encuentran una serie de implementaciones utilizando GraphX que permiten el manejo y análisis de grafos de gran escala. Estas implementaciones permiten realizar análisis de redes mediante el algoritmo de PageRank, Shortest Paths, Label Propagation y Connected Components. Para el desarrollo de este proyecto se utilizo un sandbox de **Cloudera**, la distribución Cloudera para un **clúster Hadoop** multi nodo, **Apache Spark**, **GraphX**, **Scala** y las herramientas de visualización **Gephi** y **GraphStream**.
+En el siguiente repositorio se encuentran una serie de implementaciones utilizando GraphX que permiten el manejo y análisis de grafos de gran escala. Estas implementaciones permiten realizar análisis de redes mediante el algoritmo de PageRank, Shortest Paths, Label Propagation y Connected Components. Para el desarrollo de este proyecto se utilizó la distribución Cloudera para un **clúster Hadoop** multi nodo, **Apache Spark**, **GraphX**, **Scala** y la herramienta de visualización **Gephi**.
 
 # Archivos que contiene el repositorio
 
@@ -30,7 +30,6 @@ El siguiente repositorio contiene las siguientes carpetas con los diversos archi
 ```
 Apache-Spark-GraphX/
 ├── data/
-│   ├── Friendster.txt
 │   ├── Facebook.txt
 │   └── egonets/
 │   	├── 0.egonet 
@@ -49,10 +48,10 @@ Apache-Spark-GraphX/
 │   ├── jcommon-1.0.16.jar
 │   ├── jfreechart-1.0.13.jar 
 │   └── pherd-1.0.jar
+├── target/
+│   └── scala-2.10/
+│    	└── grafos-de-gran-escala_2.10-1.0.jar
 ├── src/
-│   ├── Dijkstra.scala
-│   ├── TriangleCount.scala
-│   ├── PageRank.scala
 │   └── SocialMedia.scala
 └── style/
     ├── stylesheet
@@ -63,44 +62,70 @@ Apache-Spark-GraphX/
 
 En el presente proyecto se utilizó diferentes herramientas con respectivas versiones:
 
-| Herramienta                         |            Versión                                                                                                                                                                                                                                         |
+| Herramienta                         |         Versión                                                                                                                                                                                                                                         |
 |----------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Sistema Operativo.                	 | CentOS 6.7.|
-| Distribución Apache Hadoop.            | [Cloudera Quickstarts VM](https://www.cloudera.com/downloads.html).  |
-| Gephi.                	 			 | [Gephi 0.9.1](https://gephi.org/users/download/). |
-| Breeze-Viz.                	 		 | [Breeze-Viz 0.12](http://mvnrepository.com/artifact/org.scalanlp/breeze-viz_2.10/0.12). |
-| Apache Zeppelin.                	     | [Zeppelin 0.5.6](https://zeppelin.apache.org/download.html). |
+| Distribución Apache Hadoop.            | [Cloudera Manager 5.8.1](http://www.cloudera.com/downloads/manager/5-8-1.html).  |
+| Gephi.                	 	 | [Gephi 0.9.1](https://gephi.org/users/download/). |
+| Apache Spark.                	 	 | [Apache Spark 2.0.0](http://spark.apache.org/). |
+| GraphX.                	 	 | [GraphX 2.10](http://spark.apache.org/graphx/). |
+
+# Clúster
+Para el desarrollo de la solución se instaló un clúster Hadoop multi nodo (nodos físicos) utilizando la distribución Cloudera mediante 4 equipos conectados por LAN con las siguientes características:
+
+
+| Componente                         |         Especificación                                                                                                                                                                                                                                         |
+|----------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Sistema Operativo.                	 | CentOS 7.|
+| Memoria.                    		 | 3,7 GiB.  |
+| Procesador.                	 	 | Intel Core i5-3470 CPU @ 3.20GHz x 4. |
+| Disco.                	 	 | 980,1 GB. |
+| OS Type.                	 	 | 64-bit. |
+
 
 # Implementaciones
 En este proyecto se desarrollaron las siguientes implementaciones:
 
 | Implementación                        |            Resumen                                                                                                                                                                                                                                          |
 |----------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| *Dijkstra*.scala                	 | Este algoritmo busca el camino más corto desde un vértice a otro utilizando aristas que poseen peso o ponderación.|
-| *TriangleCount*.scala                | Mide la conectividad de un grafo o un subgrafo. |
-| *PageRank*.scala                	 | Mide la influencia de los vértices de un grafo. |
+| *PageRank*               	         | Mide la influencia de los vértices de un grafo. |
 | *SocialMedia*.scala                	 | Contiene diversas funciones que permiten realizar análisis de redes sociales. Contiene ShortestPaths, ConnectedComponents y LabelPropagation. |
 
 # Datasets
 Los conjuntos de datos utilizados fueron los siguientes:
 
-| Dataset                        		 |            Resumen                            									  | Nodos | Aristas  |
+| Dataset                        		 |            Descargar                            									  | Nodos | Aristas  |
 |----------------------------------------|------------------------------------------------------------------------------------|-------|----------|
-| facebook_combined.txt               	 | Representa un grafo de la red social Facebook.									  | 88234 | 4039     |
-| Slashdot.txt                			 | Representa una red de enlaces de amigos y enemigos entre los usuarios de Slashdot. | 77360 | 905468   |
+| Facebook.txt               	 | [Facebook](https://snap.stanford.edu/data/facebook.tar.gz).									  | 88234 | 4039     |
+| Friendster.txt                			 | [Friendster](https://snap.stanford.edu/data/bigdata/communities/com-friendster.ungraph.txt.gz). | 65608366 | 1806067135   |
+| egonets                			 | [Egonets](https://snap.stanford.edu/data/facebook_combined.txt.gz). | - | -   |
 
 
-# Inicialización
-Clonar el siguiente repositorio:
-```sh
-git clone https://github.com/ericbellet/Apache-Spark-GraphX
-cd Apache-Spark-GraphX
-```
 ### Instalar sbt:
 ```sh
 wget http://dl.bintray.com/sbt/rpm/sbt-0.13.5.rpm
 sudo yum localinstall sbt-0.13.5.rpm
 sbt -version
+```
+
+### Servicios Cloudera Manager Server
+
+Iniciar servicios del Cloudera Manager Server:
+```sh
+sudo service cloudera-scm-server start
+```
+Detener servicios del Cloudera Manager Server:
+```sh
+ sudo service cloudera-scm-server stop
+```
+Reiniciar servicios del Cloudera Manager Server:
+```sh
+sudo service cloudera-scm-server restart 
+```
+# Inicialización
+Clonar el siguiente repositorio:
+```sh
+git clone https://github.com/ericbellet/Apache-Spark-GraphX
+cd Apache-Spark-GraphX
 sbt package
 ```
 
@@ -108,7 +133,7 @@ sbt package
 ```sh
 hadoop fs -mkdir input
 cd data
-hadoop fs -put facebook_combined.txt input
+hadoop fs -put Friendster.txt input
 cd ..
 
 hadoop fs -mkdir egonets
@@ -117,20 +142,16 @@ hadoop fs -put egonets/239.egonet egonets
 ```
 ### Ejecutar código en GraphX en Apache Spark, Yarn mode cluster (multi node) utilizando datos de HDFS y almacenando resultados en HDFS:
 ```sh
-spark-submit --class com.cloudera.sparksocialmedia.SparkSocialMedia --master yarn --deploy-mode cluster target/scala-2.10/social-media-facebook_2.10-0.1.jar input egonets numAristas numVertices outDegrees inDegrees  ShortestPaths LabelPropagation PageRank connectedComponents
+spark-submit --class com.cloudera.sparksocialmedia.SparkSocialMedia --master yarn --deploy-mode cluster target/scala-2.10/grafos-de-gran-escala_2.10-1.0.jar input egonets Descripcion ShortestPaths LabelPropagation PageRank ConnectedComponents
 ```
 
 ### En el caso de querer volver a ejecutar el comando anterior es necesario borrar los siguientes archivos distribuidos:
 ```sh
-hdfs dfs -rmr inDegrees
-hdfs dfs -rmr outDegrees
-hdfs dfs -rmr numAristas
-hdfs dfs -rmr numVertices
+hdfs dfs -rmr Descripcion
 hdfs dfs -rmr ShortestPaths
 hdfs dfs -rmr LabelPropagation
 hdfs dfs -rmr PageRank
-hdfs dfs -rmr connectedComponents
-hdfs dfs -rmr gephi
+hdfs dfs -rmr ConnectedComponents
 
 hdfs dfs -ls
 ```
@@ -138,54 +159,24 @@ hdfs dfs -ls
 ### Para obtener los resultados:
 
 ```sh
-hadoop fs -cat numVertices/*
-hadoop fs -cat numAristas/*
-hadoop fs -cat inDegrees/*
-hadoop fs -cat outDegrees/*
+hadoop fs -cat Descripcion/*
+
 hadoop fs -cat ShortestPaths/*
+hadoop fs -get ShortestPaths ./output
+
 hadoop fs -cat LabelPropagation/*
+hadoop fs -get LabelPropagation ./output
+
 hadoop fs -cat PageRank/*
-hadoop fs -cat connectedComponents/*
+hadoop fs -get PageRank ./output
 
+hadoop fs -cat ConnectedComponents/*
+hadoop fs -get ConnectedComponents ./output
+
+cd Apache-Spark-GraphX/gephi
 ```
 
 
-### Almacenar grafos en HDFS
-```sh
-cd data
-hdfs dfs -put "data"
-hdfs dfs -ls
-cd ..
-```
-
-###
-```sh
-spark-submit --class com.cloudera.sparksocialmedia.SparkSocialMedia --master local target/scala-2.10/social-media-facebook_2.10-0.1.jar
-```
-
-### TriangleCount
-
-Iniciar la consola de Spark:
-```sh
-spark-shell  -i TriangleCount.scala
-
-```
-
-### PageRank
-
-Iniciar la consola de Spark:
-```sh
-spark-shell -i PageRank.scala
-
-```
-
-### SocialMedia
-
-Iniciar la consola de Spark:
-```sh
-spark-shell --jars lib/gs-core-1.2.jar,lib/gs-ui-1.2.jar,lib/jcommon-1.0.16.jar,lib/jfreechart-1.0.13.jar,lib/breeze_2.10-0.12.jar,lib/breeze-viz_2.10-0.12.jar,lib/pherd-1.0.jar -i SocialMedia.scala
-
-```
 
 ### Gephi
 Iniciar terminal:
@@ -194,21 +185,7 @@ Iniciar terminal:
 
 ```
 
-### Apache Zeppelin con D3.js
-Iniciar terminal:
-```sh
-tar -xzvf zeppelin-0.5.6-incubating-bin-all.tgz./zeppelin-0.5.6-incubating-bin-all/bin/zeppelin-daemon.sh start
-xdg-open http://localhost:8080
 
-```
-
-### Dijkstra
-
-Iniciar la consola de Spark:
-```sh
-spark-shell -i Dijkstra.scala
-
-```
 # Creador
 
 **Eric Bellet**

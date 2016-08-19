@@ -1,7 +1,7 @@
 // Project info
-name := "Social Media Facebook"
+name := "Grafos de Gran Escala"
 
-version := "0.1"
+version := "1.0"
 
 scalaVersion := "2.10.3"
 
