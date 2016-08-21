@@ -141,9 +141,9 @@ cd data
 hadoop fs -put Friendster.txt input
 cd ..
 
-hadoop fs -mkdir egonets
+
 cd data
-hadoop fs -put egonets/239.egonet egonets
+hadoop fs -put egonets
 ```
 ### Ejecutar código
 Ejecutar código en GraphX en Apache Spark, Yarn mode cluster (multi node) utilizando datos de HDFS y almacenando resultados en HDFS:

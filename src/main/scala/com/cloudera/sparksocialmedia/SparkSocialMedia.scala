@@ -17,25 +17,24 @@
  */
 
 /*
-spark-submit --class com.cloudera.sparksocialmedia.SparkSocialMedia --master yarn --deploy-mode cluster target/scala-2.10/social-media-facebook_2.10-0.1.jar input egonets Descripcion ShortestPaths LabelPropagation PageRank connectedComponents
+spark-submit --class com.cloudera.sparksocialmedia.SparkSocialMedia --master yarn --deploy-mode cluster target/scala-2.10/grafos-de-gran-escala_2.10-1.0.jar input egonets Descripcion ShortestPaths LabelPropagation PageRank ConnectedComponents
 
 
-spark-submit --class com.cloudera.sparksocialmedia.SparkSocialMedia --master local target/scala-2.10/social-media-facebook_2.10-0.1.jar input egonets Descripcion ShortestPaths
+spark-submit --class com.cloudera.sparksocialmedia.SparkSocialMedia --master local target/scala-2.10/grafos-de-gran-escala_2.10-1.0.jar input egonets Descripcion ShortestPaths LabelPropagation PageRank ConnectedComponents
 wget http://dl.bintray.com/sbt/rpm/sbt-0.13.5.rpm
 sudo yum localinstall sbt-0.13.5.rpm
 sbt -version
 sbt package
 hadoop fs -mkdir input
-hadoop fs -put facebook_combined.txt input
-hadoop fs -mkdir egonets
-hadoop fs -put egonets/239.egonet egonets
+hadoop fs -put Friendster.txt input
+hadoop fs -put egonets
 
 hdfs dfs -rmr Descripcion
 hdfs dfs -rmr ShortestPaths
 hdfs dfs -rmr LabelPropagation
 hdfs dfs -rmr PageRank
-hdfs dfs -rmr connectedComponents
-hdfs dfs -rmr gephi
+hdfs dfs -rmr ConnectedComponents
+
 
 hdfs dfs -ls
 */
@@ -46,10 +45,15 @@ hdfs dfs -ls
 //hadoop fs -get ShortestPaths ./output
 
 //hadoop fs -cat LabelPropagation/*
+
+
 //hadoop fs -cat PageRank/*
-//hadoop fs -cat connectedComponents/*
 
+//hadoop fs -cat ConnectedComponents/*
+//hadoop fs -get ConnectedComponents ./output
 
+//hadoop fs -get PageRank ./output
+//hadoop fs -get PageRank ./output
 
 package com.cloudera.sparksocialmedia
 
@@ -59,32 +63,30 @@ import org.apache.spark.rdd._
 
 object SparkSocialMedia extends App {
 	 
- val sc = new SparkContext(new SparkConf().setAppName("Social Media"))
-
-  
-  val grafo = GraphLoader.edgeListFile(sc, args(0))
+ 	val sc = new SparkContext(new SparkConf().setAppName("Social Media"))
+	val grafo = GraphLoader.edgeListFile(sc, args(0))
 
 
-val aristas = grafo.numEdges
-val vertices = grafo.numVertices
+	val aristas = grafo.numEdges
+	val vertices = grafo.numVertices
 
-def max(a: (VertexId, Int), b: (VertexId, Int)): (VertexId, Int) = {
-if (a._2 > b._2) a else b
-}
+	def max(a: (VertexId, Int), b: (VertexId, Int)): (VertexId, Int) = {
+	if (a._2 > b._2) a else b
+	}
 
-def min(a: (VertexId, Int), b: (VertexId, Int)): (VertexId, Int) = {
-if (a._2 <= b._2) a else b
-}
+	def min(a: (VertexId, Int), b: (VertexId, Int)): (VertexId, Int) = {
+	if (a._2 <= b._2) a else b
+	}
 
-println("----------------------outDegrees---------------------- \n")
-//grafo.outDegrees.reduce(max)
-println("----------------------inDegrees---------------------- \n")
-//grafo.inDegrees.reduce(max)
+	println("----------------------outDegrees---------------------- \n")
+	//grafo.outDegrees.reduce(max)
+	println("----------------------inDegrees---------------------- \n")
+	//grafo.inDegrees.reduce(max)
 
-val outMax = grafo.outDegrees.reduce(max)
-val inMax = grafo.inDegrees.reduce(max)
-val outMin = grafo.outDegrees.reduce(min)
-val inMin = grafo.inDegrees.reduce(min)
+	val outMax = grafo.outDegrees.reduce(max)
+	val inMax = grafo.inDegrees.reduce(max)
+	val outMin = grafo.outDegrees.reduce(min)
+	val inMin = grafo.inDegrees.reduce(min)
 
  val descripcion = "Número de vértices: " + vertices + ".\n" + "Número de aristas: " + aristas + ".\n" + "Máximo outDegrees: " + "Nodo -> " + outMax._1 + ", Grados -> " + outMax._2 + ".\n" + "Máximo inDegrees: " + "Nodo -> " + inMax._1 + ", Grados -> " + inMax._2 + ".\n" + "Mínimo outDegrees: " + "Nodo -> " + outMin._1 + ", Grados -> " + outMin._2 + ".\n" + "Mínimo inDegrees: " + "Nodo -> " + inMin._1 + ", Grados -> " + inMin._2 + ".\n"
 
@@ -96,7 +98,7 @@ val x = grafo.vertices.collect()
 val nodos = x.map(_._1).toSeq
 
 
-sc.parallelize(lib.ShortestPaths.run(grafo,nodos.take(2)).vertices.collect,1).saveAsTextFile(args(3))
+sc.parallelize(lib.ShortestPaths.run(grafo,nodos.take(5)).vertices.collect,1).saveAsTextFile(args(3))
 
 
 
@@ -104,25 +106,19 @@ sc.parallelize(lib.ShortestPaths.run(grafo,nodos.take(2)).vertices.collect,1).sa
  
 
 println("----------------------LabelPropagation---------------------- \n")
-//Invoking LabelPropagation
 
-sc.parallelize(lib.LabelPropagation.run(grafo,5).vertices.collect. sortWith(_._1<_._1),1).saveAsTextFile(args(4))
+
+sc.parallelize(lib.LabelPropagation.run(grafo,1000).vertices.collect.sortWith(_._1<_._1),1).saveAsTextFile(args(4))
 
  
 println("----------------------PageRank---------------------- \n")
 
-
-val fb = grafo.pageRank(0.001).vertices
-
-
-fb.reduce((a,b) => if (a._2 > b._2) a else b)
-
 //Observemos algunos vertices y su PageRank
-sc.parallelize(fb.take(15),1).saveAsTextFile(args(5))
+sc.parallelize(grafo.pageRank(0.001).vertices.sortBy(_._2,ascending=false).collect(),1).saveAsTextFile(args(5))
 
 
 
-println("----------------------connectedComponents---------------------- \n")
+println("----------------------ConnectedComponents---------------------- \n")
 //Vamos a predecir circulos sociales
 //Un circulo social es algún tipo de agrupación de amigos de un usuario que tienen sentido para el.
 //Los datos se recogieron a partir de un pequeño número de usuarios de Facebook que habían suministrado información sobre amigos en su red.
@@ -183,7 +179,7 @@ def obtener_circulos(flat: Array[(Long, Long)]) = {
  val cc = g.connectedComponents()
 cc.vertices.map(x => (x._2, Array(x._1))).
 reduceByKey( (a,b) => a ++ b).
-values.map(_.mkString(" ")).collect.mkString(";")
+values.map(_.mkString(" ")).collect.mkString(" | ")
 }
 
 //-------------------------------------------
@@ -199,12 +195,13 @@ val egonet_edges = egonets.map(x => crear_aristas(x._2)).collect
 
 val egonet_circles = egonet_edges.toList.map(x => obtener_circulos(x))
 
-println("UserId,Prediction")
-//Invoking connectedComponents()
-val result = egonet_numbers.zip(egonet_circles).map(x => x._1 + "," + x._2)
 
 
-sc.parallelize(result.mkString("\n"),1).saveAsTextFile(args(6))
+val result = egonet_numbers.zip(egonet_circles).map(x => "Egonet: " + x._1 +".\n" + "Componentes: " + x._2 + ".\n")
+
+
+
+sc.parallelize(List((result.mkString("\n"))),1).saveAsTextFile(args(6))
 
 
 println("----------------------Gephi---------------------- \n")

@@ -1,28 +1,28 @@
 [0m[[0minfo[0m] [0mUpdating {file:/home/cloudera/Desktop/Apache-Spark-GraphX/}apache-spark-graphx...[0m
-[0m[[0mdebug[0m] [0m:: resolving dependencies :: social-media-facebook#social-media-facebook_2.10;0.1[0m
+[0m[[0mdebug[0m] [0m:: resolving dependencies :: grafos-de-gran-escala#grafos-de-gran-escala_2.10;1.0[0m
 [0m[[0mdebug[0m] [0m	confs: [compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool][0m
 [0m[[0mdebug[0m] [0m	validate = true[0m
 [0m[[0mdebug[0m] [0m	refresh = false[0m
 [0m[[0mdebug[0m] [0mresolving dependencies for configuration 'compile'[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for social-media-facebook#social-media-facebook_2.10;0.1 [compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies social-media-facebook#social-media-facebook_2.10;0.1->org.scala-lang#scala-library;2.10.3 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for grafos-de-gran-escala#grafos-de-gran-escala_2.10;1.0 [compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies grafos-de-gran-escala#grafos-de-gran-escala_2.10;1.0->org.scala-lang#scala-library;2.10.3 [compile->default(compile)][0m
 [0m[[0minfo[0m] [0mResolving org.scala-lang#scala-library;2.10.3 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@4688cb58[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@3e8cc1fe[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.scala-lang#scala-library;2.10.3[0m
 [0m[[0mdebug[0m] [0m	local: revision in cache: org.scala-lang#scala-library;2.10.3[0m
 [0m[[0mdebug[0m] [0m	found org.scala-lang#scala-library;2.10.3 in sbt-chain[0m
 [0m[[0mdebug[0m] [0m	[2.10.3] org.scala-lang#scala-library;2.10.3[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies social-media-facebook#social-media-facebook_2.10;0.1->org.scala-lang#scala-library;2.10.3 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies social-media-facebook#social-media-facebook_2.10;0.1->org.scala-lang#scala-library;2.10.3 [compile->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies social-media-facebook#social-media-facebook_2.10;0.1->org.scala-lang#scala-library;2.10.3 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies social-media-facebook#social-media-facebook_2.10;0.1->org.apache.spark#spark-graphx_2.10;2.0.0 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies grafos-de-gran-escala#grafos-de-gran-escala_2.10;1.0->org.scala-lang#scala-library;2.10.3 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies grafos-de-gran-escala#grafos-de-gran-escala_2.10;1.0->org.scala-lang#scala-library;2.10.3 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies grafos-de-gran-escala#grafos-de-gran-escala_2.10;1.0->org.scala-lang#scala-library;2.10.3 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies grafos-de-gran-escala#grafos-de-gran-escala_2.10;1.0->org.apache.spark#spark-graphx_2.10;2.0.0 [compile->default(compile)][0m
 [0m[[0minfo[0m] [0mResolving org.apache.spark#spark-graphx_2.10;2.0.0 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.apache.spark#spark-graphx_2.10;2.0.0 {compile=[default(compile)]}[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.apache.spark#spark-graphx_2.10;2.0.0[0m
 [0m[[0mdebug[0m] [0m	local: revision in cache: org.apache.spark#spark-graphx_2.10;2.0.0[0m
 [0m[[0mdebug[0m] [0m	found org.apache.spark#spark-graphx_2.10;2.0.0 in sbt-chain[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies social-media-facebook#social-media-facebook_2.10;0.1->org.apache.spark#spark-graphx_2.10;2.0.0 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies social-media-facebook#social-media-facebook_2.10;0.1->org.apache.spark#spark-graphx_2.10;2.0.0 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies grafos-de-gran-escala#grafos-de-gran-escala_2.10;1.0->org.apache.spark#spark-graphx_2.10;2.0.0 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies grafos-de-gran-escala#grafos-de-gran-escala_2.10;1.0->org.apache.spark#spark-graphx_2.10;2.0.0 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.spark#spark-graphx_2.10;2.0.0->org.apache.spark#spark-core_2.10;2.0.0 [compile->master(*)][0m
 [0m[[0minfo[0m] [0mResolving org.apache.spark#spark-core_2.10;2.0.0 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.apache.spark#spark-core_2.10;2.0.0 {compile=[compile(*), master(*)], runtime=[runtime(*)], test=[runtime(*), master(*)]}[0m
@@ -874,7 +874,7 @@
 [0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/org/apache/hadoop/hadoop-mapreduce-client-app/2.2.0/hadoop-mapreduce-client-app-2.2.0.pom[0m
 [0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/org/apache/hadoop/hadoop-mapreduce-client-app/2.2.0/hadoop-mapreduce-client-app-2.2.0.pom.sha1[0m
 [0m[[0mdebug[0m] [0msha1 OK for http://repo1.maven.org/maven2/org/apache/hadoop/hadoop-mapreduce-client-app/2.2.0/hadoop-mapreduce-client-app-2.2.0.pom[0m
-[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.apache.hadoop#hadoop-mapreduce-client-app;2.2.0!hadoop-mapreduce-client-app.pom(pom.original) (410ms)[0m
+[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.apache.hadoop#hadoop-mapreduce-client-app;2.2.0!hadoop-mapreduce-client-app.pom(pom.original) (420ms)[0m
 [0m[[0minfo[0m] [0mResolving org.apache.hadoop#hadoop-mapreduce-client;2.2.0 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.apache.hadoop#hadoop-mapreduce-client;2.2.0 {}[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.apache.hadoop#hadoop-mapreduce-client;2.2.0[0m
@@ -948,7 +948,7 @@
 [0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/org/apache/hadoop/hadoop-mapreduce-client-common/2.2.0/hadoop-mapreduce-client-common-2.2.0.pom[0m
 [0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/org/apache/hadoop/hadoop-mapreduce-client-common/2.2.0/hadoop-mapreduce-client-common-2.2.0.pom.sha1[0m
 [0m[[0mdebug[0m] [0msha1 OK for http://repo1.maven.org/maven2/org/apache/hadoop/hadoop-mapreduce-client-common/2.2.0/hadoop-mapreduce-client-common-2.2.0.pom[0m
-[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.apache.hadoop#hadoop-mapreduce-client-common;2.2.0!hadoop-mapreduce-client-common.pom(pom.original) (476ms)[0m
+[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.apache.hadoop#hadoop-mapreduce-client-common;2.2.0!hadoop-mapreduce-client-common.pom(pom.original) (379ms)[0m
 [0m[[0minfo[0m] [0mResolving org.apache.hadoop#hadoop-mapreduce-client;2.2.0 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.apache.hadoop#hadoop-mapreduce-client;2.2.0 {}[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.apache.hadoop#hadoop-mapreduce-client;2.2.0[0m
@@ -1025,7 +1025,7 @@
 [0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/org/apache/hadoop/hadoop-yarn-common/2.2.0/hadoop-yarn-common-2.2.0.pom[0m
 [0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/org/apache/hadoop/hadoop-yarn-common/2.2.0/hadoop-yarn-common-2.2.0.pom.sha1[0m
 [0m[[0mdebug[0m] [0msha1 OK for http://repo1.maven.org/maven2/org/apache/hadoop/hadoop-yarn-common/2.2.0/hadoop-yarn-common-2.2.0.pom[0m
-[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.apache.hadoop#hadoop-yarn-common;2.2.0!hadoop-yarn-common.pom(pom.original) (684ms)[0m
+[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.apache.hadoop#hadoop-yarn-common;2.2.0!hadoop-yarn-common.pom(pom.original) (355ms)[0m
 [0m[[0minfo[0m] [0mResolving org.apache.hadoop#hadoop-yarn;2.2.0 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.apache.hadoop#hadoop-yarn;2.2.0 {}[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.apache.hadoop#hadoop-yarn;2.2.0[0m
@@ -1130,7 +1130,7 @@
 [0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/org/apache/hadoop/hadoop-yarn-api/2.2.0/hadoop-yarn-api-2.2.0.pom[0m
 [0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/org/apache/hadoop/hadoop-yarn-api/2.2.0/hadoop-yarn-api-2.2.0.pom.sha1[0m
 [0m[[0mdebug[0m] [0msha1 OK for http://repo1.maven.org/maven2/org/apache/hadoop/hadoop-yarn-api/2.2.0/hadoop-yarn-api-2.2.0.pom[0m
-[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.apache.hadoop#hadoop-yarn-api;2.2.0!hadoop-yarn-api.pom(pom.original) (425ms)[0m
+[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.apache.hadoop#hadoop-yarn-api;2.2.0!hadoop-yarn-api.pom(pom.original) (394ms)[0m
 [0m[[0minfo[0m] [0mResolving org.apache.hadoop#hadoop-yarn;2.2.0 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.apache.hadoop#hadoop-yarn;2.2.0 {}[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.apache.hadoop#hadoop-yarn;2.2.0[0m
@@ -1686,7 +1686,7 @@
 [0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/org/apache/hadoop/hadoop-yarn-client/2.2.0/hadoop-yarn-client-2.2.0.pom[0m
 [0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/org/apache/hadoop/hadoop-yarn-client/2.2.0/hadoop-yarn-client-2.2.0.pom.sha1[0m
 [0m[[0mdebug[0m] [0msha1 OK for http://repo1.maven.org/maven2/org/apache/hadoop/hadoop-yarn-client/2.2.0/hadoop-yarn-client-2.2.0.pom[0m
-[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.apache.hadoop#hadoop-yarn-client;2.2.0!hadoop-yarn-client.pom(pom.original) (343ms)[0m
+[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.apache.hadoop#hadoop-yarn-client;2.2.0!hadoop-yarn-client.pom(pom.original) (355ms)[0m
 [0m[[0minfo[0m] [0mResolving org.apache.hadoop#hadoop-yarn;2.2.0 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.apache.hadoop#hadoop-yarn;2.2.0 {}[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.apache.hadoop#hadoop-yarn;2.2.0[0m
@@ -1829,7 +1829,7 @@
 [0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/org/apache/hadoop/hadoop-mapreduce-client-core/2.2.0/hadoop-mapreduce-client-core-2.2.0.pom[0m
 [0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/org/apache/hadoop/hadoop-mapreduce-client-core/2.2.0/hadoop-mapreduce-client-core-2.2.0.pom.sha1[0m
 [0m[[0mdebug[0m] [0msha1 OK for http://repo1.maven.org/maven2/org/apache/hadoop/hadoop-mapreduce-client-core/2.2.0/hadoop-mapreduce-client-core-2.2.0.pom[0m
-[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.apache.hadoop#hadoop-mapreduce-client-core;2.2.0!hadoop-mapreduce-client-core.pom(pom.original) (359ms)[0m
+[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.apache.hadoop#hadoop-mapreduce-client-core;2.2.0!hadoop-mapreduce-client-core.pom(pom.original) (347ms)[0m
 [0m[[0minfo[0m] [0mResolving org.apache.hadoop#hadoop-mapreduce-client;2.2.0 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.apache.hadoop#hadoop-mapreduce-client;2.2.0 {}[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.apache.hadoop#hadoop-mapreduce-client;2.2.0[0m
@@ -1930,7 +1930,7 @@
 [0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/org/apache/hadoop/hadoop-yarn-server-common/2.2.0/hadoop-yarn-server-common-2.2.0.pom[0m
 [0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/org/apache/hadoop/hadoop-yarn-server-common/2.2.0/hadoop-yarn-server-common-2.2.0.pom.sha1[0m
 [0m[[0mdebug[0m] [0msha1 OK for http://repo1.maven.org/maven2/org/apache/hadoop/hadoop-yarn-server-common/2.2.0/hadoop-yarn-server-common-2.2.0.pom[0m
-[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.apache.hadoop#hadoop-yarn-server-common;2.2.0!hadoop-yarn-server-common.pom(pom.original) (355ms)[0m
+[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.apache.hadoop#hadoop-yarn-server-common;2.2.0!hadoop-yarn-server-common.pom(pom.original) (374ms)[0m
 [0m[[0minfo[0m] [0mResolving org.apache.hadoop#hadoop-yarn-server;2.2.0 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.apache.hadoop#hadoop-yarn-server;2.2.0 {}[0m
 [0m[[0mdebug[0m] [0m		tried /root/.ivy2/local/org.apache.hadoop/hadoop-yarn-server/2.2.0/ivys/ivy.xml[0m
@@ -1942,7 +1942,7 @@
 [0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/org/apache/hadoop/hadoop-yarn-server/2.2.0/hadoop-yarn-server-2.2.0.pom[0m
 [0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/org/apache/hadoop/hadoop-yarn-server/2.2.0/hadoop-yarn-server-2.2.0.pom.sha1[0m
 [0m[[0mdebug[0m] [0msha1 OK for http://repo1.maven.org/maven2/org/apache/hadoop/hadoop-yarn-server/2.2.0/hadoop-yarn-server-2.2.0.pom[0m
-[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.apache.hadoop#hadoop-yarn-server;2.2.0!hadoop-yarn-server.pom(pom.original) (326ms)[0m
+[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.apache.hadoop#hadoop-yarn-server;2.2.0!hadoop-yarn-server.pom(pom.original) (336ms)[0m
 [0m[[0minfo[0m] [0mResolving org.apache.hadoop#hadoop-yarn;2.2.0 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.apache.hadoop#hadoop-yarn;2.2.0 {}[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.apache.hadoop#hadoop-yarn;2.2.0[0m
@@ -2089,7 +2089,7 @@
 [0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/org/apache/hadoop/hadoop-mapreduce-client-shuffle/2.2.0/hadoop-mapreduce-client-shuffle-2.2.0.pom[0m
 [0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/org/apache/hadoop/hadoop-mapreduce-client-shuffle/2.2.0/hadoop-mapreduce-client-shuffle-2.2.0.pom.sha1[0m
 [0m[[0mdebug[0m] [0msha1 OK for http://repo1.maven.org/maven2/org/apache/hadoop/hadoop-mapreduce-client-shuffle/2.2.0/hadoop-mapreduce-client-shuffle-2.2.0.pom[0m
-[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.apache.hadoop#hadoop-mapreduce-client-shuffle;2.2.0!hadoop-mapreduce-client-shuffle.pom(pom.original) (388ms)[0m
+[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.apache.hadoop#hadoop-mapreduce-client-shuffle;2.2.0!hadoop-mapreduce-client-shuffle.pom(pom.original) (374ms)[0m
 [0m[[0minfo[0m] [0mResolving org.apache.hadoop#hadoop-mapreduce-client;2.2.0 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.apache.hadoop#hadoop-mapreduce-client;2.2.0 {}[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.apache.hadoop#hadoop-mapreduce-client;2.2.0[0m
@@ -2151,7 +2151,7 @@
 [0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/org/apache/hadoop/hadoop-mapreduce-client-jobclient/2.2.0/hadoop-mapreduce-client-jobclient-2.2.0.pom[0m
 [0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/org/apache/hadoop/hadoop-mapreduce-client-jobclient/2.2.0/hadoop-mapreduce-client-jobclient-2.2.0.pom.sha1[0m
 [0m[[0mdebug[0m] [0msha1 OK for http://repo1.maven.org/maven2/org/apache/hadoop/hadoop-mapreduce-client-jobclient/2.2.0/hadoop-mapreduce-client-jobclient-2.2.0.pom[0m
-[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.apache.hadoop#hadoop-mapreduce-client-jobclient;2.2.0!hadoop-mapreduce-client-jobclient.pom(pom.original) (368ms)[0m
+[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.apache.hadoop#hadoop-mapreduce-client-jobclient;2.2.0!hadoop-mapreduce-client-jobclient.pom(pom.original) (356ms)[0m
 [0m[[0minfo[0m] [0mResolving org.apache.hadoop#hadoop-mapreduce-client;2.2.0 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.apache.hadoop#hadoop-mapreduce-client;2.2.0 {}[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.apache.hadoop#hadoop-mapreduce-client;2.2.0[0m
@@ -3711,7 +3711,7 @@
 [0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/org/apache/hadoop/hadoop-yarn-server-nodemanager/2.2.0/hadoop-yarn-server-nodemanager-2.2.0.pom[0m
 [0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/org/apache/hadoop/hadoop-yarn-server-nodemanager/2.2.0/hadoop-yarn-server-nodemanager-2.2.0.pom.sha1[0m
 [0m[[0mdebug[0m] [0msha1 OK for http://repo1.maven.org/maven2/org/apache/hadoop/hadoop-yarn-server-nodemanager/2.2.0/hadoop-yarn-server-nodemanager-2.2.0.pom[0m
-[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.apache.hadoop#hadoop-yarn-server-nodemanager;2.2.0!hadoop-yarn-server-nodemanager.pom(pom.original) (372ms)[0m
+[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.apache.hadoop#hadoop-yarn-server-nodemanager;2.2.0!hadoop-yarn-server-nodemanager.pom(pom.original) (418ms)[0m
 [0m[[0minfo[0m] [0mResolving org.apache.hadoop#hadoop-yarn-server;2.2.0 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.apache.hadoop#hadoop-yarn-server;2.2.0 {}[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.apache.hadoop#hadoop-yarn-server;2.2.0[0m
@@ -4304,15 +4304,15 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.spark#spark-graphx_2.10;2.0.0->org.apache.spark#spark-tags_2.10;2.0.0 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.spark#spark-graphx_2.10;2.0.0->org.spark-project.spark#unused;1.0.0 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.spark#spark-graphx_2.10;2.0.0->org.spark-project.spark#unused;1.0.0 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies social-media-facebook#social-media-facebook_2.10;0.1->org.apache.spark#spark-graphx_2.10;2.0.0 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies social-media-facebook#social-media-facebook_2.10;0.1->org.graphstream#gs-core;1.2 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies grafos-de-gran-escala#grafos-de-gran-escala_2.10;1.0->org.apache.spark#spark-graphx_2.10;2.0.0 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies grafos-de-gran-escala#grafos-de-gran-escala_2.10;1.0->org.graphstream#gs-core;1.2 [compile->default(compile)][0m
 [0m[[0minfo[0m] [0mResolving org.graphstream#gs-core;1.2 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.graphstream#gs-core;1.2 {compile=[default(compile)]}[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.graphstream#gs-core;1.2[0m
 [0m[[0mdebug[0m] [0m	local: revision in cache: org.graphstream#gs-core;1.2[0m
 [0m[[0mdebug[0m] [0m	found org.graphstream#gs-core;1.2 in sbt-chain[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies social-media-facebook#social-media-facebook_2.10;0.1->org.graphstream#gs-core;1.2 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies social-media-facebook#social-media-facebook_2.10;0.1->org.graphstream#gs-core;1.2 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies grafos-de-gran-escala#grafos-de-gran-escala_2.10;1.0->org.graphstream#gs-core;1.2 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies grafos-de-gran-escala#grafos-de-gran-escala_2.10;1.0->org.graphstream#gs-core;1.2 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.graphstream#gs-core;1.2->junit#junit;4.3.1 [compile->master(*)][0m
 [0m[[0minfo[0m] [0mResolving junit#junit;4.3.1 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: junit#junit;4.3.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
@@ -4350,21 +4350,21 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.graphstream#gs-core;1.2->org.graphstream#pherd;1.0 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.graphstream#gs-core;1.2->org.graphstream#mbox2;1.0 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.graphstream#gs-core;1.2->org.graphstream#mbox2;1.0 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies social-media-facebook#social-media-facebook_2.10;0.1->org.graphstream#gs-core;1.2 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies social-media-facebook#social-media-facebook_2.10;0.1->log4j#log4j;1.2.17 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies social-media-facebook#social-media-facebook_2.10;0.1->log4j#log4j;1.2.17 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies social-media-facebook#social-media-facebook_2.10;0.1->log4j#log4j;1.2.17 [compile->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies social-media-facebook#social-media-facebook_2.10;0.1->log4j#log4j;1.2.17 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies grafos-de-gran-escala#grafos-de-gran-escala_2.10;1.0->org.graphstream#gs-core;1.2 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies grafos-de-gran-escala#grafos-de-gran-escala_2.10;1.0->log4j#log4j;1.2.17 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies grafos-de-gran-escala#grafos-de-gran-escala_2.10;1.0->log4j#log4j;1.2.17 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies grafos-de-gran-escala#grafos-de-gran-escala_2.10;1.0->log4j#log4j;1.2.17 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies grafos-de-gran-escala#grafos-de-gran-escala_2.10;1.0->log4j#log4j;1.2.17 [compile->master][0m
 [0m[[0mdebug[0m] [0mresolving dependencies for configuration 'runtime'[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for social-media-facebook#social-media-facebook_2.10;0.1 [runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for social-media-facebook#social-media-facebook_2.10;0.1 [compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies social-media-facebook#social-media-facebook_2.10;0.1->org.scala-lang#scala-library;2.10.3 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies social-media-facebook#social-media-facebook_2.10;0.1->org.scala-lang#scala-library;2.10.3 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies social-media-facebook#social-media-facebook_2.10;0.1->org.scala-lang#scala-library;2.10.3 [compile->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies social-media-facebook#social-media-facebook_2.10;0.1->org.scala-lang#scala-library;2.10.3 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies social-media-facebook#social-media-facebook_2.10;0.1->org.apache.spark#spark-graphx_2.10;2.0.0 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies social-media-facebook#social-media-facebook_2.10;0.1->org.apache.spark#spark-graphx_2.10;2.0.0 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies social-media-facebook#social-media-facebook_2.10;0.1->org.apache.spark#spark-graphx_2.10;2.0.0 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for grafos-de-gran-escala#grafos-de-gran-escala_2.10;1.0 [runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for grafos-de-gran-escala#grafos-de-gran-escala_2.10;1.0 [compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies grafos-de-gran-escala#grafos-de-gran-escala_2.10;1.0->org.scala-lang#scala-library;2.10.3 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies grafos-de-gran-escala#grafos-de-gran-escala_2.10;1.0->org.scala-lang#scala-library;2.10.3 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies grafos-de-gran-escala#grafos-de-gran-escala_2.10;1.0->org.scala-lang#scala-library;2.10.3 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies grafos-de-gran-escala#grafos-de-gran-escala_2.10;1.0->org.scala-lang#scala-library;2.10.3 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies grafos-de-gran-escala#grafos-de-gran-escala_2.10;1.0->org.apache.spark#spark-graphx_2.10;2.0.0 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies grafos-de-gran-escala#grafos-de-gran-escala_2.10;1.0->org.apache.spark#spark-graphx_2.10;2.0.0 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies grafos-de-gran-escala#grafos-de-gran-escala_2.10;1.0->org.apache.spark#spark-graphx_2.10;2.0.0 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.spark#spark-graphx_2.10;2.0.0->org.apache.spark#spark-core_2.10;2.0.0 [compile->master(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.spark#spark-graphx_2.10;2.0.0->org.apache.spark#spark-core_2.10;2.0.0 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.spark#spark-core_2.10;2.0.0->org.apache.avro#avro-mapred;1.7.7 [compile->master(*)][0m
@@ -7889,10 +7889,10 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.spark#spark-graphx_2.10;2.0.0->org.apache.spark#spark-tags_2.10;2.0.0 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.spark#spark-graphx_2.10;2.0.0->org.spark-project.spark#unused;1.0.0 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.spark#spark-graphx_2.10;2.0.0->org.spark-project.spark#unused;1.0.0 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies social-media-facebook#social-media-facebook_2.10;0.1->org.apache.spark#spark-graphx_2.10;2.0.0 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies social-media-facebook#social-media-facebook_2.10;0.1->org.graphstream#gs-core;1.2 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies social-media-facebook#social-media-facebook_2.10;0.1->org.graphstream#gs-core;1.2 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies social-media-facebook#social-media-facebook_2.10;0.1->org.graphstream#gs-core;1.2 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies grafos-de-gran-escala#grafos-de-gran-escala_2.10;1.0->org.apache.spark#spark-graphx_2.10;2.0.0 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies grafos-de-gran-escala#grafos-de-gran-escala_2.10;1.0->org.graphstream#gs-core;1.2 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies grafos-de-gran-escala#grafos-de-gran-escala_2.10;1.0->org.graphstream#gs-core;1.2 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies grafos-de-gran-escala#grafos-de-gran-escala_2.10;1.0->org.graphstream#gs-core;1.2 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.graphstream#gs-core;1.2->junit#junit;4.3.1 [compile->master(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.graphstream#gs-core;1.2->junit#junit;4.3.1 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.graphstream#gs-core;1.2->org.graphstream#pherd;1.0 [compile->master(*)][0m
@@ -7909,22 +7909,22 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.graphstream#pherd;1.0->org.graphstream#mbox2;1.0 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.graphstream#gs-core;1.2->org.graphstream#mbox2;1.0 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.graphstream#gs-core;1.2->org.graphstream#mbox2;1.0 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies social-media-facebook#social-media-facebook_2.10;0.1->org.graphstream#gs-core;1.2 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies social-media-facebook#social-media-facebook_2.10;0.1->log4j#log4j;1.2.17 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies social-media-facebook#social-media-facebook_2.10;0.1->log4j#log4j;1.2.17 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies social-media-facebook#social-media-facebook_2.10;0.1->log4j#log4j;1.2.17 [compile->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies social-media-facebook#social-media-facebook_2.10;0.1->log4j#log4j;1.2.17 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies grafos-de-gran-escala#grafos-de-gran-escala_2.10;1.0->org.graphstream#gs-core;1.2 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies grafos-de-gran-escala#grafos-de-gran-escala_2.10;1.0->log4j#log4j;1.2.17 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies grafos-de-gran-escala#grafos-de-gran-escala_2.10;1.0->log4j#log4j;1.2.17 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies grafos-de-gran-escala#grafos-de-gran-escala_2.10;1.0->log4j#log4j;1.2.17 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies grafos-de-gran-escala#grafos-de-gran-escala_2.10;1.0->log4j#log4j;1.2.17 [compile->master][0m
 [0m[[0mdebug[0m] [0mresolving dependencies for configuration 'test'[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for social-media-facebook#social-media-facebook_2.10;0.1 [test][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for social-media-facebook#social-media-facebook_2.10;0.1 [runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for social-media-facebook#social-media-facebook_2.10;0.1 [compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies social-media-facebook#social-media-facebook_2.10;0.1->org.scala-lang#scala-library;2.10.3 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies social-media-facebook#social-media-facebook_2.10;0.1->org.scala-lang#scala-library;2.10.3 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies social-media-facebook#social-media-facebook_2.10;0.1->org.scala-lang#scala-library;2.10.3 [compile->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies social-media-facebook#social-media-facebook_2.10;0.1->org.scala-lang#scala-library;2.10.3 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies social-media-facebook#social-media-facebook_2.10;0.1->org.apache.spark#spark-graphx_2.10;2.0.0 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies social-media-facebook#social-media-facebook_2.10;0.1->org.apache.spark#spark-graphx_2.10;2.0.0 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies social-media-facebook#social-media-facebook_2.10;0.1->org.apache.spark#spark-graphx_2.10;2.0.0 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for grafos-de-gran-escala#grafos-de-gran-escala_2.10;1.0 [test][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for grafos-de-gran-escala#grafos-de-gran-escala_2.10;1.0 [runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for grafos-de-gran-escala#grafos-de-gran-escala_2.10;1.0 [compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies grafos-de-gran-escala#grafos-de-gran-escala_2.10;1.0->org.scala-lang#scala-library;2.10.3 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies grafos-de-gran-escala#grafos-de-gran-escala_2.10;1.0->org.scala-lang#scala-library;2.10.3 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies grafos-de-gran-escala#grafos-de-gran-escala_2.10;1.0->org.scala-lang#scala-library;2.10.3 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies grafos-de-gran-escala#grafos-de-gran-escala_2.10;1.0->org.scala-lang#scala-library;2.10.3 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies grafos-de-gran-escala#grafos-de-gran-escala_2.10;1.0->org.apache.spark#spark-graphx_2.10;2.0.0 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies grafos-de-gran-escala#grafos-de-gran-escala_2.10;1.0->org.apache.spark#spark-graphx_2.10;2.0.0 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies grafos-de-gran-escala#grafos-de-gran-escala_2.10;1.0->org.apache.spark#spark-graphx_2.10;2.0.0 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.spark#spark-graphx_2.10;2.0.0->org.apache.spark#spark-core_2.10;2.0.0 [compile->master(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.spark#spark-graphx_2.10;2.0.0->org.apache.spark#spark-core_2.10;2.0.0 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.spark#spark-core_2.10;2.0.0->org.apache.avro#avro-mapred;1.7.7 [compile->master(*)][0m
@@ -11434,10 +11434,10 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.spark#spark-graphx_2.10;2.0.0->org.apache.spark#spark-tags_2.10;2.0.0 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.spark#spark-graphx_2.10;2.0.0->org.spark-project.spark#unused;1.0.0 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.spark#spark-graphx_2.10;2.0.0->org.spark-project.spark#unused;1.0.0 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies social-media-facebook#social-media-facebook_2.10;0.1->org.apache.spark#spark-graphx_2.10;2.0.0 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies social-media-facebook#social-media-facebook_2.10;0.1->org.graphstream#gs-core;1.2 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies social-media-facebook#social-media-facebook_2.10;0.1->org.graphstream#gs-core;1.2 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies social-media-facebook#social-media-facebook_2.10;0.1->org.graphstream#gs-core;1.2 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies grafos-de-gran-escala#grafos-de-gran-escala_2.10;1.0->org.apache.spark#spark-graphx_2.10;2.0.0 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies grafos-de-gran-escala#grafos-de-gran-escala_2.10;1.0->org.graphstream#gs-core;1.2 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies grafos-de-gran-escala#grafos-de-gran-escala_2.10;1.0->org.graphstream#gs-core;1.2 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies grafos-de-gran-escala#grafos-de-gran-escala_2.10;1.0->org.graphstream#gs-core;1.2 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.graphstream#gs-core;1.2->junit#junit;4.3.1 [compile->master(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.graphstream#gs-core;1.2->junit#junit;4.3.1 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.graphstream#gs-core;1.2->org.graphstream#pherd;1.0 [compile->master(*)][0m
@@ -11454,25 +11454,25 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.graphstream#pherd;1.0->org.graphstream#mbox2;1.0 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.graphstream#gs-core;1.2->org.graphstream#mbox2;1.0 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.graphstream#gs-core;1.2->org.graphstream#mbox2;1.0 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies social-media-facebook#social-media-facebook_2.10;0.1->org.graphstream#gs-core;1.2 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies social-media-facebook#social-media-facebook_2.10;0.1->log4j#log4j;1.2.17 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies social-media-facebook#social-media-facebook_2.10;0.1->log4j#log4j;1.2.17 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies social-media-facebook#social-media-facebook_2.10;0.1->log4j#log4j;1.2.17 [compile->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies social-media-facebook#social-media-facebook_2.10;0.1->log4j#log4j;1.2.17 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies grafos-de-gran-escala#grafos-de-gran-escala_2.10;1.0->org.graphstream#gs-core;1.2 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies grafos-de-gran-escala#grafos-de-gran-escala_2.10;1.0->log4j#log4j;1.2.17 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies grafos-de-gran-escala#grafos-de-gran-escala_2.10;1.0->log4j#log4j;1.2.17 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies grafos-de-gran-escala#grafos-de-gran-escala_2.10;1.0->log4j#log4j;1.2.17 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies grafos-de-gran-escala#grafos-de-gran-escala_2.10;1.0->log4j#log4j;1.2.17 [compile->master][0m
 [0m[[0mdebug[0m] [0mresolving dependencies for configuration 'provided'[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for social-media-facebook#social-media-facebook_2.10;0.1 [provided][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for grafos-de-gran-escala#grafos-de-gran-escala_2.10;1.0 [provided][0m
 [0m[[0mdebug[0m] [0mresolving dependencies for configuration 'optional'[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for social-media-facebook#social-media-facebook_2.10;0.1 [optional][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for grafos-de-gran-escala#grafos-de-gran-escala_2.10;1.0 [optional][0m
 [0m[[0mdebug[0m] [0mresolving dependencies for configuration 'compile-internal'[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for social-media-facebook#social-media-facebook_2.10;0.1 [compile-internal][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for social-media-facebook#social-media-facebook_2.10;0.1 [compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies social-media-facebook#social-media-facebook_2.10;0.1->org.scala-lang#scala-library;2.10.3 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies social-media-facebook#social-media-facebook_2.10;0.1->org.scala-lang#scala-library;2.10.3 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies social-media-facebook#social-media-facebook_2.10;0.1->org.scala-lang#scala-library;2.10.3 [compile->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies social-media-facebook#social-media-facebook_2.10;0.1->org.scala-lang#scala-library;2.10.3 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies social-media-facebook#social-media-facebook_2.10;0.1->org.apache.spark#spark-graphx_2.10;2.0.0 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies social-media-facebook#social-media-facebook_2.10;0.1->org.apache.spark#spark-graphx_2.10;2.0.0 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies social-media-facebook#social-media-facebook_2.10;0.1->org.apache.spark#spark-graphx_2.10;2.0.0 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for grafos-de-gran-escala#grafos-de-gran-escala_2.10;1.0 [compile-internal][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for grafos-de-gran-escala#grafos-de-gran-escala_2.10;1.0 [compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies grafos-de-gran-escala#grafos-de-gran-escala_2.10;1.0->org.scala-lang#scala-library;2.10.3 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies grafos-de-gran-escala#grafos-de-gran-escala_2.10;1.0->org.scala-lang#scala-library;2.10.3 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies grafos-de-gran-escala#grafos-de-gran-escala_2.10;1.0->org.scala-lang#scala-library;2.10.3 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies grafos-de-gran-escala#grafos-de-gran-escala_2.10;1.0->org.scala-lang#scala-library;2.10.3 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies grafos-de-gran-escala#grafos-de-gran-escala_2.10;1.0->org.apache.spark#spark-graphx_2.10;2.0.0 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies grafos-de-gran-escala#grafos-de-gran-escala_2.10;1.0->org.apache.spark#spark-graphx_2.10;2.0.0 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies grafos-de-gran-escala#grafos-de-gran-escala_2.10;1.0->org.apache.spark#spark-graphx_2.10;2.0.0 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.spark#spark-graphx_2.10;2.0.0->org.apache.spark#spark-core_2.10;2.0.0 [compile->master(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.spark#spark-graphx_2.10;2.0.0->org.apache.spark#spark-core_2.10;2.0.0 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.spark#spark-core_2.10;2.0.0->org.apache.avro#avro-mapred;1.7.7 [compile->master(*)][0m
@@ -14982,10 +14982,10 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.spark#spark-graphx_2.10;2.0.0->org.apache.spark#spark-tags_2.10;2.0.0 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.spark#spark-graphx_2.10;2.0.0->org.spark-project.spark#unused;1.0.0 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.spark#spark-graphx_2.10;2.0.0->org.spark-project.spark#unused;1.0.0 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies social-media-facebook#social-media-facebook_2.10;0.1->org.apache.spark#spark-graphx_2.10;2.0.0 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies social-media-facebook#social-media-facebook_2.10;0.1->org.graphstream#gs-core;1.2 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies social-media-facebook#social-media-facebook_2.10;0.1->org.graphstream#gs-core;1.2 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies social-media-facebook#social-media-facebook_2.10;0.1->org.graphstream#gs-core;1.2 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies grafos-de-gran-escala#grafos-de-gran-escala_2.10;1.0->org.apache.spark#spark-graphx_2.10;2.0.0 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies grafos-de-gran-escala#grafos-de-gran-escala_2.10;1.0->org.graphstream#gs-core;1.2 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies grafos-de-gran-escala#grafos-de-gran-escala_2.10;1.0->org.graphstream#gs-core;1.2 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies grafos-de-gran-escala#grafos-de-gran-escala_2.10;1.0->org.graphstream#gs-core;1.2 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.graphstream#gs-core;1.2->junit#junit;4.3.1 [compile->master(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.graphstream#gs-core;1.2->junit#junit;4.3.1 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.graphstream#gs-core;1.2->org.graphstream#pherd;1.0 [compile->master(*)][0m
@@ -15002,24 +15002,24 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.graphstream#pherd;1.0->org.graphstream#mbox2;1.0 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.graphstream#gs-core;1.2->org.graphstream#mbox2;1.0 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.graphstream#gs-core;1.2->org.graphstream#mbox2;1.0 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies social-media-facebook#social-media-facebook_2.10;0.1->org.graphstream#gs-core;1.2 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies social-media-facebook#social-media-facebook_2.10;0.1->log4j#log4j;1.2.17 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies social-media-facebook#social-media-facebook_2.10;0.1->log4j#log4j;1.2.17 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies social-media-facebook#social-media-facebook_2.10;0.1->log4j#log4j;1.2.17 [compile->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies social-media-facebook#social-media-facebook_2.10;0.1->log4j#log4j;1.2.17 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for social-media-facebook#social-media-facebook_2.10;0.1 [optional][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for social-media-facebook#social-media-facebook_2.10;0.1 [provided][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies grafos-de-gran-escala#grafos-de-gran-escala_2.10;1.0->org.graphstream#gs-core;1.2 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies grafos-de-gran-escala#grafos-de-gran-escala_2.10;1.0->log4j#log4j;1.2.17 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies grafos-de-gran-escala#grafos-de-gran-escala_2.10;1.0->log4j#log4j;1.2.17 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies grafos-de-gran-escala#grafos-de-gran-escala_2.10;1.0->log4j#log4j;1.2.17 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies grafos-de-gran-escala#grafos-de-gran-escala_2.10;1.0->log4j#log4j;1.2.17 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for grafos-de-gran-escala#grafos-de-gran-escala_2.10;1.0 [optional][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for grafos-de-gran-escala#grafos-de-gran-escala_2.10;1.0 [provided][0m
 [0m[[0mdebug[0m] [0mresolving dependencies for configuration 'runtime-internal'[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for social-media-facebook#social-media-facebook_2.10;0.1 [runtime-internal][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for social-media-facebook#social-media-facebook_2.10;0.1 [runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for social-media-facebook#social-media-facebook_2.10;0.1 [compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies social-media-facebook#social-media-facebook_2.10;0.1->org.scala-lang#scala-library;2.10.3 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies social-media-facebook#social-media-facebook_2.10;0.1->org.scala-lang#scala-library;2.10.3 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies social-media-facebook#social-media-facebook_2.10;0.1->org.scala-lang#scala-library;2.10.3 [compile->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies social-media-facebook#social-media-facebook_2.10;0.1->org.scala-lang#scala-library;2.10.3 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies social-media-facebook#social-media-facebook_2.10;0.1->org.apache.spark#spark-graphx_2.10;2.0.0 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies social-media-facebook#social-media-facebook_2.10;0.1->org.apache.spark#spark-graphx_2.10;2.0.0 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies social-media-facebook#social-media-facebook_2.10;0.1->org.apache.spark#spark-graphx_2.10;2.0.0 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for grafos-de-gran-escala#grafos-de-gran-escala_2.10;1.0 [runtime-internal][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for grafos-de-gran-escala#grafos-de-gran-escala_2.10;1.0 [runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for grafos-de-gran-escala#grafos-de-gran-escala_2.10;1.0 [compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies grafos-de-gran-escala#grafos-de-gran-escala_2.10;1.0->org.scala-lang#scala-library;2.10.3 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies grafos-de-gran-escala#grafos-de-gran-escala_2.10;1.0->org.scala-lang#scala-library;2.10.3 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies grafos-de-gran-escala#grafos-de-gran-escala_2.10;1.0->org.scala-lang#scala-library;2.10.3 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies grafos-de-gran-escala#grafos-de-gran-escala_2.10;1.0->org.scala-lang#scala-library;2.10.3 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies grafos-de-gran-escala#grafos-de-gran-escala_2.10;1.0->org.apache.spark#spark-graphx_2.10;2.0.0 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies grafos-de-gran-escala#grafos-de-gran-escala_2.10;1.0->org.apache.spark#spark-graphx_2.10;2.0.0 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies grafos-de-gran-escala#grafos-de-gran-escala_2.10;1.0->org.apache.spark#spark-graphx_2.10;2.0.0 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.spark#spark-graphx_2.10;2.0.0->org.apache.spark#spark-core_2.10;2.0.0 [compile->master(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.spark#spark-graphx_2.10;2.0.0->org.apache.spark#spark-core_2.10;2.0.0 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.spark#spark-core_2.10;2.0.0->org.apache.avro#avro-mapred;1.7.7 [compile->master(*)][0m
@@ -18529,10 +18529,10 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.spark#spark-graphx_2.10;2.0.0->org.apache.spark#spark-tags_2.10;2.0.0 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.spark#spark-graphx_2.10;2.0.0->org.spark-project.spark#unused;1.0.0 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.spark#spark-graphx_2.10;2.0.0->org.spark-project.spark#unused;1.0.0 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies social-media-facebook#social-media-facebook_2.10;0.1->org.apache.spark#spark-graphx_2.10;2.0.0 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies social-media-facebook#social-media-facebook_2.10;0.1->org.graphstream#gs-core;1.2 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies social-media-facebook#social-media-facebook_2.10;0.1->org.graphstream#gs-core;1.2 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies social-media-facebook#social-media-facebook_2.10;0.1->org.graphstream#gs-core;1.2 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies grafos-de-gran-escala#grafos-de-gran-escala_2.10;1.0->org.apache.spark#spark-graphx_2.10;2.0.0 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies grafos-de-gran-escala#grafos-de-gran-escala_2.10;1.0->org.graphstream#gs-core;1.2 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies grafos-de-gran-escala#grafos-de-gran-escala_2.10;1.0->org.graphstream#gs-core;1.2 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies grafos-de-gran-escala#grafos-de-gran-escala_2.10;1.0->org.graphstream#gs-core;1.2 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.graphstream#gs-core;1.2->junit#junit;4.3.1 [compile->master(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.graphstream#gs-core;1.2->junit#junit;4.3.1 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.graphstream#gs-core;1.2->org.graphstream#pherd;1.0 [compile->master(*)][0m
@@ -18549,24 +18549,24 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.graphstream#pherd;1.0->org.graphstream#mbox2;1.0 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.graphstream#gs-core;1.2->org.graphstream#mbox2;1.0 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.graphstream#gs-core;1.2->org.graphstream#mbox2;1.0 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies social-media-facebook#social-media-facebook_2.10;0.1->org.graphstream#gs-core;1.2 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies social-media-facebook#social-media-facebook_2.10;0.1->log4j#log4j;1.2.17 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies social-media-facebook#social-media-facebook_2.10;0.1->log4j#log4j;1.2.17 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies social-media-facebook#social-media-facebook_2.10;0.1->log4j#log4j;1.2.17 [compile->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies social-media-facebook#social-media-facebook_2.10;0.1->log4j#log4j;1.2.17 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for social-media-facebook#social-media-facebook_2.10;0.1 [optional][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies grafos-de-gran-escala#grafos-de-gran-escala_2.10;1.0->org.graphstream#gs-core;1.2 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies grafos-de-gran-escala#grafos-de-gran-escala_2.10;1.0->log4j#log4j;1.2.17 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies grafos-de-gran-escala#grafos-de-gran-escala_2.10;1.0->log4j#log4j;1.2.17 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies grafos-de-gran-escala#grafos-de-gran-escala_2.10;1.0->log4j#log4j;1.2.17 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies grafos-de-gran-escala#grafos-de-gran-escala_2.10;1.0->log4j#log4j;1.2.17 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for grafos-de-gran-escala#grafos-de-gran-escala_2.10;1.0 [optional][0m
 [0m[[0mdebug[0m] [0mresolving dependencies for configuration 'test-internal'[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for social-media-facebook#social-media-facebook_2.10;0.1 [test-internal][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for social-media-facebook#social-media-facebook_2.10;0.1 [test][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for social-media-facebook#social-media-facebook_2.10;0.1 [runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for social-media-facebook#social-media-facebook_2.10;0.1 [compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies social-media-facebook#social-media-facebook_2.10;0.1->org.scala-lang#scala-library;2.10.3 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies social-media-facebook#social-media-facebook_2.10;0.1->org.scala-lang#scala-library;2.10.3 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies social-media-facebook#social-media-facebook_2.10;0.1->org.scala-lang#scala-library;2.10.3 [compile->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies social-media-facebook#social-media-facebook_2.10;0.1->org.scala-lang#scala-library;2.10.3 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies social-media-facebook#social-media-facebook_2.10;0.1->org.apache.spark#spark-graphx_2.10;2.0.0 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies social-media-facebook#social-media-facebook_2.10;0.1->org.apache.spark#spark-graphx_2.10;2.0.0 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies social-media-facebook#social-media-facebook_2.10;0.1->org.apache.spark#spark-graphx_2.10;2.0.0 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for grafos-de-gran-escala#grafos-de-gran-escala_2.10;1.0 [test-internal][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for grafos-de-gran-escala#grafos-de-gran-escala_2.10;1.0 [test][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for grafos-de-gran-escala#grafos-de-gran-escala_2.10;1.0 [runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for grafos-de-gran-escala#grafos-de-gran-escala_2.10;1.0 [compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies grafos-de-gran-escala#grafos-de-gran-escala_2.10;1.0->org.scala-lang#scala-library;2.10.3 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies grafos-de-gran-escala#grafos-de-gran-escala_2.10;1.0->org.scala-lang#scala-library;2.10.3 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies grafos-de-gran-escala#grafos-de-gran-escala_2.10;1.0->org.scala-lang#scala-library;2.10.3 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies grafos-de-gran-escala#grafos-de-gran-escala_2.10;1.0->org.scala-lang#scala-library;2.10.3 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies grafos-de-gran-escala#grafos-de-gran-escala_2.10;1.0->org.apache.spark#spark-graphx_2.10;2.0.0 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies grafos-de-gran-escala#grafos-de-gran-escala_2.10;1.0->org.apache.spark#spark-graphx_2.10;2.0.0 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies grafos-de-gran-escala#grafos-de-gran-escala_2.10;1.0->org.apache.spark#spark-graphx_2.10;2.0.0 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.spark#spark-graphx_2.10;2.0.0->org.apache.spark#spark-core_2.10;2.0.0 [compile->master(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.spark#spark-graphx_2.10;2.0.0->org.apache.spark#spark-core_2.10;2.0.0 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.spark#spark-core_2.10;2.0.0->org.apache.avro#avro-mapred;1.7.7 [compile->master(*)][0m
@@ -22076,10 +22076,10 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.spark#spark-graphx_2.10;2.0.0->org.apache.spark#spark-tags_2.10;2.0.0 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.spark#spark-graphx_2.10;2.0.0->org.spark-project.spark#unused;1.0.0 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.spark#spark-graphx_2.10;2.0.0->org.spark-project.spark#unused;1.0.0 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies social-media-facebook#social-media-facebook_2.10;0.1->org.apache.spark#spark-graphx_2.10;2.0.0 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies social-media-facebook#social-media-facebook_2.10;0.1->org.graphstream#gs-core;1.2 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies social-media-facebook#social-media-facebook_2.10;0.1->org.graphstream#gs-core;1.2 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies social-media-facebook#social-media-facebook_2.10;0.1->org.graphstream#gs-core;1.2 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies grafos-de-gran-escala#grafos-de-gran-escala_2.10;1.0->org.apache.spark#spark-graphx_2.10;2.0.0 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies grafos-de-gran-escala#grafos-de-gran-escala_2.10;1.0->org.graphstream#gs-core;1.2 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies grafos-de-gran-escala#grafos-de-gran-escala_2.10;1.0->org.graphstream#gs-core;1.2 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies grafos-de-gran-escala#grafos-de-gran-escala_2.10;1.0->org.graphstream#gs-core;1.2 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.graphstream#gs-core;1.2->junit#junit;4.3.1 [compile->master(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.graphstream#gs-core;1.2->junit#junit;4.3.1 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.graphstream#gs-core;1.2->org.graphstream#pherd;1.0 [compile->master(*)][0m
@@ -22096,31 +22096,31 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.graphstream#pherd;1.0->org.graphstream#mbox2;1.0 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.graphstream#gs-core;1.2->org.graphstream#mbox2;1.0 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.graphstream#gs-core;1.2->org.graphstream#mbox2;1.0 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies social-media-facebook#social-media-facebook_2.10;0.1->org.graphstream#gs-core;1.2 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies social-media-facebook#social-media-facebook_2.10;0.1->log4j#log4j;1.2.17 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies social-media-facebook#social-media-facebook_2.10;0.1->log4j#log4j;1.2.17 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies social-media-facebook#social-media-facebook_2.10;0.1->log4j#log4j;1.2.17 [compile->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies social-media-facebook#social-media-facebook_2.10;0.1->log4j#log4j;1.2.17 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for social-media-facebook#social-media-facebook_2.10;0.1 [optional][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for social-media-facebook#social-media-facebook_2.10;0.1 [provided][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies grafos-de-gran-escala#grafos-de-gran-escala_2.10;1.0->org.graphstream#gs-core;1.2 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies grafos-de-gran-escala#grafos-de-gran-escala_2.10;1.0->log4j#log4j;1.2.17 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies grafos-de-gran-escala#grafos-de-gran-escala_2.10;1.0->log4j#log4j;1.2.17 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies grafos-de-gran-escala#grafos-de-gran-escala_2.10;1.0->log4j#log4j;1.2.17 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies grafos-de-gran-escala#grafos-de-gran-escala_2.10;1.0->log4j#log4j;1.2.17 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for grafos-de-gran-escala#grafos-de-gran-escala_2.10;1.0 [optional][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for grafos-de-gran-escala#grafos-de-gran-escala_2.10;1.0 [provided][0m
 [0m[[0mdebug[0m] [0mresolving dependencies for configuration 'plugin'[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for social-media-facebook#social-media-facebook_2.10;0.1 [plugin][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for grafos-de-gran-escala#grafos-de-gran-escala_2.10;1.0 [plugin][0m
 [0m[[0mdebug[0m] [0mresolving dependencies for configuration 'sources'[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for social-media-facebook#social-media-facebook_2.10;0.1 [sources][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for grafos-de-gran-escala#grafos-de-gran-escala_2.10;1.0 [sources][0m
 [0m[[0mdebug[0m] [0mresolving dependencies for configuration 'docs'[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for social-media-facebook#social-media-facebook_2.10;0.1 [docs][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for grafos-de-gran-escala#grafos-de-gran-escala_2.10;1.0 [docs][0m
 [0m[[0mdebug[0m] [0mresolving dependencies for configuration 'pom'[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for social-media-facebook#social-media-facebook_2.10;0.1 [pom][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for grafos-de-gran-escala#grafos-de-gran-escala_2.10;1.0 [pom][0m
 [0m[[0mdebug[0m] [0mresolving dependencies for configuration 'scala-tool'[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for social-media-facebook#social-media-facebook_2.10;0.1 [scala-tool][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies social-media-facebook#social-media-facebook_2.10;0.1->org.scala-lang#scala-compiler;2.10.3 [scala-tool->default][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for grafos-de-gran-escala#grafos-de-gran-escala_2.10;1.0 [scala-tool][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies grafos-de-gran-escala#grafos-de-gran-escala_2.10;1.0->org.scala-lang#scala-compiler;2.10.3 [scala-tool->default][0m
 [0m[[0minfo[0m] [0mResolving org.scala-lang#scala-compiler;2.10.3 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.scala-lang#scala-compiler;2.10.3 {scala-tool=[default, optional(default)]}[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.scala-lang#scala-compiler;2.10.3[0m
 [0m[[0mdebug[0m] [0m	local: revision in cache: org.scala-lang#scala-compiler;2.10.3[0m
 [0m[[0mdebug[0m] [0m	found org.scala-lang#scala-compiler;2.10.3 in sbt-chain[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies social-media-facebook#social-media-facebook_2.10;0.1->org.scala-lang#scala-compiler;2.10.3 [scala-tool->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies social-media-facebook#social-media-facebook_2.10;0.1->org.scala-lang#scala-compiler;2.10.3 [scala-tool->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies grafos-de-gran-escala#grafos-de-gran-escala_2.10;1.0->org.scala-lang#scala-compiler;2.10.3 [scala-tool->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies grafos-de-gran-escala#grafos-de-gran-escala_2.10;1.0->org.scala-lang#scala-compiler;2.10.3 [scala-tool->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.10.3->org.scala-lang#scala-library;2.10.3 [compile->master(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.10.3->org.scala-lang#scala-library;2.10.3 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.10.3->org.scala-lang#scala-library;2.10.3 [compile->default][0m
@@ -22148,8 +22148,8 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.10.3->org.scala-lang#scala-library;2.10.3 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.10.3->org.scala-lang#scala-reflect;2.10.3 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.10.3->org.scala-lang#scala-reflect;2.10.3 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies social-media-facebook#social-media-facebook_2.10;0.1->org.scala-lang#scala-compiler;2.10.3 [scala-tool->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies social-media-facebook#social-media-facebook_2.10;0.1->org.scala-lang#scala-compiler;2.10.3 [scala-tool->optional(default)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies grafos-de-gran-escala#grafos-de-gran-escala_2.10;1.0->org.scala-lang#scala-compiler;2.10.3 [scala-tool->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies grafos-de-gran-escala#grafos-de-gran-escala_2.10;1.0->org.scala-lang#scala-compiler;2.10.3 [scala-tool->optional(default)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.10.3->org.scala-lang#jline;2.10.3 [optional->master(*)][0m
 [0m[[0minfo[0m] [0mResolving org.scala-lang#jline;2.10.3 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.scala-lang#jline;2.10.3 {optional=[compile(*), master(*)]}[0m
@@ -22164,11 +22164,11 @@
 [0m[[0mdebug[0m] [0m	local: revision in cache: org.fusesource.jansi#jansi;1.4[0m
 [0m[[0mdebug[0m] [0m	found org.fusesource.jansi#jansi;1.4 in sbt-chain[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#jline;2.10.3->org.fusesource.jansi#jansi;1.4 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies social-media-facebook#social-media-facebook_2.10;0.1->org.scala-lang#scala-library;2.10.3 [scala-tool->default][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies social-media-facebook#social-media-facebook_2.10;0.1->org.scala-lang#scala-library;2.10.3 [scala-tool->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies social-media-facebook#social-media-facebook_2.10;0.1->org.scala-lang#scala-library;2.10.3 [scala-tool->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies social-media-facebook#social-media-facebook_2.10;0.1->org.scala-lang#scala-library;2.10.3 [scala-tool->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies social-media-facebook#social-media-facebook_2.10;0.1->org.scala-lang#scala-library;2.10.3 [scala-tool->optional(default)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies grafos-de-gran-escala#grafos-de-gran-escala_2.10;1.0->org.scala-lang#scala-library;2.10.3 [scala-tool->default][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies grafos-de-gran-escala#grafos-de-gran-escala_2.10;1.0->org.scala-lang#scala-library;2.10.3 [scala-tool->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies grafos-de-gran-escala#grafos-de-gran-escala_2.10;1.0->org.scala-lang#scala-library;2.10.3 [scala-tool->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies grafos-de-gran-escala#grafos-de-gran-escala_2.10;1.0->org.scala-lang#scala-library;2.10.3 [scala-tool->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies grafos-de-gran-escala#grafos-de-gran-escala_2.10;1.0->org.scala-lang#scala-library;2.10.3 [scala-tool->optional(default)][0m
 [0m[[0mdebug[0m] [0m	resolved ivy file produced in cache[0m
 [0m[[0mdebug[0m] [0m:: downloading artifacts ::[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang#scala-library;2.10.3!scala-library.jar[0m
@@ -22303,19 +22303,19 @@
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang#scala-reflect;2.10.3!scala-reflect.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang#jline;2.10.3!jline.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.fusesource.jansi#jansi;1.4!jansi.jar[0m
-[0m[[0mdebug[0m] [0m:: resolution report :: resolve 26759ms :: artifacts dl 722ms[0m
-[0m[[0mdebug[0m] [0m	report for social-media-facebook#social-media-facebook_2.10;0.1 compile produced in /home/cloudera/Desktop/Apache-Spark-GraphX/target/resolution-cache/reports/social-media-facebook-social-media-facebook_2.10-compile.xml[0m
-[0m[[0mdebug[0m] [0m	report for social-media-facebook#social-media-facebook_2.10;0.1 runtime produced in /home/cloudera/Desktop/Apache-Spark-GraphX/target/resolution-cache/reports/social-media-facebook-social-media-facebook_2.10-runtime.xml[0m
-[0m[[0mdebug[0m] [0m	report for social-media-facebook#social-media-facebook_2.10;0.1 test produced in /home/cloudera/Desktop/Apache-Spark-GraphX/target/resolution-cache/reports/social-media-facebook-social-media-facebook_2.10-test.xml[0m
-[0m[[0mdebug[0m] [0m	report for social-media-facebook#social-media-facebook_2.10;0.1 provided produced in /home/cloudera/Desktop/Apache-Spark-GraphX/target/resolution-cache/reports/social-media-facebook-social-media-facebook_2.10-provided.xml[0m
-[0m[[0mdebug[0m] [0m	report for social-media-facebook#social-media-facebook_2.10;0.1 optional produced in /home/cloudera/Desktop/Apache-Spark-GraphX/target/resolution-cache/reports/social-media-facebook-social-media-facebook_2.10-optional.xml[0m
-[0m[[0mdebug[0m] [0m	report for social-media-facebook#social-media-facebook_2.10;0.1 compile-internal produced in /home/cloudera/Desktop/Apache-Spark-GraphX/target/resolution-cache/reports/social-media-facebook-social-media-facebook_2.10-compile-internal.xml[0m
-[0m[[0mdebug[0m] [0m	report for social-media-facebook#social-media-facebook_2.10;0.1 runtime-internal produced in /home/cloudera/Desktop/Apache-Spark-GraphX/target/resolution-cache/reports/social-media-facebook-social-media-facebook_2.10-runtime-internal.xml[0m
-[0m[[0mdebug[0m] [0m	report for social-media-facebook#social-media-facebook_2.10;0.1 test-internal produced in /home/cloudera/Desktop/Apache-Spark-GraphX/target/resolution-cache/reports/social-media-facebook-social-media-facebook_2.10-test-internal.xml[0m
-[0m[[0mdebug[0m] [0m	report for social-media-facebook#social-media-facebook_2.10;0.1 plugin produced in /home/cloudera/Desktop/Apache-Spark-GraphX/target/resolution-cache/reports/social-media-facebook-social-media-facebook_2.10-plugin.xml[0m
-[0m[[0mdebug[0m] [0m	report for social-media-facebook#social-media-facebook_2.10;0.1 sources produced in /home/cloudera/Desktop/Apache-Spark-GraphX/target/resolution-cache/reports/social-media-facebook-social-media-facebook_2.10-sources.xml[0m
-[0m[[0mdebug[0m] [0m	report for social-media-facebook#social-media-facebook_2.10;0.1 docs produced in /home/cloudera/Desktop/Apache-Spark-GraphX/target/resolution-cache/reports/social-media-facebook-social-media-facebook_2.10-docs.xml[0m
-[0m[[0mdebug[0m] [0m	report for social-media-facebook#social-media-facebook_2.10;0.1 pom produced in /home/cloudera/Desktop/Apache-Spark-GraphX/target/resolution-cache/reports/social-media-facebook-social-media-facebook_2.10-pom.xml[0m
-[0m[[0mdebug[0m] [0m	report for social-media-facebook#social-media-facebook_2.10;0.1 scala-tool produced in /home/cloudera/Desktop/Apache-Spark-GraphX/target/resolution-cache/reports/social-media-facebook-social-media-facebook_2.10-scala-tool.xml[0m
-[0m[[0mdebug[0m] [0m	resolve done (26759ms resolve - 722ms download)[0m
+[0m[[0mdebug[0m] [0m:: resolution report :: resolve 29712ms :: artifacts dl 1091ms[0m
+[0m[[0mdebug[0m] [0m	report for grafos-de-gran-escala#grafos-de-gran-escala_2.10;1.0 compile produced in /home/cloudera/Desktop/Apache-Spark-GraphX/target/resolution-cache/reports/grafos-de-gran-escala-grafos-de-gran-escala_2.10-compile.xml[0m
+[0m[[0mdebug[0m] [0m	report for grafos-de-gran-escala#grafos-de-gran-escala_2.10;1.0 runtime produced in /home/cloudera/Desktop/Apache-Spark-GraphX/target/resolution-cache/reports/grafos-de-gran-escala-grafos-de-gran-escala_2.10-runtime.xml[0m
+[0m[[0mdebug[0m] [0m	report for grafos-de-gran-escala#grafos-de-gran-escala_2.10;1.0 test produced in /home/cloudera/Desktop/Apache-Spark-GraphX/target/resolution-cache/reports/grafos-de-gran-escala-grafos-de-gran-escala_2.10-test.xml[0m
+[0m[[0mdebug[0m] [0m	report for grafos-de-gran-escala#grafos-de-gran-escala_2.10;1.0 provided produced in /home/cloudera/Desktop/Apache-Spark-GraphX/target/resolution-cache/reports/grafos-de-gran-escala-grafos-de-gran-escala_2.10-provided.xml[0m
+[0m[[0mdebug[0m] [0m	report for grafos-de-gran-escala#grafos-de-gran-escala_2.10;1.0 optional produced in /home/cloudera/Desktop/Apache-Spark-GraphX/target/resolution-cache/reports/grafos-de-gran-escala-grafos-de-gran-escala_2.10-optional.xml[0m
+[0m[[0mdebug[0m] [0m	report for grafos-de-gran-escala#grafos-de-gran-escala_2.10;1.0 compile-internal produced in /home/cloudera/Desktop/Apache-Spark-GraphX/target/resolution-cache/reports/grafos-de-gran-escala-grafos-de-gran-escala_2.10-compile-internal.xml[0m
+[0m[[0mdebug[0m] [0m	report for grafos-de-gran-escala#grafos-de-gran-escala_2.10;1.0 runtime-internal produced in /home/cloudera/Desktop/Apache-Spark-GraphX/target/resolution-cache/reports/grafos-de-gran-escala-grafos-de-gran-escala_2.10-runtime-internal.xml[0m
+[0m[[0mdebug[0m] [0m	report for grafos-de-gran-escala#grafos-de-gran-escala_2.10;1.0 test-internal produced in /home/cloudera/Desktop/Apache-Spark-GraphX/target/resolution-cache/reports/grafos-de-gran-escala-grafos-de-gran-escala_2.10-test-internal.xml[0m
+[0m[[0mdebug[0m] [0m	report for grafos-de-gran-escala#grafos-de-gran-escala_2.10;1.0 plugin produced in /home/cloudera/Desktop/Apache-Spark-GraphX/target/resolution-cache/reports/grafos-de-gran-escala-grafos-de-gran-escala_2.10-plugin.xml[0m
+[0m[[0mdebug[0m] [0m	report for grafos-de-gran-escala#grafos-de-gran-escala_2.10;1.0 sources produced in /home/cloudera/Desktop/Apache-Spark-GraphX/target/resolution-cache/reports/grafos-de-gran-escala-grafos-de-gran-escala_2.10-sources.xml[0m
+[0m[[0mdebug[0m] [0m	report for grafos-de-gran-escala#grafos-de-gran-escala_2.10;1.0 docs produced in /home/cloudera/Desktop/Apache-Spark-GraphX/target/resolution-cache/reports/grafos-de-gran-escala-grafos-de-gran-escala_2.10-docs.xml[0m
+[0m[[0mdebug[0m] [0m	report for grafos-de-gran-escala#grafos-de-gran-escala_2.10;1.0 pom produced in /home/cloudera/Desktop/Apache-Spark-GraphX/target/resolution-cache/reports/grafos-de-gran-escala-grafos-de-gran-escala_2.10-pom.xml[0m
+[0m[[0mdebug[0m] [0m	report for grafos-de-gran-escala#grafos-de-gran-escala_2.10;1.0 scala-tool produced in /home/cloudera/Desktop/Apache-Spark-GraphX/target/resolution-cache/reports/grafos-de-gran-escala-grafos-de-gran-escala_2.10-scala-tool.xml[0m
+[0m[[0mdebug[0m] [0m	resolve done (29712ms resolve - 1091ms download)[0m
 [0m[[0minfo[0m] [0mDone updating.[0m
