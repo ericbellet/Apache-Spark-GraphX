@@ -148,7 +148,15 @@ hadoop fs -put egonets
 ### Ejecutar código
 Ejecutar código en GraphX en Apache Spark, Yarn mode cluster (multi node) utilizando datos de HDFS y almacenando resultados en HDFS:
 ```sh
-spark-submit --class com.cloudera.sparksocialmedia.SparkSocialMedia --master yarn --deploy-mode cluster target/scala-2.10/grafos-de-gran-escala_2.10-1.0.jar input egonets Descripcion ShortestPaths LabelPropagation PageRank ConnectedComponents
+spark-submit --class com.cloudera.sparksocialmedia.SparkSocialMedia --master yarn --deploy-mode cluster  --num-executors 3 --driver-memory 3g --executor-memory 2g --executor-cores 1 --queue default target/scala-2.10/grafos-de-gran-escala_2.10-1.0.jar input egonets Descripcion ShortestPaths LabelPropagation PageRank ConnectedComponents
+yarn logs -applicationId <app ID>
+
+ ResourceManager UI 
+Choose the "Evironment" Panel and you will see a link to the Spark History Server, where you can investigate the performed Spark jobs including computation times.
+https://nofluffjuststuff.com/blog/mark_johnson/2016/02/5_steps_to_get_started_running_spark_on_yarn_with_a_hadoop_cluster
+https://databricks.com/blog/2015/06/22/understanding-your-spark-application-through-visualization.html
+https://www.cloudera.com/content/dam/www/static/documents/analyst-reports/forrester-wave-big-data-hadoop-distributions.pdf
+http://www.cray.com/sites/default/files/resources/The-Forrester-Wave-Big-Data%20Hadoop-Optimized-Systems-Q2-2016.pdf
 ```
 
 ### En el caso de querer volver a ejecutar el comando anterior es necesario borrar los siguientes archivos distribuidos:
