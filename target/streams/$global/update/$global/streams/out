@@ -1,4 +1,4 @@
-[0m[[0minfo[0m] [0mUpdating {file:/home/cloudera/Desktop/Apache-Spark-GraphX/}apache-spark-graphx...[0m
+[0m[[0minfo[0m] [0mUpdating {file:/home/cloudera/Escritorio/Apache-Spark-GraphX/}apache-spark-graphx...[0m
 [0m[[0mdebug[0m] [0m:: resolving dependencies :: grafos-de-gran-escala#grafos-de-gran-escala_2.10;1.0[0m
 [0m[[0mdebug[0m] [0m	confs: [compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool][0m
 [0m[[0mdebug[0m] [0m	validate = true[0m
@@ -7,7 +7,7 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies for grafos-de-gran-escala#grafos-de-gran-escala_2.10;1.0 [compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies grafos-de-gran-escala#grafos-de-gran-escala_2.10;1.0->org.scala-lang#scala-library;2.10.3 [compile->default(compile)][0m
 [0m[[0minfo[0m] [0mResolving org.scala-lang#scala-library;2.10.3 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@3e8cc1fe[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@64226d9[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.scala-lang#scala-library;2.10.3[0m
 [0m[[0mdebug[0m] [0m	local: revision in cache: org.scala-lang#scala-library;2.10.3[0m
 [0m[[0mdebug[0m] [0m	found org.scala-lang#scala-library;2.10.3 in sbt-chain[0m
@@ -874,7 +874,7 @@
 [0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/org/apache/hadoop/hadoop-mapreduce-client-app/2.2.0/hadoop-mapreduce-client-app-2.2.0.pom[0m
 [0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/org/apache/hadoop/hadoop-mapreduce-client-app/2.2.0/hadoop-mapreduce-client-app-2.2.0.pom.sha1[0m
 [0m[[0mdebug[0m] [0msha1 OK for http://repo1.maven.org/maven2/org/apache/hadoop/hadoop-mapreduce-client-app/2.2.0/hadoop-mapreduce-client-app-2.2.0.pom[0m
-[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.apache.hadoop#hadoop-mapreduce-client-app;2.2.0!hadoop-mapreduce-client-app.pom(pom.original) (420ms)[0m
+[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.apache.hadoop#hadoop-mapreduce-client-app;2.2.0!hadoop-mapreduce-client-app.pom(pom.original) (422ms)[0m
 [0m[[0minfo[0m] [0mResolving org.apache.hadoop#hadoop-mapreduce-client;2.2.0 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.apache.hadoop#hadoop-mapreduce-client;2.2.0 {}[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.apache.hadoop#hadoop-mapreduce-client;2.2.0[0m
@@ -948,7 +948,7 @@
 [0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/org/apache/hadoop/hadoop-mapreduce-client-common/2.2.0/hadoop-mapreduce-client-common-2.2.0.pom[0m
 [0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/org/apache/hadoop/hadoop-mapreduce-client-common/2.2.0/hadoop-mapreduce-client-common-2.2.0.pom.sha1[0m
 [0m[[0mdebug[0m] [0msha1 OK for http://repo1.maven.org/maven2/org/apache/hadoop/hadoop-mapreduce-client-common/2.2.0/hadoop-mapreduce-client-common-2.2.0.pom[0m
-[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.apache.hadoop#hadoop-mapreduce-client-common;2.2.0!hadoop-mapreduce-client-common.pom(pom.original) (379ms)[0m
+[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.apache.hadoop#hadoop-mapreduce-client-common;2.2.0!hadoop-mapreduce-client-common.pom(pom.original) (382ms)[0m
 [0m[[0minfo[0m] [0mResolving org.apache.hadoop#hadoop-mapreduce-client;2.2.0 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.apache.hadoop#hadoop-mapreduce-client;2.2.0 {}[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.apache.hadoop#hadoop-mapreduce-client;2.2.0[0m
@@ -1025,7 +1025,7 @@
 [0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/org/apache/hadoop/hadoop-yarn-common/2.2.0/hadoop-yarn-common-2.2.0.pom[0m
 [0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/org/apache/hadoop/hadoop-yarn-common/2.2.0/hadoop-yarn-common-2.2.0.pom.sha1[0m
 [0m[[0mdebug[0m] [0msha1 OK for http://repo1.maven.org/maven2/org/apache/hadoop/hadoop-yarn-common/2.2.0/hadoop-yarn-common-2.2.0.pom[0m
-[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.apache.hadoop#hadoop-yarn-common;2.2.0!hadoop-yarn-common.pom(pom.original) (355ms)[0m
+[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.apache.hadoop#hadoop-yarn-common;2.2.0!hadoop-yarn-common.pom(pom.original) (378ms)[0m
 [0m[[0minfo[0m] [0mResolving org.apache.hadoop#hadoop-yarn;2.2.0 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.apache.hadoop#hadoop-yarn;2.2.0 {}[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.apache.hadoop#hadoop-yarn;2.2.0[0m
@@ -1130,7 +1130,7 @@
 [0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/org/apache/hadoop/hadoop-yarn-api/2.2.0/hadoop-yarn-api-2.2.0.pom[0m
 [0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/org/apache/hadoop/hadoop-yarn-api/2.2.0/hadoop-yarn-api-2.2.0.pom.sha1[0m
 [0m[[0mdebug[0m] [0msha1 OK for http://repo1.maven.org/maven2/org/apache/hadoop/hadoop-yarn-api/2.2.0/hadoop-yarn-api-2.2.0.pom[0m
-[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.apache.hadoop#hadoop-yarn-api;2.2.0!hadoop-yarn-api.pom(pom.original) (394ms)[0m
+[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.apache.hadoop#hadoop-yarn-api;2.2.0!hadoop-yarn-api.pom(pom.original) (380ms)[0m
 [0m[[0minfo[0m] [0mResolving org.apache.hadoop#hadoop-yarn;2.2.0 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.apache.hadoop#hadoop-yarn;2.2.0 {}[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.apache.hadoop#hadoop-yarn;2.2.0[0m
@@ -1686,7 +1686,7 @@
 [0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/org/apache/hadoop/hadoop-yarn-client/2.2.0/hadoop-yarn-client-2.2.0.pom[0m
 [0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/org/apache/hadoop/hadoop-yarn-client/2.2.0/hadoop-yarn-client-2.2.0.pom.sha1[0m
 [0m[[0mdebug[0m] [0msha1 OK for http://repo1.maven.org/maven2/org/apache/hadoop/hadoop-yarn-client/2.2.0/hadoop-yarn-client-2.2.0.pom[0m
-[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.apache.hadoop#hadoop-yarn-client;2.2.0!hadoop-yarn-client.pom(pom.original) (355ms)[0m
+[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.apache.hadoop#hadoop-yarn-client;2.2.0!hadoop-yarn-client.pom(pom.original) (373ms)[0m
 [0m[[0minfo[0m] [0mResolving org.apache.hadoop#hadoop-yarn;2.2.0 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.apache.hadoop#hadoop-yarn;2.2.0 {}[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.apache.hadoop#hadoop-yarn;2.2.0[0m
@@ -1829,7 +1829,7 @@
 [0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/org/apache/hadoop/hadoop-mapreduce-client-core/2.2.0/hadoop-mapreduce-client-core-2.2.0.pom[0m
 [0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/org/apache/hadoop/hadoop-mapreduce-client-core/2.2.0/hadoop-mapreduce-client-core-2.2.0.pom.sha1[0m
 [0m[[0mdebug[0m] [0msha1 OK for http://repo1.maven.org/maven2/org/apache/hadoop/hadoop-mapreduce-client-core/2.2.0/hadoop-mapreduce-client-core-2.2.0.pom[0m
-[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.apache.hadoop#hadoop-mapreduce-client-core;2.2.0!hadoop-mapreduce-client-core.pom(pom.original) (347ms)[0m
+[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.apache.hadoop#hadoop-mapreduce-client-core;2.2.0!hadoop-mapreduce-client-core.pom(pom.original) (391ms)[0m
 [0m[[0minfo[0m] [0mResolving org.apache.hadoop#hadoop-mapreduce-client;2.2.0 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.apache.hadoop#hadoop-mapreduce-client;2.2.0 {}[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.apache.hadoop#hadoop-mapreduce-client;2.2.0[0m
@@ -1930,7 +1930,7 @@
 [0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/org/apache/hadoop/hadoop-yarn-server-common/2.2.0/hadoop-yarn-server-common-2.2.0.pom[0m
 [0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/org/apache/hadoop/hadoop-yarn-server-common/2.2.0/hadoop-yarn-server-common-2.2.0.pom.sha1[0m
 [0m[[0mdebug[0m] [0msha1 OK for http://repo1.maven.org/maven2/org/apache/hadoop/hadoop-yarn-server-common/2.2.0/hadoop-yarn-server-common-2.2.0.pom[0m
-[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.apache.hadoop#hadoop-yarn-server-common;2.2.0!hadoop-yarn-server-common.pom(pom.original) (374ms)[0m
+[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.apache.hadoop#hadoop-yarn-server-common;2.2.0!hadoop-yarn-server-common.pom(pom.original) (378ms)[0m
 [0m[[0minfo[0m] [0mResolving org.apache.hadoop#hadoop-yarn-server;2.2.0 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.apache.hadoop#hadoop-yarn-server;2.2.0 {}[0m
 [0m[[0mdebug[0m] [0m		tried /root/.ivy2/local/org.apache.hadoop/hadoop-yarn-server/2.2.0/ivys/ivy.xml[0m
@@ -1942,7 +1942,7 @@
 [0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/org/apache/hadoop/hadoop-yarn-server/2.2.0/hadoop-yarn-server-2.2.0.pom[0m
 [0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/org/apache/hadoop/hadoop-yarn-server/2.2.0/hadoop-yarn-server-2.2.0.pom.sha1[0m
 [0m[[0mdebug[0m] [0msha1 OK for http://repo1.maven.org/maven2/org/apache/hadoop/hadoop-yarn-server/2.2.0/hadoop-yarn-server-2.2.0.pom[0m
-[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.apache.hadoop#hadoop-yarn-server;2.2.0!hadoop-yarn-server.pom(pom.original) (336ms)[0m
+[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.apache.hadoop#hadoop-yarn-server;2.2.0!hadoop-yarn-server.pom(pom.original) (398ms)[0m
 [0m[[0minfo[0m] [0mResolving org.apache.hadoop#hadoop-yarn;2.2.0 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.apache.hadoop#hadoop-yarn;2.2.0 {}[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.apache.hadoop#hadoop-yarn;2.2.0[0m
@@ -2089,7 +2089,7 @@
 [0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/org/apache/hadoop/hadoop-mapreduce-client-shuffle/2.2.0/hadoop-mapreduce-client-shuffle-2.2.0.pom[0m
 [0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/org/apache/hadoop/hadoop-mapreduce-client-shuffle/2.2.0/hadoop-mapreduce-client-shuffle-2.2.0.pom.sha1[0m
 [0m[[0mdebug[0m] [0msha1 OK for http://repo1.maven.org/maven2/org/apache/hadoop/hadoop-mapreduce-client-shuffle/2.2.0/hadoop-mapreduce-client-shuffle-2.2.0.pom[0m
-[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.apache.hadoop#hadoop-mapreduce-client-shuffle;2.2.0!hadoop-mapreduce-client-shuffle.pom(pom.original) (374ms)[0m
+[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.apache.hadoop#hadoop-mapreduce-client-shuffle;2.2.0!hadoop-mapreduce-client-shuffle.pom(pom.original) (831ms)[0m
 [0m[[0minfo[0m] [0mResolving org.apache.hadoop#hadoop-mapreduce-client;2.2.0 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.apache.hadoop#hadoop-mapreduce-client;2.2.0 {}[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.apache.hadoop#hadoop-mapreduce-client;2.2.0[0m
@@ -2151,7 +2151,7 @@
 [0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/org/apache/hadoop/hadoop-mapreduce-client-jobclient/2.2.0/hadoop-mapreduce-client-jobclient-2.2.0.pom[0m
 [0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/org/apache/hadoop/hadoop-mapreduce-client-jobclient/2.2.0/hadoop-mapreduce-client-jobclient-2.2.0.pom.sha1[0m
 [0m[[0mdebug[0m] [0msha1 OK for http://repo1.maven.org/maven2/org/apache/hadoop/hadoop-mapreduce-client-jobclient/2.2.0/hadoop-mapreduce-client-jobclient-2.2.0.pom[0m
-[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.apache.hadoop#hadoop-mapreduce-client-jobclient;2.2.0!hadoop-mapreduce-client-jobclient.pom(pom.original) (356ms)[0m
+[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.apache.hadoop#hadoop-mapreduce-client-jobclient;2.2.0!hadoop-mapreduce-client-jobclient.pom(pom.original) (375ms)[0m
 [0m[[0minfo[0m] [0mResolving org.apache.hadoop#hadoop-mapreduce-client;2.2.0 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.apache.hadoop#hadoop-mapreduce-client;2.2.0 {}[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.apache.hadoop#hadoop-mapreduce-client;2.2.0[0m
@@ -2210,7 +2210,7 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.spark#spark-launcher_2.10;2.0.0->org.apache.spark#spark-tags_2.10;2.0.0 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.spark#spark-tags_2.10;2.0.0->org.scalatest#scalatest_2.10;2.2.6 [compile->master(*)][0m
 [0m[[0minfo[0m] [0mResolving org.scalatest#scalatest_2.10;2.2.6 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.scalatest#scalatest_2.10;2.2.6 {compile=[compile(*), master(*)], runtime=[runtime(*)], test=[runtime(*), master(*)]}[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.scalatest#scalatest_2.10;2.2.6 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.scalatest#scalatest_2.10;2.2.6[0m
 [0m[[0mdebug[0m] [0m	local: revision in cache: org.scalatest#scalatest_2.10;2.2.6[0m
 [0m[[0mdebug[0m] [0m	found org.scalatest#scalatest_2.10;2.2.6 in sbt-chain[0m
@@ -2223,12 +2223,12 @@
 [0m[[0mdebug[0m] [0m	found org.scala-lang#scala-library;2.10.6 in sbt-chain[0m
 [0m[[0mdebug[0m] [0m	[2.10.6] org.scala-lang#scala-library;2.10.6[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalatest#scalatest_2.10;2.2.6->org.scala-lang#scala-library;2.10.6 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalatest#scalatest_2.10;2.2.6->org.scala-lang#scala-library;2.10.6 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalatest#scalatest_2.10;2.2.6->org.scala-lang#scala-library;2.10.6 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalatest#scalatest_2.10;2.2.6->org.scala-lang#scala-library;2.10.6 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalatest#scalatest_2.10;2.2.6->org.scala-lang#scala-library;2.10.6 [compile->runtime][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalatest#scalatest_2.10;2.2.6->org.scala-lang#scala-library;2.10.6 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalatest#scalatest_2.10;2.2.6->org.scala-lang#scala-library;2.10.6 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scalatest#scalatest_2.10;2.2.6->org.scala-lang#scala-library;2.10.6 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scalatest#scalatest_2.10;2.2.6->org.scala-lang#scala-library;2.10.6 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalatest#scalatest_2.10;2.2.6->org.scala-lang#scala-reflect;2.10.6 [compile->master(*)][0m
 [0m[[0minfo[0m] [0mResolving org.scala-lang#scala-reflect;2.10.6 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.scala-lang#scala-reflect;2.10.6 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
@@ -2422,17 +2422,17 @@
 [0m[[0mdebug[0m] [0mexcluding dependency: org.jboss.netty#netty;3.2.2.Final {compile=[compile(*), master(*)], runtime=[runtime(*)]} in compile[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.zookeeper#zookeeper;3.4.5->org.slf4j#slf4j-api;1.6.4 [compile->master(*)][0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.slf4j#slf4j-api;1.6.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.slf4j#slf4j-api;1.6.4 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.slf4j#slf4j-api;1.6.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.slf4j#slf4j-api;1.6.4 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
 [0m[[0mdebug[0m] [0mexcluding dependency: jline#jline;0.9.94 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in compile[0m
 [0m[[0mdebug[0m] [0mexcluding dependency: org.jboss.netty#netty;3.2.2.Final {compile=[compile(*), master(*)], runtime=[runtime(*)]} in compile[0m
-[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.slf4j#slf4j-api;1.6.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.slf4j#slf4j-api;1.6.4 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.slf4j#slf4j-api;1.6.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.slf4j#slf4j-api;1.6.4 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.slf4j#slf4j-api;1.6.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.slf4j#slf4j-api;1.6.4 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.zookeeper#zookeeper;3.4.5->org.slf4j#slf4j-api;1.6.4 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.zookeeper#zookeeper;3.4.5->org.slf4j#slf4j-log4j12;1.6.1 [compile->master(*)][0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.slf4j#slf4j-api;1.6.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.slf4j#slf4j-api;1.6.4 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.slf4j#slf4j-api;1.6.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.slf4j#slf4j-api;1.6.4 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
 [0m[[0mdebug[0m] [0mexcluding dependency: jline#jline;0.9.94 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in compile[0m
 [0m[[0mdebug[0m] [0mexcluding dependency: org.jboss.netty#netty;3.2.2.Final {compile=[compile(*), master(*)], runtime=[runtime(*)]} in compile[0m
-[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.slf4j#slf4j-api;1.6.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.slf4j#slf4j-api;1.6.4 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.slf4j#slf4j-api;1.6.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.slf4j#slf4j-api;1.6.4 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.slf4j#slf4j-api;1.6.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.slf4j#slf4j-api;1.6.4 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.zookeeper#zookeeper;3.4.5->org.slf4j#slf4j-log4j12;1.7.5 [compile->master(*)][0m
@@ -2440,9 +2440,9 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.zookeeper#zookeeper;3.4.5->org.slf4j#slf4j-log4j12;1.7.5 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.zookeeper#zookeeper;3.4.5->log4j#log4j;1.2.15 [compile->master(*)][0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.slf4j#slf4j-api;1.6.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.slf4j#slf4j-api;1.6.4 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.slf4j#slf4j-api;1.6.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.slf4j#slf4j-api;1.6.4 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
 [0m[[0mdebug[0m] [0mexcluding dependency: jline#jline;0.9.94 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in compile[0m
 [0m[[0mdebug[0m] [0mexcluding dependency: org.jboss.netty#netty;3.2.2.Final {compile=[compile(*), master(*)], runtime=[runtime(*)]} in compile[0m
-[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.slf4j#slf4j-api;1.6.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.slf4j#slf4j-api;1.6.4 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.slf4j#slf4j-api;1.6.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.slf4j#slf4j-api;1.6.4 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.slf4j#slf4j-api;1.6.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.slf4j#slf4j-api;1.6.4 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.zookeeper#zookeeper;3.4.5->log4j#log4j;1.2.17 [compile->master(*)][0m
@@ -2752,8 +2752,8 @@
 [0m[[0mdebug[0m] [0mexcluding dependency: javax.inject#javax.inject;1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in compile[0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: junit#junit;4.11 {test=[runtime(*), master(*)]} => dependency: junit#junit;4.12 {test=[runtime(*), master(*)]}[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.glassfish.hk2#hk2-api;2.4.0-b34->org.glassfish.hk2#hk2-utils;2.4.0-b34 [compile->master(*)][0m
-[0m[[0mdebug[0m] [0mexcluding dependency: javax.inject#javax.inject;1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in compile[0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: junit#junit;4.11 {test=[runtime(*), master(*)]} => dependency: junit#junit;4.12 {test=[runtime(*), master(*)]}[0m
+[0m[[0mdebug[0m] [0mexcluding dependency: javax.inject#javax.inject;1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in compile[0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: junit#junit;4.11 {test=[runtime(*), master(*)]} => dependency: junit#junit;4.12 {test=[runtime(*), master(*)]}[0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: junit#junit;4.11 {test=[runtime(*), master(*)]} => dependency: junit#junit;4.12 {test=[runtime(*), master(*)]}[0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: junit#junit;4.11 {test=[runtime(*), master(*)]} => dependency: junit#junit;4.12 {test=[runtime(*), master(*)]}[0m
@@ -2800,8 +2800,8 @@
 [0m[[0mdebug[0m] [0mexcluding dependency: javax.inject#javax.inject;1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in compile[0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: junit#junit;4.11 {test=[runtime(*), master(*)]} => dependency: junit#junit;4.12 {test=[runtime(*), master(*)]}[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.glassfish.hk2#hk2-api;2.4.0-b34->org.glassfish.hk2.external#aopalliance-repackaged;2.4.0-b34 [compile->master(*)][0m
-[0m[[0mdebug[0m] [0mexcluding dependency: javax.inject#javax.inject;1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in compile[0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: junit#junit;4.11 {test=[runtime(*), master(*)]} => dependency: junit#junit;4.12 {test=[runtime(*), master(*)]}[0m
+[0m[[0mdebug[0m] [0mexcluding dependency: javax.inject#javax.inject;1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in compile[0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: junit#junit;4.11 {test=[runtime(*), master(*)]} => dependency: junit#junit;4.12 {test=[runtime(*), master(*)]}[0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: junit#junit;4.11 {test=[runtime(*), master(*)]} => dependency: junit#junit;4.12 {test=[runtime(*), master(*)]}[0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: junit#junit;4.11 {test=[runtime(*), master(*)]} => dependency: junit#junit;4.12 {test=[runtime(*), master(*)]}[0m
@@ -3415,8 +3415,6 @@
 [0m[[0mdebug[0m] [0mexcluding dependency: org.codehaus.jackson#jackson-mapper-asl;1.8.8 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in runtime[0m
 [0m[[0mdebug[0m] [0mexcluding dependency: com.jcraft#jsch;0.1.42 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in runtime[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.hadoop#hadoop-common;2.2.0->org.slf4j#slf4j-log4j12;1.7.16 [runtime->master(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.hadoop#hadoop-common;2.2.0->org.slf4j#slf4j-log4j12;1.7.5 [runtime->compile(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.hadoop#hadoop-common;2.2.0->org.slf4j#slf4j-log4j12;1.7.16 [runtime->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.hadoop#hadoop-common;2.2.0->org.slf4j#slf4j-log4j12;1.7.5 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.hadoop#hadoop-common;2.2.0->org.slf4j#slf4j-log4j12;1.7.16 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.hadoop#hadoop-common;2.2.0->org.slf4j#slf4j-log4j12;1.7.16 [runtime->compile][0m
@@ -3424,6 +3422,8 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.slf4j#slf4j-log4j12;1.7.16->org.slf4j#slf4j-api;1.7.16 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.slf4j#slf4j-log4j12;1.7.16->log4j#log4j;1.2.17 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.slf4j#slf4j-log4j12;1.7.16->log4j#log4j;1.2.17 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.hadoop#hadoop-common;2.2.0->org.slf4j#slf4j-log4j12;1.7.5 [runtime->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.hadoop#hadoop-common;2.2.0->org.slf4j#slf4j-log4j12;1.7.16 [runtime->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.hadoop#hadoop-common;2.2.0->org.codehaus.jackson#jackson-core-asl;1.8.8 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.hadoop#hadoop-common;2.2.0->org.codehaus.jackson#jackson-core-asl;1.9.13 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.hadoop#hadoop-common;2.2.0->org.codehaus.jackson#jackson-core-asl;1.9.13 [runtime->compile][0m
@@ -3440,16 +3440,16 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.hadoop#hadoop-auth;2.2.0->commons-codec#commons-codec;1.4 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.hadoop#hadoop-auth;2.2.0->commons-codec#commons-codec;1.4 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.hadoop#hadoop-auth;2.2.0->log4j#log4j;1.2.17 [runtime->master(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.hadoop#hadoop-auth;2.2.0->log4j#log4j;1.2.17 [runtime->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.hadoop#hadoop-auth;2.2.0->log4j#log4j;1.2.17 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.hadoop#hadoop-auth;2.2.0->log4j#log4j;1.2.17 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.hadoop#hadoop-auth;2.2.0->log4j#log4j;1.2.17 [runtime->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.hadoop#hadoop-auth;2.2.0->org.slf4j#slf4j-log4j12;1.7.5 [runtime->master(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.hadoop#hadoop-auth;2.2.0->org.slf4j#slf4j-log4j12;1.7.16 [runtime->master(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.hadoop#hadoop-auth;2.2.0->org.slf4j#slf4j-log4j12;1.7.5 [runtime->compile(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.hadoop#hadoop-auth;2.2.0->org.slf4j#slf4j-log4j12;1.7.16 [runtime->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.hadoop#hadoop-auth;2.2.0->org.slf4j#slf4j-log4j12;1.7.5 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.hadoop#hadoop-auth;2.2.0->org.slf4j#slf4j-log4j12;1.7.16 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.hadoop#hadoop-auth;2.2.0->org.slf4j#slf4j-log4j12;1.7.16 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.hadoop#hadoop-auth;2.2.0->org.slf4j#slf4j-log4j12;1.7.5 [runtime->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.hadoop#hadoop-auth;2.2.0->org.slf4j#slf4j-log4j12;1.7.16 [runtime->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.hadoop#hadoop-common;2.2.0->org.apache.commons#commons-compress;1.4.1 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.hadoop#hadoop-common;2.2.0->org.apache.commons#commons-compress;1.4.1 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.hadoop#hadoop-client;2.2.0->org.apache.hadoop#hadoop-hdfs;2.2.0 [runtime->runtime(*)][0m
@@ -3711,7 +3711,7 @@
 [0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/org/apache/hadoop/hadoop-yarn-server-nodemanager/2.2.0/hadoop-yarn-server-nodemanager-2.2.0.pom[0m
 [0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/org/apache/hadoop/hadoop-yarn-server-nodemanager/2.2.0/hadoop-yarn-server-nodemanager-2.2.0.pom.sha1[0m
 [0m[[0mdebug[0m] [0msha1 OK for http://repo1.maven.org/maven2/org/apache/hadoop/hadoop-yarn-server-nodemanager/2.2.0/hadoop-yarn-server-nodemanager-2.2.0.pom[0m
-[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.apache.hadoop#hadoop-yarn-server-nodemanager;2.2.0!hadoop-yarn-server-nodemanager.pom(pom.original) (418ms)[0m
+[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.apache.hadoop#hadoop-yarn-server-nodemanager;2.2.0!hadoop-yarn-server-nodemanager.pom(pom.original) (377ms)[0m
 [0m[[0minfo[0m] [0mResolving org.apache.hadoop#hadoop-yarn-server;2.2.0 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.apache.hadoop#hadoop-yarn-server;2.2.0 {}[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.apache.hadoop#hadoop-yarn-server;2.2.0[0m
@@ -6273,9 +6273,9 @@
 [0m[[0mdebug[0m] [0mexcluding dependency: org.jboss.netty#netty;3.2.2.Final {compile=[compile(*), master(*)], runtime=[runtime(*)]} in compile[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.zookeeper#zookeeper;3.4.5->org.slf4j#slf4j-api;1.6.4 [compile->master(*)][0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.slf4j#slf4j-api;1.6.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.slf4j#slf4j-api;1.6.4 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.slf4j#slf4j-api;1.6.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.slf4j#slf4j-api;1.6.4 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
 [0m[[0mdebug[0m] [0mexcluding dependency: jline#jline;0.9.94 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in compile[0m
 [0m[[0mdebug[0m] [0mexcluding dependency: org.jboss.netty#netty;3.2.2.Final {compile=[compile(*), master(*)], runtime=[runtime(*)]} in compile[0m
-[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.slf4j#slf4j-api;1.6.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.slf4j#slf4j-api;1.6.4 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.slf4j#slf4j-api;1.6.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.slf4j#slf4j-api;1.6.4 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.slf4j#slf4j-api;1.6.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.slf4j#slf4j-api;1.6.4 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.zookeeper#zookeeper;3.4.5->org.slf4j#slf4j-api;1.7.5 [compile->master(*)][0m
@@ -6283,9 +6283,9 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.zookeeper#zookeeper;3.4.5->org.slf4j#slf4j-api;1.7.5 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.zookeeper#zookeeper;3.4.5->org.slf4j#slf4j-log4j12;1.6.1 [compile->master(*)][0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.slf4j#slf4j-api;1.6.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.slf4j#slf4j-api;1.6.4 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.slf4j#slf4j-api;1.6.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.slf4j#slf4j-api;1.6.4 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
 [0m[[0mdebug[0m] [0mexcluding dependency: jline#jline;0.9.94 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in compile[0m
 [0m[[0mdebug[0m] [0mexcluding dependency: org.jboss.netty#netty;3.2.2.Final {compile=[compile(*), master(*)], runtime=[runtime(*)]} in compile[0m
-[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.slf4j#slf4j-api;1.6.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.slf4j#slf4j-api;1.6.4 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.slf4j#slf4j-api;1.6.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.slf4j#slf4j-api;1.6.4 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.slf4j#slf4j-api;1.6.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.slf4j#slf4j-api;1.6.4 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.zookeeper#zookeeper;3.4.5->org.slf4j#slf4j-log4j12;1.7.5 [compile->master(*)][0m
@@ -6293,9 +6293,9 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.zookeeper#zookeeper;3.4.5->org.slf4j#slf4j-log4j12;1.7.5 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.zookeeper#zookeeper;3.4.5->log4j#log4j;1.2.15 [compile->master(*)][0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.slf4j#slf4j-api;1.6.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.slf4j#slf4j-api;1.6.4 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.slf4j#slf4j-api;1.6.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.slf4j#slf4j-api;1.6.4 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
 [0m[[0mdebug[0m] [0mexcluding dependency: jline#jline;0.9.94 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in compile[0m
 [0m[[0mdebug[0m] [0mexcluding dependency: org.jboss.netty#netty;3.2.2.Final {compile=[compile(*), master(*)], runtime=[runtime(*)]} in compile[0m
-[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.slf4j#slf4j-api;1.6.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.slf4j#slf4j-api;1.6.4 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.slf4j#slf4j-api;1.6.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.slf4j#slf4j-api;1.6.4 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.slf4j#slf4j-api;1.6.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.slf4j#slf4j-api;1.6.4 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.zookeeper#zookeeper;3.4.5->log4j#log4j;1.2.17 [compile->master(*)][0m
@@ -6482,8 +6482,8 @@
 [0m[[0mdebug[0m] [0mexcluding dependency: javax.inject#javax.inject;1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in compile[0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: junit#junit;4.11 {test=[runtime(*), master(*)]} => dependency: junit#junit;4.12 {test=[runtime(*), master(*)]}[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.glassfish.hk2#hk2-api;2.4.0-b34->org.glassfish.hk2#hk2-utils;2.4.0-b34 [compile->master(*)][0m
-[0m[[0mdebug[0m] [0mexcluding dependency: javax.inject#javax.inject;1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in compile[0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: junit#junit;4.11 {test=[runtime(*), master(*)]} => dependency: junit#junit;4.12 {test=[runtime(*), master(*)]}[0m
+[0m[[0mdebug[0m] [0mexcluding dependency: javax.inject#javax.inject;1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in compile[0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: junit#junit;4.11 {test=[runtime(*), master(*)]} => dependency: junit#junit;4.12 {test=[runtime(*), master(*)]}[0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: junit#junit;4.11 {test=[runtime(*), master(*)]} => dependency: junit#junit;4.12 {test=[runtime(*), master(*)]}[0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: junit#junit;4.11 {test=[runtime(*), master(*)]} => dependency: junit#junit;4.12 {test=[runtime(*), master(*)]}[0m
@@ -6525,8 +6525,8 @@
 [0m[[0mdebug[0m] [0mexcluding dependency: javax.inject#javax.inject;1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in compile[0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: junit#junit;4.11 {test=[runtime(*), master(*)]} => dependency: junit#junit;4.12 {test=[runtime(*), master(*)]}[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.glassfish.hk2#hk2-api;2.4.0-b34->org.glassfish.hk2.external#aopalliance-repackaged;2.4.0-b34 [compile->master(*)][0m
-[0m[[0mdebug[0m] [0mexcluding dependency: javax.inject#javax.inject;1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in compile[0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: junit#junit;4.11 {test=[runtime(*), master(*)]} => dependency: junit#junit;4.12 {test=[runtime(*), master(*)]}[0m
+[0m[[0mdebug[0m] [0mexcluding dependency: javax.inject#javax.inject;1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in compile[0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: junit#junit;4.11 {test=[runtime(*), master(*)]} => dependency: junit#junit;4.12 {test=[runtime(*), master(*)]}[0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: junit#junit;4.11 {test=[runtime(*), master(*)]} => dependency: junit#junit;4.12 {test=[runtime(*), master(*)]}[0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: junit#junit;4.11 {test=[runtime(*), master(*)]} => dependency: junit#junit;4.12 {test=[runtime(*), master(*)]}[0m
@@ -7036,8 +7036,6 @@
 [0m[[0mdebug[0m] [0mexcluding dependency: org.codehaus.jackson#jackson-mapper-asl;1.8.8 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in runtime[0m
 [0m[[0mdebug[0m] [0mexcluding dependency: com.jcraft#jsch;0.1.42 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in runtime[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.hadoop#hadoop-common;2.2.0->org.slf4j#slf4j-log4j12;1.7.16 [runtime->master(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.hadoop#hadoop-common;2.2.0->org.slf4j#slf4j-log4j12;1.7.5 [runtime->compile(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.hadoop#hadoop-common;2.2.0->org.slf4j#slf4j-log4j12;1.7.16 [runtime->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.hadoop#hadoop-common;2.2.0->org.slf4j#slf4j-log4j12;1.7.5 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.hadoop#hadoop-common;2.2.0->org.slf4j#slf4j-log4j12;1.7.16 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.hadoop#hadoop-common;2.2.0->org.slf4j#slf4j-log4j12;1.7.16 [runtime->compile][0m
@@ -7045,6 +7043,8 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.slf4j#slf4j-log4j12;1.7.16->org.slf4j#slf4j-api;1.7.16 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.slf4j#slf4j-log4j12;1.7.16->log4j#log4j;1.2.17 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.slf4j#slf4j-log4j12;1.7.16->log4j#log4j;1.2.17 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.hadoop#hadoop-common;2.2.0->org.slf4j#slf4j-log4j12;1.7.5 [runtime->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.hadoop#hadoop-common;2.2.0->org.slf4j#slf4j-log4j12;1.7.16 [runtime->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.hadoop#hadoop-common;2.2.0->org.codehaus.jackson#jackson-core-asl;1.8.8 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.hadoop#hadoop-common;2.2.0->org.codehaus.jackson#jackson-core-asl;1.9.13 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.hadoop#hadoop-common;2.2.0->org.codehaus.jackson#jackson-core-asl;1.9.13 [runtime->compile][0m
@@ -7061,16 +7061,16 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.hadoop#hadoop-auth;2.2.0->commons-codec#commons-codec;1.4 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.hadoop#hadoop-auth;2.2.0->commons-codec#commons-codec;1.4 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.hadoop#hadoop-auth;2.2.0->log4j#log4j;1.2.17 [runtime->master(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.hadoop#hadoop-auth;2.2.0->log4j#log4j;1.2.17 [runtime->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.hadoop#hadoop-auth;2.2.0->log4j#log4j;1.2.17 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.hadoop#hadoop-auth;2.2.0->log4j#log4j;1.2.17 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.hadoop#hadoop-auth;2.2.0->log4j#log4j;1.2.17 [runtime->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.hadoop#hadoop-auth;2.2.0->org.slf4j#slf4j-log4j12;1.7.5 [runtime->master(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.hadoop#hadoop-auth;2.2.0->org.slf4j#slf4j-log4j12;1.7.16 [runtime->master(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.hadoop#hadoop-auth;2.2.0->org.slf4j#slf4j-log4j12;1.7.5 [runtime->compile(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.hadoop#hadoop-auth;2.2.0->org.slf4j#slf4j-log4j12;1.7.16 [runtime->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.hadoop#hadoop-auth;2.2.0->org.slf4j#slf4j-log4j12;1.7.5 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.hadoop#hadoop-auth;2.2.0->org.slf4j#slf4j-log4j12;1.7.16 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.hadoop#hadoop-auth;2.2.0->org.slf4j#slf4j-log4j12;1.7.16 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.hadoop#hadoop-auth;2.2.0->org.slf4j#slf4j-log4j12;1.7.5 [runtime->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.hadoop#hadoop-auth;2.2.0->org.slf4j#slf4j-log4j12;1.7.16 [runtime->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.hadoop#hadoop-common;2.2.0->org.apache.commons#commons-compress;1.4.1 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.hadoop#hadoop-common;2.2.0->org.apache.commons#commons-compress;1.4.1 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.hadoop#hadoop-client;2.2.0->org.apache.hadoop#hadoop-hdfs;2.2.0 [runtime->runtime(*)][0m
@@ -9818,9 +9818,9 @@
 [0m[[0mdebug[0m] [0mexcluding dependency: org.jboss.netty#netty;3.2.2.Final {compile=[compile(*), master(*)], runtime=[runtime(*)]} in compile[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.zookeeper#zookeeper;3.4.5->org.slf4j#slf4j-api;1.6.4 [compile->master(*)][0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.slf4j#slf4j-api;1.6.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.slf4j#slf4j-api;1.6.4 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.slf4j#slf4j-api;1.6.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.slf4j#slf4j-api;1.6.4 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
 [0m[[0mdebug[0m] [0mexcluding dependency: jline#jline;0.9.94 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in compile[0m
 [0m[[0mdebug[0m] [0mexcluding dependency: org.jboss.netty#netty;3.2.2.Final {compile=[compile(*), master(*)], runtime=[runtime(*)]} in compile[0m
-[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.slf4j#slf4j-api;1.6.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.slf4j#slf4j-api;1.6.4 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.slf4j#slf4j-api;1.6.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.slf4j#slf4j-api;1.6.4 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.slf4j#slf4j-api;1.6.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.slf4j#slf4j-api;1.6.4 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.zookeeper#zookeeper;3.4.5->org.slf4j#slf4j-api;1.7.5 [compile->master(*)][0m
@@ -9828,9 +9828,9 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.zookeeper#zookeeper;3.4.5->org.slf4j#slf4j-api;1.7.5 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.zookeeper#zookeeper;3.4.5->org.slf4j#slf4j-log4j12;1.6.1 [compile->master(*)][0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.slf4j#slf4j-api;1.6.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.slf4j#slf4j-api;1.6.4 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.slf4j#slf4j-api;1.6.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.slf4j#slf4j-api;1.6.4 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
 [0m[[0mdebug[0m] [0mexcluding dependency: jline#jline;0.9.94 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in compile[0m
 [0m[[0mdebug[0m] [0mexcluding dependency: org.jboss.netty#netty;3.2.2.Final {compile=[compile(*), master(*)], runtime=[runtime(*)]} in compile[0m
-[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.slf4j#slf4j-api;1.6.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.slf4j#slf4j-api;1.6.4 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.slf4j#slf4j-api;1.6.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.slf4j#slf4j-api;1.6.4 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.slf4j#slf4j-api;1.6.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.slf4j#slf4j-api;1.6.4 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.zookeeper#zookeeper;3.4.5->org.slf4j#slf4j-log4j12;1.7.5 [compile->master(*)][0m
@@ -9838,9 +9838,9 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.zookeeper#zookeeper;3.4.5->org.slf4j#slf4j-log4j12;1.7.5 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.zookeeper#zookeeper;3.4.5->log4j#log4j;1.2.15 [compile->master(*)][0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.slf4j#slf4j-api;1.6.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.slf4j#slf4j-api;1.6.4 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.slf4j#slf4j-api;1.6.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.slf4j#slf4j-api;1.6.4 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
 [0m[[0mdebug[0m] [0mexcluding dependency: jline#jline;0.9.94 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in compile[0m
 [0m[[0mdebug[0m] [0mexcluding dependency: org.jboss.netty#netty;3.2.2.Final {compile=[compile(*), master(*)], runtime=[runtime(*)]} in compile[0m
-[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.slf4j#slf4j-api;1.6.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.slf4j#slf4j-api;1.6.4 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.slf4j#slf4j-api;1.6.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.slf4j#slf4j-api;1.6.4 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.slf4j#slf4j-api;1.6.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.slf4j#slf4j-api;1.6.4 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.zookeeper#zookeeper;3.4.5->log4j#log4j;1.2.17 [compile->master(*)][0m
@@ -10027,8 +10027,8 @@
 [0m[[0mdebug[0m] [0mexcluding dependency: javax.inject#javax.inject;1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in compile[0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: junit#junit;4.11 {test=[runtime(*), master(*)]} => dependency: junit#junit;4.12 {test=[runtime(*), master(*)]}[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.glassfish.hk2#hk2-api;2.4.0-b34->org.glassfish.hk2#hk2-utils;2.4.0-b34 [compile->master(*)][0m
-[0m[[0mdebug[0m] [0mexcluding dependency: javax.inject#javax.inject;1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in compile[0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: junit#junit;4.11 {test=[runtime(*), master(*)]} => dependency: junit#junit;4.12 {test=[runtime(*), master(*)]}[0m
+[0m[[0mdebug[0m] [0mexcluding dependency: javax.inject#javax.inject;1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in compile[0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: junit#junit;4.11 {test=[runtime(*), master(*)]} => dependency: junit#junit;4.12 {test=[runtime(*), master(*)]}[0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: junit#junit;4.11 {test=[runtime(*), master(*)]} => dependency: junit#junit;4.12 {test=[runtime(*), master(*)]}[0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: junit#junit;4.11 {test=[runtime(*), master(*)]} => dependency: junit#junit;4.12 {test=[runtime(*), master(*)]}[0m
@@ -10070,8 +10070,8 @@
 [0m[[0mdebug[0m] [0mexcluding dependency: javax.inject#javax.inject;1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in compile[0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: junit#junit;4.11 {test=[runtime(*), master(*)]} => dependency: junit#junit;4.12 {test=[runtime(*), master(*)]}[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.glassfish.hk2#hk2-api;2.4.0-b34->org.glassfish.hk2.external#aopalliance-repackaged;2.4.0-b34 [compile->master(*)][0m
-[0m[[0mdebug[0m] [0mexcluding dependency: javax.inject#javax.inject;1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in compile[0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: junit#junit;4.11 {test=[runtime(*), master(*)]} => dependency: junit#junit;4.12 {test=[runtime(*), master(*)]}[0m
+[0m[[0mdebug[0m] [0mexcluding dependency: javax.inject#javax.inject;1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in compile[0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: junit#junit;4.11 {test=[runtime(*), master(*)]} => dependency: junit#junit;4.12 {test=[runtime(*), master(*)]}[0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: junit#junit;4.11 {test=[runtime(*), master(*)]} => dependency: junit#junit;4.12 {test=[runtime(*), master(*)]}[0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: junit#junit;4.11 {test=[runtime(*), master(*)]} => dependency: junit#junit;4.12 {test=[runtime(*), master(*)]}[0m
@@ -10581,8 +10581,6 @@
 [0m[[0mdebug[0m] [0mexcluding dependency: org.codehaus.jackson#jackson-mapper-asl;1.8.8 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in runtime[0m
 [0m[[0mdebug[0m] [0mexcluding dependency: com.jcraft#jsch;0.1.42 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in runtime[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.hadoop#hadoop-common;2.2.0->org.slf4j#slf4j-log4j12;1.7.16 [runtime->master(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.hadoop#hadoop-common;2.2.0->org.slf4j#slf4j-log4j12;1.7.5 [runtime->compile(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.hadoop#hadoop-common;2.2.0->org.slf4j#slf4j-log4j12;1.7.16 [runtime->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.hadoop#hadoop-common;2.2.0->org.slf4j#slf4j-log4j12;1.7.5 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.hadoop#hadoop-common;2.2.0->org.slf4j#slf4j-log4j12;1.7.16 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.hadoop#hadoop-common;2.2.0->org.slf4j#slf4j-log4j12;1.7.16 [runtime->compile][0m
@@ -10590,6 +10588,8 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.slf4j#slf4j-log4j12;1.7.16->org.slf4j#slf4j-api;1.7.16 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.slf4j#slf4j-log4j12;1.7.16->log4j#log4j;1.2.17 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.slf4j#slf4j-log4j12;1.7.16->log4j#log4j;1.2.17 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.hadoop#hadoop-common;2.2.0->org.slf4j#slf4j-log4j12;1.7.5 [runtime->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.hadoop#hadoop-common;2.2.0->org.slf4j#slf4j-log4j12;1.7.16 [runtime->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.hadoop#hadoop-common;2.2.0->org.codehaus.jackson#jackson-core-asl;1.8.8 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.hadoop#hadoop-common;2.2.0->org.codehaus.jackson#jackson-core-asl;1.9.13 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.hadoop#hadoop-common;2.2.0->org.codehaus.jackson#jackson-core-asl;1.9.13 [runtime->compile][0m
@@ -10606,16 +10606,16 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.hadoop#hadoop-auth;2.2.0->commons-codec#commons-codec;1.4 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.hadoop#hadoop-auth;2.2.0->commons-codec#commons-codec;1.4 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.hadoop#hadoop-auth;2.2.0->log4j#log4j;1.2.17 [runtime->master(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.hadoop#hadoop-auth;2.2.0->log4j#log4j;1.2.17 [runtime->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.hadoop#hadoop-auth;2.2.0->log4j#log4j;1.2.17 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.hadoop#hadoop-auth;2.2.0->log4j#log4j;1.2.17 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.hadoop#hadoop-auth;2.2.0->log4j#log4j;1.2.17 [runtime->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.hadoop#hadoop-auth;2.2.0->org.slf4j#slf4j-log4j12;1.7.5 [runtime->master(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.hadoop#hadoop-auth;2.2.0->org.slf4j#slf4j-log4j12;1.7.16 [runtime->master(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.hadoop#hadoop-auth;2.2.0->org.slf4j#slf4j-log4j12;1.7.5 [runtime->compile(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.hadoop#hadoop-auth;2.2.0->org.slf4j#slf4j-log4j12;1.7.16 [runtime->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.hadoop#hadoop-auth;2.2.0->org.slf4j#slf4j-log4j12;1.7.5 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.hadoop#hadoop-auth;2.2.0->org.slf4j#slf4j-log4j12;1.7.16 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.hadoop#hadoop-auth;2.2.0->org.slf4j#slf4j-log4j12;1.7.16 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.hadoop#hadoop-auth;2.2.0->org.slf4j#slf4j-log4j12;1.7.5 [runtime->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.hadoop#hadoop-auth;2.2.0->org.slf4j#slf4j-log4j12;1.7.16 [runtime->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.hadoop#hadoop-common;2.2.0->org.apache.commons#commons-compress;1.4.1 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.hadoop#hadoop-common;2.2.0->org.apache.commons#commons-compress;1.4.1 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.hadoop#hadoop-client;2.2.0->org.apache.hadoop#hadoop-hdfs;2.2.0 [runtime->runtime(*)][0m
@@ -13366,9 +13366,9 @@
 [0m[[0mdebug[0m] [0mexcluding dependency: org.jboss.netty#netty;3.2.2.Final {compile=[compile(*), master(*)], runtime=[runtime(*)]} in compile[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.zookeeper#zookeeper;3.4.5->org.slf4j#slf4j-api;1.6.4 [compile->master(*)][0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.slf4j#slf4j-api;1.6.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.slf4j#slf4j-api;1.6.4 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.slf4j#slf4j-api;1.6.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.slf4j#slf4j-api;1.6.4 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
 [0m[[0mdebug[0m] [0mexcluding dependency: jline#jline;0.9.94 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in compile[0m
 [0m[[0mdebug[0m] [0mexcluding dependency: org.jboss.netty#netty;3.2.2.Final {compile=[compile(*), master(*)], runtime=[runtime(*)]} in compile[0m
-[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.slf4j#slf4j-api;1.6.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.slf4j#slf4j-api;1.6.4 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.slf4j#slf4j-api;1.6.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.slf4j#slf4j-api;1.6.4 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.slf4j#slf4j-api;1.6.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.slf4j#slf4j-api;1.6.4 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.zookeeper#zookeeper;3.4.5->org.slf4j#slf4j-api;1.7.5 [compile->master(*)][0m
@@ -13376,9 +13376,9 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.zookeeper#zookeeper;3.4.5->org.slf4j#slf4j-api;1.7.5 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.zookeeper#zookeeper;3.4.5->org.slf4j#slf4j-log4j12;1.6.1 [compile->master(*)][0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.slf4j#slf4j-api;1.6.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.slf4j#slf4j-api;1.6.4 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.slf4j#slf4j-api;1.6.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.slf4j#slf4j-api;1.6.4 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
 [0m[[0mdebug[0m] [0mexcluding dependency: jline#jline;0.9.94 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in compile[0m
 [0m[[0mdebug[0m] [0mexcluding dependency: org.jboss.netty#netty;3.2.2.Final {compile=[compile(*), master(*)], runtime=[runtime(*)]} in compile[0m
-[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.slf4j#slf4j-api;1.6.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.slf4j#slf4j-api;1.6.4 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.slf4j#slf4j-api;1.6.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.slf4j#slf4j-api;1.6.4 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.slf4j#slf4j-api;1.6.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.slf4j#slf4j-api;1.6.4 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.zookeeper#zookeeper;3.4.5->org.slf4j#slf4j-log4j12;1.7.5 [compile->master(*)][0m
@@ -13386,9 +13386,9 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.zookeeper#zookeeper;3.4.5->org.slf4j#slf4j-log4j12;1.7.5 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.zookeeper#zookeeper;3.4.5->log4j#log4j;1.2.15 [compile->master(*)][0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.slf4j#slf4j-api;1.6.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.slf4j#slf4j-api;1.6.4 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.slf4j#slf4j-api;1.6.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.slf4j#slf4j-api;1.6.4 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
 [0m[[0mdebug[0m] [0mexcluding dependency: jline#jline;0.9.94 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in compile[0m
 [0m[[0mdebug[0m] [0mexcluding dependency: org.jboss.netty#netty;3.2.2.Final {compile=[compile(*), master(*)], runtime=[runtime(*)]} in compile[0m
-[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.slf4j#slf4j-api;1.6.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.slf4j#slf4j-api;1.6.4 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.slf4j#slf4j-api;1.6.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.slf4j#slf4j-api;1.6.4 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.slf4j#slf4j-api;1.6.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.slf4j#slf4j-api;1.6.4 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.zookeeper#zookeeper;3.4.5->log4j#log4j;1.2.17 [compile->master(*)][0m
@@ -13575,8 +13575,8 @@
 [0m[[0mdebug[0m] [0mexcluding dependency: javax.inject#javax.inject;1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in compile[0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: junit#junit;4.11 {test=[runtime(*), master(*)]} => dependency: junit#junit;4.12 {test=[runtime(*), master(*)]}[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.glassfish.hk2#hk2-api;2.4.0-b34->org.glassfish.hk2#hk2-utils;2.4.0-b34 [compile->master(*)][0m
-[0m[[0mdebug[0m] [0mexcluding dependency: javax.inject#javax.inject;1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in compile[0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: junit#junit;4.11 {test=[runtime(*), master(*)]} => dependency: junit#junit;4.12 {test=[runtime(*), master(*)]}[0m
+[0m[[0mdebug[0m] [0mexcluding dependency: javax.inject#javax.inject;1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in compile[0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: junit#junit;4.11 {test=[runtime(*), master(*)]} => dependency: junit#junit;4.12 {test=[runtime(*), master(*)]}[0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: junit#junit;4.11 {test=[runtime(*), master(*)]} => dependency: junit#junit;4.12 {test=[runtime(*), master(*)]}[0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: junit#junit;4.11 {test=[runtime(*), master(*)]} => dependency: junit#junit;4.12 {test=[runtime(*), master(*)]}[0m
@@ -13618,8 +13618,8 @@
 [0m[[0mdebug[0m] [0mexcluding dependency: javax.inject#javax.inject;1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in compile[0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: junit#junit;4.11 {test=[runtime(*), master(*)]} => dependency: junit#junit;4.12 {test=[runtime(*), master(*)]}[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.glassfish.hk2#hk2-api;2.4.0-b34->org.glassfish.hk2.external#aopalliance-repackaged;2.4.0-b34 [compile->master(*)][0m
-[0m[[0mdebug[0m] [0mexcluding dependency: javax.inject#javax.inject;1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in compile[0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: junit#junit;4.11 {test=[runtime(*), master(*)]} => dependency: junit#junit;4.12 {test=[runtime(*), master(*)]}[0m
+[0m[[0mdebug[0m] [0mexcluding dependency: javax.inject#javax.inject;1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in compile[0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: junit#junit;4.11 {test=[runtime(*), master(*)]} => dependency: junit#junit;4.12 {test=[runtime(*), master(*)]}[0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: junit#junit;4.11 {test=[runtime(*), master(*)]} => dependency: junit#junit;4.12 {test=[runtime(*), master(*)]}[0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: junit#junit;4.11 {test=[runtime(*), master(*)]} => dependency: junit#junit;4.12 {test=[runtime(*), master(*)]}[0m
@@ -14129,8 +14129,6 @@
 [0m[[0mdebug[0m] [0mexcluding dependency: org.codehaus.jackson#jackson-mapper-asl;1.8.8 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in runtime[0m
 [0m[[0mdebug[0m] [0mexcluding dependency: com.jcraft#jsch;0.1.42 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in runtime[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.hadoop#hadoop-common;2.2.0->org.slf4j#slf4j-log4j12;1.7.16 [runtime->master(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.hadoop#hadoop-common;2.2.0->org.slf4j#slf4j-log4j12;1.7.5 [runtime->compile(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.hadoop#hadoop-common;2.2.0->org.slf4j#slf4j-log4j12;1.7.16 [runtime->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.hadoop#hadoop-common;2.2.0->org.slf4j#slf4j-log4j12;1.7.5 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.hadoop#hadoop-common;2.2.0->org.slf4j#slf4j-log4j12;1.7.16 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.hadoop#hadoop-common;2.2.0->org.slf4j#slf4j-log4j12;1.7.16 [runtime->compile][0m
@@ -14138,6 +14136,8 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.slf4j#slf4j-log4j12;1.7.16->org.slf4j#slf4j-api;1.7.16 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.slf4j#slf4j-log4j12;1.7.16->log4j#log4j;1.2.17 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.slf4j#slf4j-log4j12;1.7.16->log4j#log4j;1.2.17 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.hadoop#hadoop-common;2.2.0->org.slf4j#slf4j-log4j12;1.7.5 [runtime->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.hadoop#hadoop-common;2.2.0->org.slf4j#slf4j-log4j12;1.7.16 [runtime->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.hadoop#hadoop-common;2.2.0->org.codehaus.jackson#jackson-core-asl;1.8.8 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.hadoop#hadoop-common;2.2.0->org.codehaus.jackson#jackson-core-asl;1.9.13 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.hadoop#hadoop-common;2.2.0->org.codehaus.jackson#jackson-core-asl;1.9.13 [runtime->compile][0m
@@ -14154,16 +14154,16 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.hadoop#hadoop-auth;2.2.0->commons-codec#commons-codec;1.4 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.hadoop#hadoop-auth;2.2.0->commons-codec#commons-codec;1.4 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.hadoop#hadoop-auth;2.2.0->log4j#log4j;1.2.17 [runtime->master(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.hadoop#hadoop-auth;2.2.0->log4j#log4j;1.2.17 [runtime->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.hadoop#hadoop-auth;2.2.0->log4j#log4j;1.2.17 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.hadoop#hadoop-auth;2.2.0->log4j#log4j;1.2.17 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.hadoop#hadoop-auth;2.2.0->log4j#log4j;1.2.17 [runtime->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.hadoop#hadoop-auth;2.2.0->org.slf4j#slf4j-log4j12;1.7.5 [runtime->master(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.hadoop#hadoop-auth;2.2.0->org.slf4j#slf4j-log4j12;1.7.16 [runtime->master(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.hadoop#hadoop-auth;2.2.0->org.slf4j#slf4j-log4j12;1.7.5 [runtime->compile(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.hadoop#hadoop-auth;2.2.0->org.slf4j#slf4j-log4j12;1.7.16 [runtime->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.hadoop#hadoop-auth;2.2.0->org.slf4j#slf4j-log4j12;1.7.5 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.hadoop#hadoop-auth;2.2.0->org.slf4j#slf4j-log4j12;1.7.16 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.hadoop#hadoop-auth;2.2.0->org.slf4j#slf4j-log4j12;1.7.16 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.hadoop#hadoop-auth;2.2.0->org.slf4j#slf4j-log4j12;1.7.5 [runtime->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.hadoop#hadoop-auth;2.2.0->org.slf4j#slf4j-log4j12;1.7.16 [runtime->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.hadoop#hadoop-common;2.2.0->org.apache.commons#commons-compress;1.4.1 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.hadoop#hadoop-common;2.2.0->org.apache.commons#commons-compress;1.4.1 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.hadoop#hadoop-client;2.2.0->org.apache.hadoop#hadoop-hdfs;2.2.0 [runtime->runtime(*)][0m
@@ -16913,9 +16913,9 @@
 [0m[[0mdebug[0m] [0mexcluding dependency: org.jboss.netty#netty;3.2.2.Final {compile=[compile(*), master(*)], runtime=[runtime(*)]} in compile[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.zookeeper#zookeeper;3.4.5->org.slf4j#slf4j-api;1.6.4 [compile->master(*)][0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.slf4j#slf4j-api;1.6.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.slf4j#slf4j-api;1.6.4 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.slf4j#slf4j-api;1.6.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.slf4j#slf4j-api;1.6.4 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
 [0m[[0mdebug[0m] [0mexcluding dependency: jline#jline;0.9.94 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in compile[0m
 [0m[[0mdebug[0m] [0mexcluding dependency: org.jboss.netty#netty;3.2.2.Final {compile=[compile(*), master(*)], runtime=[runtime(*)]} in compile[0m
-[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.slf4j#slf4j-api;1.6.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.slf4j#slf4j-api;1.6.4 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.slf4j#slf4j-api;1.6.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.slf4j#slf4j-api;1.6.4 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.slf4j#slf4j-api;1.6.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.slf4j#slf4j-api;1.6.4 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.zookeeper#zookeeper;3.4.5->org.slf4j#slf4j-api;1.7.5 [compile->master(*)][0m
@@ -16923,9 +16923,9 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.zookeeper#zookeeper;3.4.5->org.slf4j#slf4j-api;1.7.5 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.zookeeper#zookeeper;3.4.5->org.slf4j#slf4j-log4j12;1.6.1 [compile->master(*)][0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.slf4j#slf4j-api;1.6.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.slf4j#slf4j-api;1.6.4 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.slf4j#slf4j-api;1.6.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.slf4j#slf4j-api;1.6.4 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
 [0m[[0mdebug[0m] [0mexcluding dependency: jline#jline;0.9.94 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in compile[0m
 [0m[[0mdebug[0m] [0mexcluding dependency: org.jboss.netty#netty;3.2.2.Final {compile=[compile(*), master(*)], runtime=[runtime(*)]} in compile[0m
-[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.slf4j#slf4j-api;1.6.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.slf4j#slf4j-api;1.6.4 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.slf4j#slf4j-api;1.6.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.slf4j#slf4j-api;1.6.4 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.slf4j#slf4j-api;1.6.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.slf4j#slf4j-api;1.6.4 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.zookeeper#zookeeper;3.4.5->org.slf4j#slf4j-log4j12;1.7.5 [compile->master(*)][0m
@@ -16933,9 +16933,9 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.zookeeper#zookeeper;3.4.5->org.slf4j#slf4j-log4j12;1.7.5 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.zookeeper#zookeeper;3.4.5->log4j#log4j;1.2.15 [compile->master(*)][0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.slf4j#slf4j-api;1.6.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.slf4j#slf4j-api;1.6.4 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.slf4j#slf4j-api;1.6.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.slf4j#slf4j-api;1.6.4 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
 [0m[[0mdebug[0m] [0mexcluding dependency: jline#jline;0.9.94 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in compile[0m
 [0m[[0mdebug[0m] [0mexcluding dependency: org.jboss.netty#netty;3.2.2.Final {compile=[compile(*), master(*)], runtime=[runtime(*)]} in compile[0m
-[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.slf4j#slf4j-api;1.6.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.slf4j#slf4j-api;1.6.4 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.slf4j#slf4j-api;1.6.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.slf4j#slf4j-api;1.6.4 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.slf4j#slf4j-api;1.6.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.slf4j#slf4j-api;1.6.4 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.zookeeper#zookeeper;3.4.5->log4j#log4j;1.2.17 [compile->master(*)][0m
@@ -17122,8 +17122,8 @@
 [0m[[0mdebug[0m] [0mexcluding dependency: javax.inject#javax.inject;1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in compile[0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: junit#junit;4.11 {test=[runtime(*), master(*)]} => dependency: junit#junit;4.12 {test=[runtime(*), master(*)]}[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.glassfish.hk2#hk2-api;2.4.0-b34->org.glassfish.hk2#hk2-utils;2.4.0-b34 [compile->master(*)][0m
-[0m[[0mdebug[0m] [0mexcluding dependency: javax.inject#javax.inject;1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in compile[0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: junit#junit;4.11 {test=[runtime(*), master(*)]} => dependency: junit#junit;4.12 {test=[runtime(*), master(*)]}[0m
+[0m[[0mdebug[0m] [0mexcluding dependency: javax.inject#javax.inject;1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in compile[0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: junit#junit;4.11 {test=[runtime(*), master(*)]} => dependency: junit#junit;4.12 {test=[runtime(*), master(*)]}[0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: junit#junit;4.11 {test=[runtime(*), master(*)]} => dependency: junit#junit;4.12 {test=[runtime(*), master(*)]}[0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: junit#junit;4.11 {test=[runtime(*), master(*)]} => dependency: junit#junit;4.12 {test=[runtime(*), master(*)]}[0m
@@ -17165,8 +17165,8 @@
 [0m[[0mdebug[0m] [0mexcluding dependency: javax.inject#javax.inject;1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in compile[0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: junit#junit;4.11 {test=[runtime(*), master(*)]} => dependency: junit#junit;4.12 {test=[runtime(*), master(*)]}[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.glassfish.hk2#hk2-api;2.4.0-b34->org.glassfish.hk2.external#aopalliance-repackaged;2.4.0-b34 [compile->master(*)][0m
-[0m[[0mdebug[0m] [0mexcluding dependency: javax.inject#javax.inject;1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in compile[0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: junit#junit;4.11 {test=[runtime(*), master(*)]} => dependency: junit#junit;4.12 {test=[runtime(*), master(*)]}[0m
+[0m[[0mdebug[0m] [0mexcluding dependency: javax.inject#javax.inject;1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in compile[0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: junit#junit;4.11 {test=[runtime(*), master(*)]} => dependency: junit#junit;4.12 {test=[runtime(*), master(*)]}[0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: junit#junit;4.11 {test=[runtime(*), master(*)]} => dependency: junit#junit;4.12 {test=[runtime(*), master(*)]}[0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: junit#junit;4.11 {test=[runtime(*), master(*)]} => dependency: junit#junit;4.12 {test=[runtime(*), master(*)]}[0m
@@ -17676,8 +17676,6 @@
 [0m[[0mdebug[0m] [0mexcluding dependency: org.codehaus.jackson#jackson-mapper-asl;1.8.8 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in runtime[0m
 [0m[[0mdebug[0m] [0mexcluding dependency: com.jcraft#jsch;0.1.42 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in runtime[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.hadoop#hadoop-common;2.2.0->org.slf4j#slf4j-log4j12;1.7.16 [runtime->master(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.hadoop#hadoop-common;2.2.0->org.slf4j#slf4j-log4j12;1.7.5 [runtime->compile(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.hadoop#hadoop-common;2.2.0->org.slf4j#slf4j-log4j12;1.7.16 [runtime->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.hadoop#hadoop-common;2.2.0->org.slf4j#slf4j-log4j12;1.7.5 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.hadoop#hadoop-common;2.2.0->org.slf4j#slf4j-log4j12;1.7.16 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.hadoop#hadoop-common;2.2.0->org.slf4j#slf4j-log4j12;1.7.16 [runtime->compile][0m
@@ -17685,6 +17683,8 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.slf4j#slf4j-log4j12;1.7.16->org.slf4j#slf4j-api;1.7.16 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.slf4j#slf4j-log4j12;1.7.16->log4j#log4j;1.2.17 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.slf4j#slf4j-log4j12;1.7.16->log4j#log4j;1.2.17 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.hadoop#hadoop-common;2.2.0->org.slf4j#slf4j-log4j12;1.7.5 [runtime->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.hadoop#hadoop-common;2.2.0->org.slf4j#slf4j-log4j12;1.7.16 [runtime->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.hadoop#hadoop-common;2.2.0->org.codehaus.jackson#jackson-core-asl;1.8.8 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.hadoop#hadoop-common;2.2.0->org.codehaus.jackson#jackson-core-asl;1.9.13 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.hadoop#hadoop-common;2.2.0->org.codehaus.jackson#jackson-core-asl;1.9.13 [runtime->compile][0m
@@ -17701,16 +17701,16 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.hadoop#hadoop-auth;2.2.0->commons-codec#commons-codec;1.4 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.hadoop#hadoop-auth;2.2.0->commons-codec#commons-codec;1.4 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.hadoop#hadoop-auth;2.2.0->log4j#log4j;1.2.17 [runtime->master(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.hadoop#hadoop-auth;2.2.0->log4j#log4j;1.2.17 [runtime->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.hadoop#hadoop-auth;2.2.0->log4j#log4j;1.2.17 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.hadoop#hadoop-auth;2.2.0->log4j#log4j;1.2.17 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.hadoop#hadoop-auth;2.2.0->log4j#log4j;1.2.17 [runtime->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.hadoop#hadoop-auth;2.2.0->org.slf4j#slf4j-log4j12;1.7.5 [runtime->master(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.hadoop#hadoop-auth;2.2.0->org.slf4j#slf4j-log4j12;1.7.16 [runtime->master(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.hadoop#hadoop-auth;2.2.0->org.slf4j#slf4j-log4j12;1.7.5 [runtime->compile(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.hadoop#hadoop-auth;2.2.0->org.slf4j#slf4j-log4j12;1.7.16 [runtime->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.hadoop#hadoop-auth;2.2.0->org.slf4j#slf4j-log4j12;1.7.5 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.hadoop#hadoop-auth;2.2.0->org.slf4j#slf4j-log4j12;1.7.16 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.hadoop#hadoop-auth;2.2.0->org.slf4j#slf4j-log4j12;1.7.16 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.hadoop#hadoop-auth;2.2.0->org.slf4j#slf4j-log4j12;1.7.5 [runtime->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.hadoop#hadoop-auth;2.2.0->org.slf4j#slf4j-log4j12;1.7.16 [runtime->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.hadoop#hadoop-common;2.2.0->org.apache.commons#commons-compress;1.4.1 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.hadoop#hadoop-common;2.2.0->org.apache.commons#commons-compress;1.4.1 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.hadoop#hadoop-client;2.2.0->org.apache.hadoop#hadoop-hdfs;2.2.0 [runtime->runtime(*)][0m
@@ -20460,9 +20460,9 @@
 [0m[[0mdebug[0m] [0mexcluding dependency: org.jboss.netty#netty;3.2.2.Final {compile=[compile(*), master(*)], runtime=[runtime(*)]} in compile[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.zookeeper#zookeeper;3.4.5->org.slf4j#slf4j-api;1.6.4 [compile->master(*)][0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.slf4j#slf4j-api;1.6.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.slf4j#slf4j-api;1.6.4 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.slf4j#slf4j-api;1.6.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.slf4j#slf4j-api;1.6.4 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
 [0m[[0mdebug[0m] [0mexcluding dependency: jline#jline;0.9.94 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in compile[0m
 [0m[[0mdebug[0m] [0mexcluding dependency: org.jboss.netty#netty;3.2.2.Final {compile=[compile(*), master(*)], runtime=[runtime(*)]} in compile[0m
-[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.slf4j#slf4j-api;1.6.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.slf4j#slf4j-api;1.6.4 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.slf4j#slf4j-api;1.6.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.slf4j#slf4j-api;1.6.4 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.slf4j#slf4j-api;1.6.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.slf4j#slf4j-api;1.6.4 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.zookeeper#zookeeper;3.4.5->org.slf4j#slf4j-api;1.7.5 [compile->master(*)][0m
@@ -20470,9 +20470,9 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.zookeeper#zookeeper;3.4.5->org.slf4j#slf4j-api;1.7.5 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.zookeeper#zookeeper;3.4.5->org.slf4j#slf4j-log4j12;1.6.1 [compile->master(*)][0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.slf4j#slf4j-api;1.6.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.slf4j#slf4j-api;1.6.4 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.slf4j#slf4j-api;1.6.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.slf4j#slf4j-api;1.6.4 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
 [0m[[0mdebug[0m] [0mexcluding dependency: jline#jline;0.9.94 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in compile[0m
 [0m[[0mdebug[0m] [0mexcluding dependency: org.jboss.netty#netty;3.2.2.Final {compile=[compile(*), master(*)], runtime=[runtime(*)]} in compile[0m
-[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.slf4j#slf4j-api;1.6.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.slf4j#slf4j-api;1.6.4 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.slf4j#slf4j-api;1.6.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.slf4j#slf4j-api;1.6.4 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.slf4j#slf4j-api;1.6.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.slf4j#slf4j-api;1.6.4 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.zookeeper#zookeeper;3.4.5->org.slf4j#slf4j-log4j12;1.7.5 [compile->master(*)][0m
@@ -20480,9 +20480,9 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.zookeeper#zookeeper;3.4.5->org.slf4j#slf4j-log4j12;1.7.5 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.zookeeper#zookeeper;3.4.5->log4j#log4j;1.2.15 [compile->master(*)][0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.slf4j#slf4j-api;1.6.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.slf4j#slf4j-api;1.6.4 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.slf4j#slf4j-api;1.6.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.slf4j#slf4j-api;1.6.4 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
 [0m[[0mdebug[0m] [0mexcluding dependency: jline#jline;0.9.94 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in compile[0m
 [0m[[0mdebug[0m] [0mexcluding dependency: org.jboss.netty#netty;3.2.2.Final {compile=[compile(*), master(*)], runtime=[runtime(*)]} in compile[0m
-[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.slf4j#slf4j-api;1.6.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.slf4j#slf4j-api;1.6.4 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.slf4j#slf4j-api;1.6.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.slf4j#slf4j-api;1.6.4 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.slf4j#slf4j-api;1.6.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.slf4j#slf4j-api;1.6.4 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.zookeeper#zookeeper;3.4.5->log4j#log4j;1.2.17 [compile->master(*)][0m
@@ -20669,8 +20669,8 @@
 [0m[[0mdebug[0m] [0mexcluding dependency: javax.inject#javax.inject;1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in compile[0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: junit#junit;4.11 {test=[runtime(*), master(*)]} => dependency: junit#junit;4.12 {test=[runtime(*), master(*)]}[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.glassfish.hk2#hk2-api;2.4.0-b34->org.glassfish.hk2#hk2-utils;2.4.0-b34 [compile->master(*)][0m
-[0m[[0mdebug[0m] [0mexcluding dependency: javax.inject#javax.inject;1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in compile[0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: junit#junit;4.11 {test=[runtime(*), master(*)]} => dependency: junit#junit;4.12 {test=[runtime(*), master(*)]}[0m
+[0m[[0mdebug[0m] [0mexcluding dependency: javax.inject#javax.inject;1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in compile[0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: junit#junit;4.11 {test=[runtime(*), master(*)]} => dependency: junit#junit;4.12 {test=[runtime(*), master(*)]}[0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: junit#junit;4.11 {test=[runtime(*), master(*)]} => dependency: junit#junit;4.12 {test=[runtime(*), master(*)]}[0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: junit#junit;4.11 {test=[runtime(*), master(*)]} => dependency: junit#junit;4.12 {test=[runtime(*), master(*)]}[0m
@@ -20712,8 +20712,8 @@
 [0m[[0mdebug[0m] [0mexcluding dependency: javax.inject#javax.inject;1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in compile[0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: junit#junit;4.11 {test=[runtime(*), master(*)]} => dependency: junit#junit;4.12 {test=[runtime(*), master(*)]}[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.glassfish.hk2#hk2-api;2.4.0-b34->org.glassfish.hk2.external#aopalliance-repackaged;2.4.0-b34 [compile->master(*)][0m
-[0m[[0mdebug[0m] [0mexcluding dependency: javax.inject#javax.inject;1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in compile[0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: junit#junit;4.11 {test=[runtime(*), master(*)]} => dependency: junit#junit;4.12 {test=[runtime(*), master(*)]}[0m
+[0m[[0mdebug[0m] [0mexcluding dependency: javax.inject#javax.inject;1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in compile[0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: junit#junit;4.11 {test=[runtime(*), master(*)]} => dependency: junit#junit;4.12 {test=[runtime(*), master(*)]}[0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: junit#junit;4.11 {test=[runtime(*), master(*)]} => dependency: junit#junit;4.12 {test=[runtime(*), master(*)]}[0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: junit#junit;4.11 {test=[runtime(*), master(*)]} => dependency: junit#junit;4.12 {test=[runtime(*), master(*)]}[0m
@@ -21223,8 +21223,6 @@
 [0m[[0mdebug[0m] [0mexcluding dependency: org.codehaus.jackson#jackson-mapper-asl;1.8.8 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in runtime[0m
 [0m[[0mdebug[0m] [0mexcluding dependency: com.jcraft#jsch;0.1.42 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in runtime[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.hadoop#hadoop-common;2.2.0->org.slf4j#slf4j-log4j12;1.7.16 [runtime->master(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.hadoop#hadoop-common;2.2.0->org.slf4j#slf4j-log4j12;1.7.5 [runtime->compile(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.hadoop#hadoop-common;2.2.0->org.slf4j#slf4j-log4j12;1.7.16 [runtime->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.hadoop#hadoop-common;2.2.0->org.slf4j#slf4j-log4j12;1.7.5 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.hadoop#hadoop-common;2.2.0->org.slf4j#slf4j-log4j12;1.7.16 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.hadoop#hadoop-common;2.2.0->org.slf4j#slf4j-log4j12;1.7.16 [runtime->compile][0m
@@ -21232,6 +21230,8 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.slf4j#slf4j-log4j12;1.7.16->org.slf4j#slf4j-api;1.7.16 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.slf4j#slf4j-log4j12;1.7.16->log4j#log4j;1.2.17 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.slf4j#slf4j-log4j12;1.7.16->log4j#log4j;1.2.17 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.hadoop#hadoop-common;2.2.0->org.slf4j#slf4j-log4j12;1.7.5 [runtime->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.hadoop#hadoop-common;2.2.0->org.slf4j#slf4j-log4j12;1.7.16 [runtime->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.hadoop#hadoop-common;2.2.0->org.codehaus.jackson#jackson-core-asl;1.8.8 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.hadoop#hadoop-common;2.2.0->org.codehaus.jackson#jackson-core-asl;1.9.13 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.hadoop#hadoop-common;2.2.0->org.codehaus.jackson#jackson-core-asl;1.9.13 [runtime->compile][0m
@@ -21248,16 +21248,16 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.hadoop#hadoop-auth;2.2.0->commons-codec#commons-codec;1.4 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.hadoop#hadoop-auth;2.2.0->commons-codec#commons-codec;1.4 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.hadoop#hadoop-auth;2.2.0->log4j#log4j;1.2.17 [runtime->master(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.hadoop#hadoop-auth;2.2.0->log4j#log4j;1.2.17 [runtime->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.hadoop#hadoop-auth;2.2.0->log4j#log4j;1.2.17 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.hadoop#hadoop-auth;2.2.0->log4j#log4j;1.2.17 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.hadoop#hadoop-auth;2.2.0->log4j#log4j;1.2.17 [runtime->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.hadoop#hadoop-auth;2.2.0->org.slf4j#slf4j-log4j12;1.7.5 [runtime->master(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.hadoop#hadoop-auth;2.2.0->org.slf4j#slf4j-log4j12;1.7.16 [runtime->master(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.hadoop#hadoop-auth;2.2.0->org.slf4j#slf4j-log4j12;1.7.5 [runtime->compile(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.hadoop#hadoop-auth;2.2.0->org.slf4j#slf4j-log4j12;1.7.16 [runtime->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.hadoop#hadoop-auth;2.2.0->org.slf4j#slf4j-log4j12;1.7.5 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.hadoop#hadoop-auth;2.2.0->org.slf4j#slf4j-log4j12;1.7.16 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.hadoop#hadoop-auth;2.2.0->org.slf4j#slf4j-log4j12;1.7.16 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.hadoop#hadoop-auth;2.2.0->org.slf4j#slf4j-log4j12;1.7.5 [runtime->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.hadoop#hadoop-auth;2.2.0->org.slf4j#slf4j-log4j12;1.7.16 [runtime->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.hadoop#hadoop-common;2.2.0->org.apache.commons#commons-compress;1.4.1 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.hadoop#hadoop-common;2.2.0->org.apache.commons#commons-compress;1.4.1 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.hadoop#hadoop-client;2.2.0->org.apache.hadoop#hadoop-hdfs;2.2.0 [runtime->runtime(*)][0m
@@ -22303,19 +22303,19 @@
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang#scala-reflect;2.10.3!scala-reflect.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang#jline;2.10.3!jline.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.fusesource.jansi#jansi;1.4!jansi.jar[0m
-[0m[[0mdebug[0m] [0m:: resolution report :: resolve 29712ms :: artifacts dl 1091ms[0m
-[0m[[0mdebug[0m] [0m	report for grafos-de-gran-escala#grafos-de-gran-escala_2.10;1.0 compile produced in /home/cloudera/Desktop/Apache-Spark-GraphX/target/resolution-cache/reports/grafos-de-gran-escala-grafos-de-gran-escala_2.10-compile.xml[0m
-[0m[[0mdebug[0m] [0m	report for grafos-de-gran-escala#grafos-de-gran-escala_2.10;1.0 runtime produced in /home/cloudera/Desktop/Apache-Spark-GraphX/target/resolution-cache/reports/grafos-de-gran-escala-grafos-de-gran-escala_2.10-runtime.xml[0m
-[0m[[0mdebug[0m] [0m	report for grafos-de-gran-escala#grafos-de-gran-escala_2.10;1.0 test produced in /home/cloudera/Desktop/Apache-Spark-GraphX/target/resolution-cache/reports/grafos-de-gran-escala-grafos-de-gran-escala_2.10-test.xml[0m
-[0m[[0mdebug[0m] [0m	report for grafos-de-gran-escala#grafos-de-gran-escala_2.10;1.0 provided produced in /home/cloudera/Desktop/Apache-Spark-GraphX/target/resolution-cache/reports/grafos-de-gran-escala-grafos-de-gran-escala_2.10-provided.xml[0m
-[0m[[0mdebug[0m] [0m	report for grafos-de-gran-escala#grafos-de-gran-escala_2.10;1.0 optional produced in /home/cloudera/Desktop/Apache-Spark-GraphX/target/resolution-cache/reports/grafos-de-gran-escala-grafos-de-gran-escala_2.10-optional.xml[0m
-[0m[[0mdebug[0m] [0m	report for grafos-de-gran-escala#grafos-de-gran-escala_2.10;1.0 compile-internal produced in /home/cloudera/Desktop/Apache-Spark-GraphX/target/resolution-cache/reports/grafos-de-gran-escala-grafos-de-gran-escala_2.10-compile-internal.xml[0m
-[0m[[0mdebug[0m] [0m	report for grafos-de-gran-escala#grafos-de-gran-escala_2.10;1.0 runtime-internal produced in /home/cloudera/Desktop/Apache-Spark-GraphX/target/resolution-cache/reports/grafos-de-gran-escala-grafos-de-gran-escala_2.10-runtime-internal.xml[0m
-[0m[[0mdebug[0m] [0m	report for grafos-de-gran-escala#grafos-de-gran-escala_2.10;1.0 test-internal produced in /home/cloudera/Desktop/Apache-Spark-GraphX/target/resolution-cache/reports/grafos-de-gran-escala-grafos-de-gran-escala_2.10-test-internal.xml[0m
-[0m[[0mdebug[0m] [0m	report for grafos-de-gran-escala#grafos-de-gran-escala_2.10;1.0 plugin produced in /home/cloudera/Desktop/Apache-Spark-GraphX/target/resolution-cache/reports/grafos-de-gran-escala-grafos-de-gran-escala_2.10-plugin.xml[0m
-[0m[[0mdebug[0m] [0m	report for grafos-de-gran-escala#grafos-de-gran-escala_2.10;1.0 sources produced in /home/cloudera/Desktop/Apache-Spark-GraphX/target/resolution-cache/reports/grafos-de-gran-escala-grafos-de-gran-escala_2.10-sources.xml[0m
-[0m[[0mdebug[0m] [0m	report for grafos-de-gran-escala#grafos-de-gran-escala_2.10;1.0 docs produced in /home/cloudera/Desktop/Apache-Spark-GraphX/target/resolution-cache/reports/grafos-de-gran-escala-grafos-de-gran-escala_2.10-docs.xml[0m
-[0m[[0mdebug[0m] [0m	report for grafos-de-gran-escala#grafos-de-gran-escala_2.10;1.0 pom produced in /home/cloudera/Desktop/Apache-Spark-GraphX/target/resolution-cache/reports/grafos-de-gran-escala-grafos-de-gran-escala_2.10-pom.xml[0m
-[0m[[0mdebug[0m] [0m	report for grafos-de-gran-escala#grafos-de-gran-escala_2.10;1.0 scala-tool produced in /home/cloudera/Desktop/Apache-Spark-GraphX/target/resolution-cache/reports/grafos-de-gran-escala-grafos-de-gran-escala_2.10-scala-tool.xml[0m
-[0m[[0mdebug[0m] [0m	resolve done (29712ms resolve - 1091ms download)[0m
+[0m[[0mdebug[0m] [0m:: resolution report :: resolve 13864ms :: artifacts dl 110ms[0m
+[0m[[0mdebug[0m] [0m	report for grafos-de-gran-escala#grafos-de-gran-escala_2.10;1.0 compile produced in /home/cloudera/Escritorio/Apache-Spark-GraphX/target/resolution-cache/reports/grafos-de-gran-escala-grafos-de-gran-escala_2.10-compile.xml[0m
+[0m[[0mdebug[0m] [0m	report for grafos-de-gran-escala#grafos-de-gran-escala_2.10;1.0 runtime produced in /home/cloudera/Escritorio/Apache-Spark-GraphX/target/resolution-cache/reports/grafos-de-gran-escala-grafos-de-gran-escala_2.10-runtime.xml[0m
+[0m[[0mdebug[0m] [0m	report for grafos-de-gran-escala#grafos-de-gran-escala_2.10;1.0 test produced in /home/cloudera/Escritorio/Apache-Spark-GraphX/target/resolution-cache/reports/grafos-de-gran-escala-grafos-de-gran-escala_2.10-test.xml[0m
+[0m[[0mdebug[0m] [0m	report for grafos-de-gran-escala#grafos-de-gran-escala_2.10;1.0 provided produced in /home/cloudera/Escritorio/Apache-Spark-GraphX/target/resolution-cache/reports/grafos-de-gran-escala-grafos-de-gran-escala_2.10-provided.xml[0m
+[0m[[0mdebug[0m] [0m	report for grafos-de-gran-escala#grafos-de-gran-escala_2.10;1.0 optional produced in /home/cloudera/Escritorio/Apache-Spark-GraphX/target/resolution-cache/reports/grafos-de-gran-escala-grafos-de-gran-escala_2.10-optional.xml[0m
+[0m[[0mdebug[0m] [0m	report for grafos-de-gran-escala#grafos-de-gran-escala_2.10;1.0 compile-internal produced in /home/cloudera/Escritorio/Apache-Spark-GraphX/target/resolution-cache/reports/grafos-de-gran-escala-grafos-de-gran-escala_2.10-compile-internal.xml[0m
+[0m[[0mdebug[0m] [0m	report for grafos-de-gran-escala#grafos-de-gran-escala_2.10;1.0 runtime-internal produced in /home/cloudera/Escritorio/Apache-Spark-GraphX/target/resolution-cache/reports/grafos-de-gran-escala-grafos-de-gran-escala_2.10-runtime-internal.xml[0m
+[0m[[0mdebug[0m] [0m	report for grafos-de-gran-escala#grafos-de-gran-escala_2.10;1.0 test-internal produced in /home/cloudera/Escritorio/Apache-Spark-GraphX/target/resolution-cache/reports/grafos-de-gran-escala-grafos-de-gran-escala_2.10-test-internal.xml[0m
+[0m[[0mdebug[0m] [0m	report for grafos-de-gran-escala#grafos-de-gran-escala_2.10;1.0 plugin produced in /home/cloudera/Escritorio/Apache-Spark-GraphX/target/resolution-cache/reports/grafos-de-gran-escala-grafos-de-gran-escala_2.10-plugin.xml[0m
+[0m[[0mdebug[0m] [0m	report for grafos-de-gran-escala#grafos-de-gran-escala_2.10;1.0 sources produced in /home/cloudera/Escritorio/Apache-Spark-GraphX/target/resolution-cache/reports/grafos-de-gran-escala-grafos-de-gran-escala_2.10-sources.xml[0m
+[0m[[0mdebug[0m] [0m	report for grafos-de-gran-escala#grafos-de-gran-escala_2.10;1.0 docs produced in /home/cloudera/Escritorio/Apache-Spark-GraphX/target/resolution-cache/reports/grafos-de-gran-escala-grafos-de-gran-escala_2.10-docs.xml[0m
+[0m[[0mdebug[0m] [0m	report for grafos-de-gran-escala#grafos-de-gran-escala_2.10;1.0 pom produced in /home/cloudera/Escritorio/Apache-Spark-GraphX/target/resolution-cache/reports/grafos-de-gran-escala-grafos-de-gran-escala_2.10-pom.xml[0m
+[0m[[0mdebug[0m] [0m	report for grafos-de-gran-escala#grafos-de-gran-escala_2.10;1.0 scala-tool produced in /home/cloudera/Escritorio/Apache-Spark-GraphX/target/resolution-cache/reports/grafos-de-gran-escala-grafos-de-gran-escala_2.10-scala-tool.xml[0m
+[0m[[0mdebug[0m] [0m	resolve done (13864ms resolve - 110ms download)[0m
 [0m[[0minfo[0m] [0mDone updating.[0m

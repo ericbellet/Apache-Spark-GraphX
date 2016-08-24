@@ -17,16 +17,17 @@
  */
 
 /*
-spark-submit --class com.cloudera.sparksocialmedia.SparkSocialMedia --master yarn --deploy-mode cluster target/scala-2.10/grafos-de-gran-escala_2.10-1.0.jar input egonets Descripcion ShortestPaths LabelPropagation PageRank ConnectedComponents
-
 
 spark-submit --class com.cloudera.sparksocialmedia.SparkSocialMedia --master local target/scala-2.10/grafos-de-gran-escala_2.10-1.0.jar input egonets Descripcion ShortestPaths LabelPropagation PageRank ConnectedComponents
+
+spark-submit --class com.cloudera.sparksocialmedia.SparkSocialMedia --master yarn --deploy-mode cluster  --num-executors 4 --driver-memory 3g --executor-memory 3g --executor-cores 4 --queue default target/scala-2.10/grafos-de-gran-escala_2.10-1.0.jar input egonets Descripcion ShortestPaths LabelPropagation PageRank ConnectedComponents
+
 wget http://dl.bintray.com/sbt/rpm/sbt-0.13.5.rpm
 sudo yum localinstall sbt-0.13.5.rpm
 sbt -version
 sbt package
 hadoop fs -mkdir input
-hadoop fs -put Friendster.txt input
+hadoop fs -put Facebook.txt input
 hadoop fs -put egonets
 
 hdfs dfs -rmr Descripcion
