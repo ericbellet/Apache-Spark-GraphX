@@ -24,7 +24,7 @@
 
 # Resumen
 
-En el siguiente repositorio se encuentran una serie de implementaciones utilizando GraphX que permiten el manejo y análisis de grafos de gran escala. Estas implementaciones permiten realizar análisis de redes mediante el algoritmo de PageRank, Shortest Paths, Label Propagation y Connected Components. Para el desarrollo de este proyecto se utilizó la distribución Cloudera para un **clúster Hadoop** multi nodo, **Apache Spark**, **GraphX**, **Scala** y la herramienta de visualización **Gephi**.
+En el siguiente repositorio se encuentran una serie de implementaciones utilizando **GraphX** que permiten el manejo y análisis de grafos de gran escala. Estas implementaciones permiten realizar análisis de redes mediante el algoritmo de **PageRank**, **ShortestPaths**, **Triangle Count**, outDegree, **inDegree** y **ConnectedComponents**. Para el desarrollo de este proyecto se utilizó la distribución Cloudera para un **clúster Hadoop** multi nodo, **Apache Spark**, **GraphX**, **Scala** y la herramienta de visualización **Gephi**.
 
 # Archivos que contiene el repositorio
 
@@ -42,7 +42,7 @@ Apache-Spark-GraphX/
 │   ├── Tesis.ppt
 │   └── Tesis.pdf
 ├── gephi/
-│   └── facebookGraph.gexf
+│   └── grafo.gexf
 ├── lib/
 │   ├── breeze_2.10-0.12.jar 
 │   ├── breeze-viz_2.10-0.12.jar
