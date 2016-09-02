@@ -27,6 +27,7 @@ Ejecutar script en modo YARN CLIENT:
 spark-submit --class com.cloudera.sparksocialmedia.SparkSocialMedia --master yarn --deploy-mode client target/scala-2.10/grafos-de-gran-escala_2.10-1.0.jar input egonets Descripcion ShortestPaths TriangleCount PageRank ConnectedComponents
 
 Ejecutar script en modo YARN CLUSTER:
+spark-submit --class com.cloudera.sparksocialmedia.SparkSocialMedia --master yarn --deploy-mode cluster  --num-executors 4 --driver-memory 2g --executor-memory 2g --executor-cores 4 --queue default target/scala-2.10/grafos-de-gran-escala_2.10-1.0.jar input egonets Descripcion ShortestPaths TriangleCount PageRank ConnectedComponents
 
 ---------------------------------------------------------------------INSTALL SBT---------------------------------------------------------------------------------------------------------------
 Instalar y empaquetar con sbt:f
@@ -85,6 +86,7 @@ package com.cloudera.sparksocialmedia
 
 //Importar las bibliotecas
 import org.apache.spark.{SparkConf, SparkContext}
+// El underscore es un wildcard que indica que todo lo de esa biblioteca debe ser importado
 import org.apache.spark.graphx._
 import org.apache.spark.rdd._
 
@@ -93,6 +95,12 @@ object SparkSocialMedia extends App {
 	//Generar un SparkContext
 	val sc = new SparkContext(new SparkConf().setAppName("Social Media"))
 	//Cargar grafo de HDFS
+	// GraphLoader es un objeto de la biblioteca GraphX que contiene un metodo llamado
+	// edgeListFile que permite cargar grafos de un formato .txt que contenga una lista de aristas
+	// edgeListFile recibe 2 parametros, el primero es SparkContext (sc) que es instanciada
+	// por la consola de Spark org.apache.spark.SparkContext que es el punto de entrada
+	// para distintas funcionalidades de Spark, y el segundo parametro es el archivo .txt
+
 	val grafo = GraphLoader.edgeListFile(sc, args(0))
 
 //-----------------------------------------------------------------------------ALGORITMO SHORTESTPATHS-----------------------------------------------------------------------------
@@ -132,7 +140,18 @@ object SparkSocialMedia extends App {
 	println("----------------------PageRank---------------------- \n")
 
 	//Calculo la influencia de cada nodo y las ordeno de mayor a menor
-
+	//Cuando se ejecuta la funcion pageRank se crea otro grafo donde los vertices
+	//tienen como atributos los valores del PageRank.
+	//pageRank le asigna a cada vertice la medida de influencia que tiene contra
+	//el resto del grafo
+	
+	//El valor 0,001 es la tolerancia que permite establecer un equilibro entre la
+	//velocidad y la exactitud del resultado final.
+	//Si la tolerancia es muy alto el algoritmo termina rapidamente su ejecucion
+	//pero se obtienen resultados imprecisos.
+	//Si la tolerancia es muy baja el algortimo tarda mucho tiempo en ejecutarse
+	//y no anade precision a los resultados.
+	
 	val influyentes = grafo.pageRank(0.001).vertices.sortBy(_._2,ascending=false).collect()
 	sc.parallelize(influyentes,1).saveAsTextFile(args(5))
 
