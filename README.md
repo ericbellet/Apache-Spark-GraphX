@@ -24,7 +24,7 @@
 
 # Resumen
 
-En el siguiente repositorio se encuentran una serie de implementaciones utilizando **GraphX** que permiten el manejo y análisis de grafos de gran escala. Estas implementaciones permiten realizar análisis de redes mediante el algoritmo de **PageRank**, **ShortestPaths**, **Triangle Count**, outDegree, **inDegree** y **ConnectedComponents**. Para el desarrollo de este proyecto se utilizó la distribución Cloudera para un **clúster Hadoop** multi nodo, **Apache Spark**, **GraphX**, **Scala** y la herramienta de visualización **Gephi**.
+En el siguiente repositorio se encuentran una serie de implementaciones utilizando **GraphX** que permiten el manejo y análisis de grafos de gran escala. Estas implementaciones permiten realizar análisis de redes mediante el algoritmo de **PageRank**, **ShortestPaths**, **Triangle Count**, **outDegree**, **inDegree** y **ConnectedComponents**. Para el desarrollo de este proyecto se utilizó la distribución Cloudera para un **clúster Hadoop** multi nodo, **Apache Spark**, **GraphX**, **Scala** y la herramienta de visualización **Gephi**.
 
 # Archivos que contiene el repositorio
 
@@ -119,15 +119,15 @@ sbt -version
 
 ### Servicios Cloudera Manager Server
 
-Iniciar servicios del Cloudera Manager Server:
+Iniciar servicios del **Cloudera Manager Server**:
 ```sh
 sudo service cloudera-scm-server start
 ```
-Detener servicios del Cloudera Manager Server:
+Detener servicios del **Cloudera Manager Server**:
 ```sh
  sudo service cloudera-scm-server stop
 ```
-Reiniciar servicios del Cloudera Manager Server:
+Reiniciar servicios del **Cloudera Manager Server**:
 ```sh
 sudo service cloudera-scm-server restart 
 ```
@@ -139,7 +139,7 @@ cd Apache-Spark-GraphX
 sbt package
 ```
 
-### Cargar datos en HDFS
+### Cargar datos en **HDFS**
 ```sh
 
 hadoop fs -mkdir input
@@ -153,7 +153,8 @@ hadoop fs -put Friendster.txt friendster
 
 ```
 ### Ejecutar código
-El código se ejecutará mediante Apache Spark utilizando datos de HDFS y almacenando resultados en HDFS.
+El código se ejecutará mediante **Apache Spark** utilizando datos de **HDFS** y almacenando resultados en **HDFS**.
+
 Ejecutar código en modo local:
 ```sh
 spark-submit --class com.cloudera.sparksocialmedia.SparkSocialMedia --master local target/scala-2.10/grafos-de-gran-escala_2.10-1.0.jar input egonets Descripcion ShortestPaths TriangleCount PageRank ConnectedComponents
