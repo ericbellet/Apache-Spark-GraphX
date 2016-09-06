@@ -106,7 +106,6 @@ Los conjuntos de datos utilizados fueron los siguientes:
 | Dataset                        		 |            Descargar                            									  | Nodos | Aristas  |
 |----------------------------------------|------------------------------------------------------------------------------------|-------|----------|
 | Facebook.txt               	 | [Facebook](https://snap.stanford.edu/data/facebook.tar.gz).									  | 88234 | 4039     |
-| Friendster.txt                			 | [Friendster](https://snap.stanford.edu/data/bigdata/communities/com-friendster.ungraph.txt.gz). | 65608366 | 1806067135   |
 | egonets                			 | [Egonets](https://snap.stanford.edu/data/facebook_combined.txt.gz). | - | -   |
 
 # Inicialización
@@ -146,11 +145,6 @@ hadoop fs -mkdir input
 cd data
 hadoop fs -put Facebook.txt input
 hadoop fs -put egonets
-
-cd Downloads
-hadoop fs -mkdir friendster
-hadoop fs -put Friendster.txt friendster
-
 ```
 ### Ejecutar código
 El código se ejecutará mediante **Apache Spark** utilizando datos de **HDFS** y almacenando resultados en **HDFS**.
