@@ -246,7 +246,14 @@ object SparkSocialMedia extends App {
 //-------------------------------------------------------------------ALGORITMO GEPHI-----------------------------------------------------------------------------------
 	println("----------------------Gephi---------------------- \n")
 //Creo un .gexf del grafo 
-	def toGexf[VD,ED](g:Graph[VD,ED]) = "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n" + "<gexf xmlns=\"http://www.gexf.net/1.2draft\" version=\"1.2\">\n" + "  <graph mode=\"static\" defaultedgetype=\"directed\">\n" + "    <nodes>\n" + g.vertices.map(v => "      <node id=\"" + v._1 + "\" label=\"" + v._2 + "\" />\n").collect.mkString + "    </nodes>\n" + "    <edges>\n" + g.edges.map(e => "      <edge source=\"" + e.srcId + "\" target=\"" + e.dstId + "\" label=\"" + e.attr + "\" />\n").collect.mkString + "    </edges>\n" + "  </graph>\n" + "</gexf>"
+	def toGexf[VD,ED](g:Graph[VD,ED]) = "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n"
+	+ "<gexf xmlns=\"http://www.gexf.net/1.2draft\" version=\"1.2\">\n"
+	+ "  <graph mode=\"static\" defaultedgetype=\"directed\">\n"
+	+ "    <nodes>\n" + g.vertices.map(v => "      <node id=\"" + v._1
+		+ "\" label=\"" + v._2 + "\" />\n").collect.mkString
+	+ "    </nodes>\n" + "    <edges>\n" + g.edges.map(e => "      <edge source=\"" + e.srcId + "\" target=\""
+		+ e.dstId + "\" label=\"" + e.attr + "\" />\n").collect.mkString +
+		"    </edges>\n" + "  </graph>\n" + "</gexf>"
 
 	val pw = new java.io.PrintWriter("gephi/grafo.gexf")
 	pw.write(toGexf(grafo))
@@ -282,7 +289,14 @@ object SparkSocialMedia extends App {
 
 
 	//Calculo el total de triangulos, los 10 usuarios mas influyentes y la distancia promedio.
-	 val descripcion = "Número de vértices: " + vertices + ".\n" + "Número de aristas: " + aristas + ".\n" + "Máximo outDegrees: " + "Nodo -> " + outMax._1 + ", Grados -> " + outMax._2 + ".\n" + "Máximo inDegrees: " + "Nodo -> " + inMax._1 + ", Grados -> " + inMax._2 + ".\n" + "Mínimo outDegrees: " + "Nodo -> " + outMin._1 + ", Grados -> " + outMin._2 + ".\n" + "Mínimo inDegrees: " + "Nodo -> " + inMin._1 + ", Grados -> " + inMin._2 + ".\n" + "Total de triángulos: " + triangulos.map(_._2).toSeq.foldLeft(0)(_+_) + ".\n" + "Usuarios más influyentes: " + influyentes.take(10).toList + ".\n" + "Distancia promedio entre todos los nodos del grafo: " + promedio + ".\n" 
+	 val descripcion = "Número de vértices: " + vertices + ".\n" + "Número de aristas: " +
+		aristas + ".\n" + "Máximo outDegrees: " + "Nodo -> " + outMax._1 + ", Grados -> " +
+		outMax._2 + ".\n" + "Máximo inDegrees: " + "Nodo -> " + inMax._1 + ", Grados -> " +
+		inMax._2 + ".\n" + "Mínimo outDegrees: " + "Nodo -> " + outMin._1 + ", Grados -> " +
+		outMin._2 + ".\n" + "Mínimo inDegrees: " + "Nodo -> " + inMin._1 + ", Grados -> " +
+		inMin._2 + ".\n" + "Total de triángulos: " + triangulos.map(_._2).toSeq.foldLeft(0)(_+_) + ".\n" +
+		"Usuarios más influyentes: " + influyentes.take(10).toList + ".\n" +
+		"Distancia promedio entre todos los nodos del grafo: " + promedio + ".\n"
 
 	sc.parallelize(List((descripcion)),1).saveAsTextFile(args(2))
 
